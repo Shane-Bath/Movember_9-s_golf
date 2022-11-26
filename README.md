@@ -4,8 +4,12 @@
 The site is to promote an annual charity nine-hole golf event to raise money for the Movember men’s health charity. The Website main purpose is to provide information on the event and to allow individuals to book a place.
 
 
-## Style
+## Design
 I have looked at the main Movember charity website and decided to adopt a similar style and tone with this page, because to of the association between the two. Movenber does provide assets such as banner images, logo and promotional material to supporters who are setting up an event in support of the charity. There is a strong black and white theme throughout the site, along with an irreverent style of communication. I have focused the design to be viewed on a small screen first, will be able to scroll through the relevant section or use the navigation bar to head directly each section. 
+
+I am using the same fon-family as the main website. It is a google font called overpass. 
+
+
 
 
 ## Navigation bar
