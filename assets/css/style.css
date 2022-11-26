@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Overpass:wght@400;800&display=swap');
 
 * {
-    margin: 0;
+    margin: .25rem;
     padding: 0;
     border: none;
 }
@@ -12,6 +12,10 @@ body {
     font-weight: 400;
     color: 	#000;
     background-color: white;
+}
+
+header{
+    background: grey;
 }
 
 h1, h2 {
@@ -29,11 +33,11 @@ h1 {
 
 #logo {
     display: grid;
-    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: 1fr 1fr;
     
     gap: 1.25rem;
-    padding-block: 1rem;
-    width: min(95%, 70rem);
+    padding-block: .5rem;
+    width: min(100%, 100rem);
     margin-inline: left;
 
 }
@@ -42,16 +46,17 @@ h1 {
     grid-column-start: 2;
     grid-column-end: 3;
     list-style-type: none;
-     
-   
+    
 }
+
 
 #menu {
     font-size: 110%;
+    
+    
 }
 
 #menu li {
     float: right;
-    
     margin-right: 30px; 
 }
