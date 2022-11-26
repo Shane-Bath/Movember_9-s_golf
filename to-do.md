@@ -11,4 +11,6 @@
 
 - figure out why checkboxes are not working in markdown
 
-### Header 
+### Basic structure 
+- set up format of site 
+- set up css style

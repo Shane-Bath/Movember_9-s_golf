@@ -14,7 +14,7 @@ I am using the same fon-family as the main website. It is a google font called o
 
 ## Navigation bar
 - I have used a Banner picture from the Movember branding pack for the top banner. 
-- I have included the Movember Logo. Clicking this logo will always bring the user to the home page. 
+- I have included the Movember Logo. Source: xxxxxxxxx      Clicking this logo will always bring the user to the home page. 
 - A fully responsive navigation bar includes links to the all the pages, including the 
   Home page, Location page and contact us page. 
 - The Banner picture, logo and navigation bar remain fixed on very page on the site.
