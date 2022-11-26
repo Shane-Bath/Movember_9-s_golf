@@ -11,7 +11,7 @@ body {
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
     color: 	#000;
-    background-color: white;
+   
 }
 
 header{
@@ -59,4 +59,8 @@ h1 {
 #menu li {
     float: right;
     margin-right: 30px; 
+}
+
+.booking {
+    display: block;
 }
