@@ -96,12 +96,14 @@ nav ul li {
     text-align: center;
     line-height: 50px;
     width: 50%;
-    opacity: 0.6;
-    transition: 0.5s;
+    opacity: 0.7;
+    transition: 0.7s;
+    border-bottom: 2px solid transparent;
 }
 nav ul li:hover {
     background-color: whitesmoke;
     opacity: 1;
+    border-bottom: 2px solid gray;
 }
 
 /* add  drop down list to location on navbar  */
@@ -138,10 +140,13 @@ nav ul li:hover {
     text-decoration: none;
     display: block;
     text-align: left;
+    border-bottom: 2px solid transparent;
+
 }
 
 .drop-content a:hover {
     background-color: #ddd;
+    border-bottom: 2px solid gray;
     
 }
 
