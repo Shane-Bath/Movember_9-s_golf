@@ -41,6 +41,7 @@ header {
     padding-top: 6px;
     padding-left: 15px;
 }
+
 /* I wanted animate the mustache when cursor hover over */
 .head-logo:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
