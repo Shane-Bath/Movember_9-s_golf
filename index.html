@@ -19,6 +19,8 @@
     <!-- logo and navigation -->
 
     <header>
+        <!-- Going change from nav to header, going to keep the image and text logo. I will add a banner on the right. Below the header i will fix a nav bar
+        in a grid. -->
         <nav id="logo">
 
             <h1>
@@ -97,16 +99,18 @@
         </div>
 
     </section>
-    <div>
-        <h2>
-            Book your event
-        </h2>
-    </div>
-    <span>
-        <img src="" alt="Sutton">
-        <img src="" alt="Galway">
-    </span>
-    
+    <!-- Booking page. -->
+    <section>
+        <div>
+            <h2>
+                Book your event
+            </h2>
+        </div>
+        <span>
+            <img src="" alt="Sutton">
+            <img src="" alt="Galway">
+        </span>
+
         <form action="post" class="booking">
             <label for="name">Name :</label>
             <input type="text" id="name" name="name">
@@ -122,24 +126,38 @@
                 <option value="choice">Select Your Golf Course : </option>
                 <option value="Sutton">Sutton Golf Club</option>
                 <option value="Galway">Galway Golf Club</option>
-            </select>    
+            </select>
             <br>
-            <input type="submit" value="Book Now !">    
-            
+            <input type="submit" value="Book Now !">
+
         </form>
-
-  
-
-    <section>
-
     </section>
-
+<!-- Aboout us and sponor page. -->
     <section>
-        about us and sponsors
+        <div>
+            <p>Setup in 2018, we have playing 9 holes in support of Movember. We have raised over 11,000 Euro, thanks to our generous  members and sponsors.
+                We have get ourselves a target to raise 3,000 this year. 
+            </p>
+
+        </div>
     </section>
-
+<!-- contac us page -->
     <section>
-        contact us
+        <form action="input">
+            <label for="fname">First Name :</label>
+            <input type="text" id="fname" name="First Name">
+            <br>
+            <label for="lname">Last Name :</label>
+            <input type="text" id="lname" name="first Name">
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="message">Message :</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" id="submit" value="SUBMIT">
+        </form>
     </section>
 
     <footer>
