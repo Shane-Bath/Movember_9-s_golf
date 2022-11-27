@@ -16,8 +16,8 @@ body {
 }
 
 header{
-    background: #111;
-    color: white;
+    background: white;
+    color: #000;
 }
 
 h1, h2 {
@@ -47,11 +47,11 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #000;
 }
 
 nav ul li {
-    background-color: #000;
+    background-color: #ffff ;
     text-align: center;
     line-height: 50px;
     width: 50%;
@@ -59,6 +59,6 @@ nav ul li {
     transition: 0.5s;
 }
 nav ul li:hover {
-    background-color: grey;
+    background-color: whitesmoke;
     opacity: 1;
 }
