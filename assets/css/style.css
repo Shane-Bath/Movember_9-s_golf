@@ -18,6 +18,8 @@ body {
 header{
     background: white;
     color: #000;
+    
+   
 }
 
 h1, h2 {
@@ -31,13 +33,13 @@ header {
     display: grid;
     grid-template-columns:   125px 1fr 1fr;
     grid-template-rows: 1fr;
+    
 
     
 }
 .head-logo {
     grid-column: 1 / 2;
     place-self: center;
-    /* background: green; */
     padding-top: 6px;
     padding-left: 15px;
 }
@@ -83,7 +85,8 @@ nav ul {
     justify-items: center;
     list-style-type: none;
     margin: 0;
-    font-weight: 400;
+    font-weight: 550;
+    
 }
 
 nav ul li a {
@@ -114,7 +117,7 @@ nav ul li:hover {
 
 .dropdlist .drop-button {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: inherit;
     border: none;
     outline: none;
     color: #000;
