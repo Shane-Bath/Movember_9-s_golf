@@ -29,9 +29,9 @@ h2 {
 
 /* logo and header */
 
-#main-header {
+#grid-setup {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     /* grid-template-rows: 1fr 50px; */
     background: white;
     color: #000;
@@ -40,12 +40,19 @@ h2 {
 
 }
 
-.head-logo {
+#col-1 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    place-self: center;
+}
+
+/* .head-logo {
     grid-column: 1 / 2;
+    place-self: start;
     place-self: center;
     padding-top: 6px;
     padding-left: 15px;
-}
+} */
 
 /* I wanted animate the mustache when cursor hover over */
 .head-logo:hover {
@@ -100,22 +107,24 @@ h2 {
     }
 }
 
-.logo-text-h1 {
+/* .logo-text-h1 {
     grid-column: 1 / 2;
+    place-self: end;
     font-family: 'Anton', sans-serif;
     font-size: 1em;
     font-weight: 400;
 }
 
 .head-logo .logo-text-h1 {
-    display: inline;
-}
+    
+} */
 
 
-.logo-text-h2 {
-    place-self: start;
-    padding-top: 6px;
-    padding-left: 15px;
+.logo-text-h3 {
+    place-self: left;
+    padding-top: 25px;
+    padding-right: 40px;
+   
 }
 
 
