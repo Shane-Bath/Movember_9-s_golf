@@ -24,11 +24,20 @@ h1 {
     font-family: anton, sans-serif;
 }
 
-#logo {
+.logo-table {
+    width: 1800px;
+}
+
+.logo {
     float: left;
     font-size: 2rem;
     margin-left: 2rem;
-    color: #000;
+    margin-top: 2rem;
+}
+
+.logo-text a {
+    float: left;
+    color: black;
     text-decoration: none;
 }
 
@@ -37,13 +46,15 @@ h1 {
     letter-spacing: 2px;
 }
 
-#menu #logo {
+/* #menu #logo {
     line-height: 75px;
-}
+} */
 
 #menu li {
+    
     float: right;
     list-style-type: none;
+    /* margin-top: 2rem; */
     margin-right: 2rem;
 }
 
