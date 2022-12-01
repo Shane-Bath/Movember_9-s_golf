@@ -32,9 +32,13 @@ h1 {
 
 }
 .logo-text {
+    
     display: flex;
     justify-content: left;
     margin: 30px;
+}
+h1 {
+    letter-spacing: 3px;
 }
 
 .logo {
@@ -62,7 +66,7 @@ h1 {
     transition: 0.7s;
 }
 #menu li a:hover {
-    opacity: 1;
+    opacity: 1.;
     border-bottom: 1.5px solid gray;
    
 }
