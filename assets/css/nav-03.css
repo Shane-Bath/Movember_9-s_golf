@@ -26,9 +26,12 @@ h2 {
 h1 {
     font-family: anton, sans-serif;
 }
+
+/* I need to work ou why position fixed changed grid layout */
 header {
     /* position: fixed;
     width: 100%; */
+    z-index: 999;
 
 }
 #main {
@@ -258,7 +261,7 @@ hr {
 
 
 .bold-ad {
-    display: block;
+    /* display: block; */
     width: 400px;
     height: 400px;
     grid-column-start: 2;
