@@ -172,14 +172,15 @@ hr {
 
 #main-body {
     display: grid;
-    grid-template-columns: repeat(2, 1fr, auto);
-    grid-template-rows: repeat(6, 1fr, auto);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+    gap: 2rem;
     margin-top: 1rem;
     /* background-color: #686D76; */
     
 }
 .headline {
-    padding-left: 2rem;
+    margin-left: 2rem;
     
 }
 
@@ -190,6 +191,8 @@ hr {
 }
 
 .intro img {
+    margin-top: 1rem;
+    margin-left: 2rem;
     box-shadow: 3px 3px 10px #686D76;
 }
         
