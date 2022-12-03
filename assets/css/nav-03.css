@@ -172,15 +172,17 @@ hr {
 
 #main-body {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, auto);
-    gap: 2rem;
+    grid-template-columns: (auto-fit, minmax(100px, 1fr));
+    grid-template-rows: (auto-fit, minmax(100px, 1fr));
+    gap: 1.5rem;
     margin-top: 1rem;
     /* background-color: #686D76; */
     
 }
 .headline {
     margin-left: 2rem;
+    grid-column: span;
+    
     
 }
 
@@ -189,11 +191,37 @@ hr {
     grid-column-end: 2;
     margin-left: 2rem;
 }
-
+.intro p {
+    text-align: justify;
+   
+}
 .intro img {
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
     box-shadow: 3px 3px 10px #686D76;
+}
+
+.bold-ad {
+    display: block;
+    width: 400px;
+    height: 600px;
+    grid-column-start: 2;
+    grid-row: 1 / 3 ;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #000;
+    margin: 5rem;
+    margin-left: 10rem;
+    padding-top: 2rem;
+}
+
+.bold-ad h2 {
+    color: white ;
+}
+
+.bold-ad a {
+    text-decoration: none;
+    color: #fff ;
 }
         
 
