@@ -12,6 +12,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #000;
+    margin-left: 5rem;
+    margin-right: 5rem;
 
 }
 
@@ -172,15 +174,14 @@ hr {
 
 #main-body {
     display: grid;
-    grid-template-columns: (auto-fit, minmax(100px, 1fr));
-    grid-template-rows: (auto-fit, minmax(100px, 1fr));
+    grid-template-columns: 2, 1fr;
     gap: 1.5rem;
     margin-top: 1rem;
     /* background-color: #686D76; */
     
 }
 .headline {
-    
+    margin-top: 1rem;
     margin-left: 2rem;
     grid-column: span;
     
@@ -188,11 +189,12 @@ hr {
 }
 
 .intro {
-    grid-row-start: 2;
-    grid-column-end: 2;
+    grid-row-start: 1;
+    
     margin-left: 2rem;
 }
 .intro p {
+    padding: 1rem;
     text-align: justify;
    
 }
@@ -224,6 +226,7 @@ hr {
 .bold-ad a {
     text-decoration: none;
     color: #fff ;
+
 }
         
 .bold-ad img {
