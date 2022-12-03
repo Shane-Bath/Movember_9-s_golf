@@ -169,3 +169,31 @@ hr {
     margin-left: 2%;
     margin-right: 2%;
 }
+
+#main-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr, auto);
+    grid-template-rows: repeat(6, 1fr, auto);
+    margin-top: 1rem;
+    /* background-color: #686D76; */
+    
+}
+.headline {
+    padding-left: 2rem;
+    
+}
+
+.intro {
+    grid-row-start: 2;
+    grid-column-end: 2;
+    margin-left: 2rem;
+}
+
+.intro img {
+    box-shadow: 3px 3px 10px #686D76;
+}
+        
+
+    
+    
+

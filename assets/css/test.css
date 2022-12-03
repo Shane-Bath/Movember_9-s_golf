@@ -124,7 +124,7 @@ h2 {
     place-self: left;
     padding-top: 25px;
     padding-right: 40px;
-   
+
 }
 
 
@@ -216,4 +216,13 @@ nav ul li:hover {
 
 .dropdlist:hover .drop-content {
     display: block;
+}
+
+#main-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.headline {
+    font: black;
+    
 }
