@@ -440,9 +440,10 @@ button
 footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 2rem;
+    margin-top: 1rem;
     background-color: var(--dark);
     color: var(--light);
     text-align: center;
     padding: 1rem;
 }
+
