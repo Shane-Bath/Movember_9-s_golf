@@ -84,4 +84,70 @@ credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
     list-style: none;
 }
 
+.navbar a {
+    background: var(--light);
+    display: block;
+    padding: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-size: 1rem;
+    box-shadow: var(--shadow);
+}
 
+.dropdlist {
+    background: var(--light);
+    display: block;
+    padding: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-size: 1rem;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+/* .dropdlist .drop-button {
+  background: var(--light);
+    display: block;
+    padding: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-size: 1rem;
+    box-shadow: var(--shadow);
+} */
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 20px;
+    box-shadow: var(--shadow)
+    z-index: 1;
+}
+
+.drop-content a {
+    float: left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    margin: 10px;
+
+}
+
+.drop-content a:hover {
+    background-color: #ddd;
+    border-bottom: 2px solid gray;
+    
+}
+
+.dropdlist:hover .drop-content {
+    display: block;
+}
