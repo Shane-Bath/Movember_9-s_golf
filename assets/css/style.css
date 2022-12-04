@@ -41,6 +41,12 @@ img {
     border: 0;
     text-decoration: none;
     box-shadow: var(--shadow);
+    
+}
+
+button a {
+    text-decoration: none;
+    color: var(--primary);
 }
 /* logo aminmation */
   @keyframes shake {
@@ -191,6 +197,7 @@ of the page, position fixed changes the structure of the grid */
     text-align: justify;
     justify-content: center;
     text-decoration: none;
+    background: lightcoral;
 }
 
 .sutton-png {
@@ -249,6 +256,7 @@ of the page, position fixed changes the structure of the grid */
 .galway   {
     grid-area: galway;
     padding: 1rem;
+    background: lightcyan;
 }
 /* second half of home  */
 .galway-png {
@@ -259,10 +267,11 @@ of the page, position fixed changes the structure of the grid */
     grid-area: second-p;
     min-height: 100px;
     min-width: 800px;
-    background: var(--light);S
+    background: var(--light);
     padding: 1rem;
     padding-right: 10rem;
     text-align: justify;
+    background: lightgoldenrodyellow;
 }
 
 /*  location pf the two events*/
@@ -273,6 +282,7 @@ of the page, position fixed changes the structure of the grid */
     'sutton galway-2';
     text-align: center;
     padding: 1rem;
+    background: lightblue;
 }
 
 .locations p{
@@ -305,6 +315,7 @@ button
     'sponsors sponsors'
     'pringles gillette'
     'guinness titleist';
+    background: lightpink;
 }
 
 .description    {
@@ -392,6 +403,7 @@ button
     height: 100%;
     object-fit: cover;
     gap: 10px;
+    background: lightgreen;
   
 }
 
