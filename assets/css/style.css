@@ -263,7 +263,7 @@ of the page, position fixed changes the structure of the grid */
     text-align: justify;
 }
 
-/*  location the two events*/
+/*  location pf the two events*/
 .locations  {
     display: grid;
     gap: 20px;
@@ -291,4 +291,54 @@ of the page, position fixed changes the structure of the grid */
 
 .galway-img {
     box-shadow: var(--shadow);
+}
+
+/* about us and sponsors */
+.about-us   {
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    'description description'
+    'sponsors sponsors'
+    'pringles gillette'
+    'guinness titleist';
+}
+
+.description    {
+    grid-area: description;
+}
+
+.sponsors    {
+    grid-area: sponsors;
+}
+
+.pringles   {
+    grid-area: pringles;
+    text-align: center;
+    
+}
+
+.pringles-png 
+.gillette-png
+.guinness-png 
+.titleist-png {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+
+.gillette   {
+    grid-area: gillette;
+    text-align: center;
+}
+
+
+.guinness   {
+    grid-area: guinness ;
+    text-align: center;
+}
+
+.titleist    {
+    grid-area: titleist;
+    text-align: center;
 }
