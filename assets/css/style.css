@@ -32,6 +32,7 @@ img {
 .wrapper {
     display: grid;
     gap: 1rem;
+    
 }
 
 .btn {
@@ -68,10 +69,12 @@ button a {
 
 /* logo */
  header {
+    margin: 1rem;
     position: fixed;
     top: 0; 
     width: 100%;
-    background: white;
+    background: var(--dark);
+    
  }
 .logo-text {
     display: flex;
@@ -81,7 +84,7 @@ button a {
 }
 
 .logo {
-    margin-top: 1.5rem;
+    margin-top: .45rem;
 }
 
 /* Start the shake animation and make the animation last for 0.5 seconds 
@@ -93,13 +96,15 @@ credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
 /* Navigation bar- I cannot work out how to fix the naviagtion bar to the top 
 of the page, position fixed changes the structure of the grid */
 .navbar {
-    margin-top: 50px;
-    
-    padding-bottom: 50px;
+    margin-top: 2rem;
+    padding: 50px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
     overflow: hidden;
     position: fixed;
     width: 90%;
-    background: var(--light);
+    /* background: var(--light); */
+    background: lightsalmon;
 }
 
 .navbar ul {
@@ -180,13 +185,14 @@ of the page, position fixed changes the structure of the grid */
 
 /* First section  */
 .home   {
-    margin-top: 170px;
+    margin-top: 190px;
     display: grid;
     gap: 20px;
     grid-template-areas: 
     'event side-ad'
     'galway side-ad'
     'second-p second-p';
+    background: lightskyblue;
 }
 
 .event {
@@ -390,23 +396,53 @@ button
     -webkit-filter: grayscale(0);
 }
 
-/*  picture gallery */
-/* .gallery    {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-} */
-
-/* need to fit images on grid */
+/*  picture gallery  need to fit images on grid */
 
 .gallery {
+    background: lightgreen;
+    padding: .8rem;
+    max-width: 113rem;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: .8rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 16rem;
+    grid-auto-flow: dense;
+   
+    
+}
+
+.v-grid {
+    grid-row: span 2;
+}
+
+.h-grid {
+    grid-column: span 2;
+}
+
+.big-grid {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.bigger-grid {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.gallery div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    gap: 10px;
-    background: lightgreen;
+
 }
-
-
+/* footer */
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2rem;
+    background-color: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding: 1rem;
+}
