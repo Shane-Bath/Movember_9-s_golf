@@ -38,3 +38,24 @@ img {
     border: 0;
     text-decoration: none;
 }
+
+/* logo */
+
+.logo-text {
+    display: flex;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.logo {
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+/* Navigation bar */
+
