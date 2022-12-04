@@ -253,4 +253,38 @@ of the page, position fixed changes the structure of the grid */
 
 .second-p   {
     grid-area: second-p;
+    min-height: 100px;
+    min-width: 800px;
+    background: var(--light);S
+    padding: 1rem;
+    padding-right: 10rem;
+    text-align: justify;
+}
+
+/*  location the two events*/
+.locations  {
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+    'sutton galway-2';
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.sutton {
+    grid-area: sutton;
+   
+}
+
+.sutton-img {
+    box-shadow: var(--shadow);
+}
+
+.galway-2{
+    grid-area: galway-2;
+}
+
+.galway-img {
+    box-shadow: var(--shadow);
 }
