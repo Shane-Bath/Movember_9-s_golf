@@ -335,7 +335,7 @@ of the page, position fixed changes the structure of the grid */
     text-align: center;
 }
 
-/* add transitittion to sponors logos */
+/* add transitions to sponors logos */
 .pringles-png {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
