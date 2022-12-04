@@ -372,3 +372,10 @@ of the page, position fixed changes the structure of the grid */
     filter: none;
     -webkit-filter: grayscale(0);
 }
+
+/*  picture gallery */
+.gallery    {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
