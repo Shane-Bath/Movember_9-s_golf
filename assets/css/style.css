@@ -170,7 +170,40 @@ of the page, position fixed changes the structure of the grid */
     gap: 20px;
     grid-template-areas: 
     'event side-ad'
-    'group-shot side-ad'
+    'sutton galway'
     'second-p second-p';
 }
 
+.event {
+    grid-area: event;
+    min-height: 400px;
+    background: var(--light);
+    padding: 3rem;
+    text-align: justify;
+}
+
+.side-ad    {
+    grid-area: side-ad;
+    display: block;
+    width: 25rem;
+    color: var(--light);
+    text-transform: uppercase;
+    text-align: center;
+    background: var(--primary);
+    margin: 5rem;
+    margin-left: 15rem;
+    padding-top: 2rem;
+
+}
+
+.sutton {
+    grid-area: sutton;
+}
+
+.galway   {
+    grid-area: galway;
+}
+
+.second-p   {
+    grid-area: second-p;
+}
