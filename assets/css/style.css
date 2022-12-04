@@ -8,7 +8,33 @@
     --dark: #6a6a6a;
     --light: #fff;
     --shadow: 0 1px 5px rgb(104, 104, 104, 0.7);
-
-
 }
-s
+
+html {
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    color: var(--dark);
+}
+
+body {
+    background: var(--light);
+    margin: 2rem 3.125rem;
+    line-height: 1.4;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    gap: 1rem;
+}
+
+.btn {
+    background: var(--dark);
+    color: var(--primary);
+    padding: 0.5rem 1.4rem;
+    border: 0;
+    text-decoration: none;
+}
