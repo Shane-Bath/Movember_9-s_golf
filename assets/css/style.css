@@ -81,6 +81,8 @@ credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
 of the page, position fixed changes the structure of the grid */
 .navbar {
     margin-top: 50px;
+    
+    padding-bottom: 50px;
     overflow: hidden;
     position: fixed;
     width: 90%;
@@ -165,12 +167,12 @@ of the page, position fixed changes the structure of the grid */
 
 /* First section  */
 .home   {
-    margin-top: 150px;
+    margin-top: 200px;
     display: grid;
     gap: 20px;
     grid-template-areas: 
     'event side-ad'
-    'sutton galway'
+    'galway side-ad'
     'second-p second-p';
 }
 
@@ -180,8 +182,9 @@ of the page, position fixed changes the structure of the grid */
     background: var(--light);
     padding: 3rem;
     text-align: justify;
-}
 
+}
+/* side bar, shout out to movember */
 .side-ad    {
     grid-area: side-ad;
     display: block;
@@ -193,12 +196,17 @@ of the page, position fixed changes the structure of the grid */
     margin: 5rem;
     margin-left: 15rem;
     padding-top: 2rem;
+    box-shadow: var(--shadow);
 
 }
-
-.sutton {
-    grid-area: sutton;
-}
+ .side-ad h1 {
+    font-family: anton, sans-serif;
+    letter-spacing: 3px;
+    font-size: 3rem;
+ }
+/* .sutton {
+    grid-area: event;
+} */
 
 .galway   {
     grid-area: galway;
