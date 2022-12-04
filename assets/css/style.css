@@ -167,7 +167,7 @@ of the page, position fixed changes the structure of the grid */
 
 /* First section  */
 .home   {
-    margin-top: 200px;
+    margin-top: 170px;
     display: grid;
     gap: 20px;
     grid-template-areas: 
@@ -181,7 +181,7 @@ of the page, position fixed changes the structure of the grid */
     min-height: 400px;
     min-width: 800px;
     background: var(--light);
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -193,6 +193,7 @@ of the page, position fixed changes the structure of the grid */
     grid-area: side-ad;
     display: block;
     width: 18rem;
+    min-height: 800px;
     color: var(--light);
     text-transform: uppercase;
     text-align: center;
@@ -201,19 +202,46 @@ of the page, position fixed changes the structure of the grid */
     margin-left: 5rem;
     padding-top: 2rem;
     box-shadow: var(--shadow);
-
 }
+
  .side-ad h1 {
     font-family: anton, sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     font-size: 3rem;
  }
-/* .sutton {
-    grid-area: event;
-} */
+
+.side-ad .mo   {
+    animation-name: zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-fill-mode: inherit;
+
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.3);
+    }
+}
+
+.shake {
+    animation-name: shake;
+    animation-duration: .7s;
+}
+
+.mo:hover   {
+    animation-name: shake;
+    animation-duration: .7s;
+}
 
 .galway   {
     grid-area: galway;
+    padding: 1rem;
+
 }
 
 .second-p   {
