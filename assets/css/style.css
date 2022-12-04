@@ -318,14 +318,6 @@ of the page, position fixed changes the structure of the grid */
     
 }
 
-.pringles-png 
-.gillette-png
-.guinness-png 
-.titleist-png {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-
 
 .gillette   {
     grid-area: gillette;
@@ -341,4 +333,42 @@ of the page, position fixed changes the structure of the grid */
 .titleist    {
     grid-area: titleist;
     text-align: center;
+}
+
+/* add transitittion to sponors logos */
+.pringles-png {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.gillette-png   {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.guinness-png {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+} 
+.titleist-png {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.pringles-png:hover   {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.gillette-png:hover   {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.guinness-png:hover   {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.titleist-png:hover   {
+    filter: none;
+    -webkit-filter: grayscale(0);
 }
