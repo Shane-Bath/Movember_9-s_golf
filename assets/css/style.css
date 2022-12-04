@@ -34,6 +34,8 @@ img {
 .btn {
     background: var(--dark);
     color: var(--primary);
+    font-family: inherit;
+    font-size: 1rem;
     font-weight: 600;
     padding: 0.5rem 1.4rem;
     border: 0;
@@ -248,7 +250,7 @@ of the page, position fixed changes the structure of the grid */
     grid-area: galway;
     padding: 1rem;
 }
-
+/* second half of home  */
 .galway-png {
     box-shadow: var(--shadow);
 }
@@ -277,6 +279,7 @@ of the page, position fixed changes the structure of the grid */
     padding-bottom: 1rem;
 }
 
+button 
 .sutton {
     grid-area: sutton;
 }
