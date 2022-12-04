@@ -186,7 +186,11 @@ of the page, position fixed changes the structure of the grid */
     flex-direction: column;
     text-align: justify;
     justify-content: center;
+    text-decoration: none;
+}
 
+.sutton-png {
+    box-shadow: var(--shadow);
 }
 /* side bar, shout out to movember */
 .side-ad    {
@@ -209,7 +213,7 @@ of the page, position fixed changes the structure of the grid */
     letter-spacing: 4px;
     font-size: 3rem;
  }
-
+/* add animation to the side ad logo- expands and shakes when loaded and hover effect */
 .side-ad .mo   {
     animation-name: zoom;
     animation-duration: 4s;
@@ -241,7 +245,10 @@ of the page, position fixed changes the structure of the grid */
 .galway   {
     grid-area: galway;
     padding: 1rem;
+}
 
+.galway-png {
+    box-shadow: var(--shadow);
 }
 
 .second-p   {
