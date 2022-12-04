@@ -74,7 +74,7 @@ img {
 /* Start the shake animation and make the animation last for 0.5 seconds 
 credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
 .logo:hover {
-    animation: shake 0.5s;
+    animation: shake .5s;
 }
 
 /* Navigation bar- I cannot work out how to fix the naviagtion bar to the top 
@@ -179,22 +179,26 @@ of the page, position fixed changes the structure of the grid */
 .event {
     grid-area: event;
     min-height: 400px;
+    min-width: 800px;
     background: var(--light);
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
     text-align: justify;
+    justify-content: center;
 
 }
 /* side bar, shout out to movember */
 .side-ad    {
     grid-area: side-ad;
     display: block;
-    width: 25rem;
+    width: 18rem;
     color: var(--light);
     text-transform: uppercase;
     text-align: center;
     background: var(--primary);
     margin: 5rem;
-    margin-left: 15rem;
+    margin-left: 5rem;
     padding-top: 2rem;
     box-shadow: var(--shadow);
 
