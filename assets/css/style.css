@@ -72,11 +72,16 @@ img {
 /* Start the shake animation and make the animation last for 0.5 seconds 
 credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
 .logo:hover {
-    
     animation: shake 0.5s;
-    
-  }
-
+}
 
 /* Navigation bar */
+.navbar ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    padding: 0;
+    list-style: none;
+}
+
 
