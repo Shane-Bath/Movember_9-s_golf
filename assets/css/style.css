@@ -21,7 +21,7 @@ html {
 
 body {
     background: var(--light);
-    margin: 2rem 3.12rem;
+    margin: 0rem 3.12rem;
     line-height: 1.4;
 }
 
@@ -69,11 +69,14 @@ button a {
 
 /* logo */
  header {
-    margin: 1rem;
+    margin: 0;
     position: fixed;
     top: 0; 
     width: 100%;
-    background: var(--dark);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: var(--light);
+    z-index: 999;
     
  }
 .logo-text {
@@ -96,22 +99,25 @@ credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
 /* Navigation bar- I cannot work out how to fix the naviagtion bar to the top 
 of the page, position fixed changes the structure of the grid */
 .navbar {
-    margin-top: 2rem;
-    padding: 50px;
-    /* padding-top: 50px;
-    padding-bottom: 50px; */
+    margin-top: 4.5rem;
+    margin-left: .2rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    
     overflow: hidden;
     position: fixed;
-    width: 90%;
-    /* background: var(--light); */
-    background: lightsalmon;
+    width: 100%;
+    background: var(--light);
+    z-index: 999;
 }
 
 .navbar ul {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 18px;
-    padding: 0;
+    grid-template-columns: 420px 420px 420px 420px;
+    gap: 1.1rem;
+    /* margin-left: 1rem; */
+    /* margin-right: 1rem; */
+    padding-left: .2rem;
     list-style: none;
 }
 
@@ -141,7 +147,7 @@ of the page, position fixed changes the structure of the grid */
 .dropdlist {
     background: var(--light);
     display: block;
-    padding: 0.8rem;
+    padding: 0.84rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -150,15 +156,20 @@ of the page, position fixed changes the structure of the grid */
     letter-spacing: 1.5px;
     box-shadow: var(--shadow);
     overflow: hidden;
+    opacity: .7;
+    
+
 }
 
 .drop-content {
     display: none;
     position: absolute;
+    margin-top: .4rem;
     background-color: whitesmoke;
     min-width: 20px;
     box-shadow: var(--shadow);
-    z-index: 1;
+    opacity: .7;
+    
 }
 /* Navigation to each course page with transitition */
 .drop-content a {
@@ -170,6 +181,7 @@ of the page, position fixed changes the structure of the grid */
     text-align: center;
     border-bottom: 2px solid transparent;
     margin: 10px;
+    z-index: 1;
 
 }
 
@@ -185,6 +197,7 @@ of the page, position fixed changes the structure of the grid */
 
 /* First section  */
 .home   {
+    padding-top: 1rem;
     margin-top: 190px;
     display: grid;
     gap: 20px;
@@ -192,7 +205,8 @@ of the page, position fixed changes the structure of the grid */
     'event side-ad'
     'galway side-ad'
     'second-p second-p';
-    background: lightskyblue;
+    /* background: lightskyblue; */
+    z-index: 1;
 }
 
 .event {
@@ -206,7 +220,8 @@ of the page, position fixed changes the structure of the grid */
     text-align: justify;
     justify-content: center;
     text-decoration: none;
-    background: lightcoral;
+    /* background: lightcoral; */
+    z-index: 1;
 }
 
 .sutton-png {
