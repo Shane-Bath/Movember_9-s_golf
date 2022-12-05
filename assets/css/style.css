@@ -9,10 +9,12 @@
     --light: #fff;
     --shadow: 0px 1px 10px rgb(104, 104, 104, 0.9);
 }
-*   {
+
+* {
     padding: 0;
     margin: 0;
 }
+
 html {
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
@@ -32,7 +34,7 @@ img {
 .wrapper {
     display: grid;
     gap: 1rem;
-    
+
 }
 
 .btn {
@@ -45,40 +47,74 @@ img {
     border: 0;
     text-decoration: none;
     box-shadow: var(--shadow);
-    
+
 }
 
 button a {
     text-decoration: none;
     color: var(--primary);
 }
+
 /* logo aminmation */
-  @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
 
 /* logo */
- header {
+header {
     margin: 0;
     position: fixed;
-    top: 0; 
+    top: 0;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
     background: var(--light);
     z-index: 999;
-    
- }
+
+}
+
 .logo-text {
     display: flex;
     color: #000;
@@ -92,31 +128,30 @@ button a {
 
 /* Start the shake animation and make the animation last for 0.5 seconds 
 credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
+
 .logo:hover {
     animation: shake .5s;
 }
 
-/* Navigation bar- I cannot work out how to fix the naviagtion bar to the top 
-of the page, position fixed changes the structure of the grid */
+/* Navigation bar-  */
+
 .navbar {
     margin-top: 4.5rem;
     margin-left: .2rem;
     padding-top: 2rem;
-    padding-bottom: 4rem;
-    
+    padding-bottom: 3.9rem;
     overflow: hidden;
     position: fixed;
     width: 100%;
     background: var(--light);
     z-index: 999;
+
 }
 
 .navbar ul {
     display: grid;
     grid-template-columns: 420px 420px 420px 420px;
     gap: 1.1rem;
-    /* margin-left: 1rem; */
-    /* margin-right: 1rem; */
     padding-left: .2rem;
     list-style: none;
 }
@@ -136,8 +171,9 @@ of the page, position fixed changes the structure of the grid */
     transition: 0.7s;
     border-bottom: 2px solid transparent;
 }
+
 /* navigation transition */
- .navbar a:hover{
+.navbar a:hover {
     background-color: whitesmoke;
     opacity: 1;
     border-bottom: 2px solid gray
@@ -157,7 +193,7 @@ of the page, position fixed changes the structure of the grid */
     box-shadow: var(--shadow);
     overflow: hidden;
     opacity: .7;
-    
+
 
 }
 
@@ -169,8 +205,9 @@ of the page, position fixed changes the structure of the grid */
     min-width: 20px;
     box-shadow: var(--shadow);
     opacity: .7;
-    
+
 }
+
 /* Navigation to each course page with transitition */
 .drop-content a {
     float: left;
@@ -188,7 +225,7 @@ of the page, position fixed changes the structure of the grid */
 .drop-content a:hover {
     background-color: #ddd;
     border-bottom: 2px solid gray;
-    
+
 }
 
 .dropdlist:hover .drop-content {
@@ -196,15 +233,15 @@ of the page, position fixed changes the structure of the grid */
 }
 
 /* First section  */
-.home   {
+.home {
     padding-top: 1rem;
     margin-top: 190px;
     display: grid;
     gap: 20px;
-    grid-template-areas: 
-    'event side-ad'
-    'galway side-ad'
-    'second-p second-p';
+    grid-template-areas:
+        'event side-ad'
+        'galway side-ad'
+        'second-p second-p';
     /* background: lightskyblue; */
     z-index: 1;
 }
@@ -225,31 +262,38 @@ of the page, position fixed changes the structure of the grid */
 }
 
 .sutton-png {
+    margin: rem;
     box-shadow: var(--shadow);
 }
+
 /* side bar, shout out to movember */
-.side-ad    {
+.side-ad {
     grid-area: side-ad;
     display: block;
-    width: 18rem;
+    width: 24rem;
     min-height: 800px;
     color: var(--light);
     text-transform: uppercase;
     text-align: center;
     background: var(--primary);
-    margin: 5rem;
-    margin-left: 5rem;
-    padding-top: 2rem;
+    
+    margin: 2rem 15rem ;
     box-shadow: var(--shadow);
 }
 
- .side-ad h1 {
+.side-ad h1 {
     font-family: anton, sans-serif;
     letter-spacing: 4px;
     font-size: 3rem;
- }
+}
+
+.side-ad h2 {
+    font-size: 2rem;
+}
+
+
 /* add animation to the side ad logo- expands and shakes when loaded and hover effect */
-.side-ad .mo   {
+.side-ad .mo {
     animation-name: zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -272,22 +316,23 @@ of the page, position fixed changes the structure of the grid */
     animation-duration: .7s;
 }
 
-.mo:hover   {
+.mo:hover {
     animation-name: shake;
     animation-duration: .7s;
 }
 
-.galway   {
+.galway {
     grid-area: galway;
     padding: 1rem;
     background: lightcyan;
 }
+
 /* second half of home  */
 .galway-png {
     box-shadow: var(--shadow);
 }
 
-.second-p   {
+.second-p {
     grid-area: second-p;
     min-height: 100px;
     min-width: 800px;
@@ -299,22 +344,21 @@ of the page, position fixed changes the structure of the grid */
 }
 
 /*  location pf the two events*/
-.locations  {
+.locations {
     display: grid;
     gap: 20px;
     grid-template-areas:
-    'sutton galway-2';
+        'sutton galway-2';
     text-align: center;
     padding: 1rem;
     background: lightblue;
 }
 
-.locations p{
+.locations p {
     padding-bottom: 1rem;
 }
 
-button 
-.sutton {
+button .sutton {
     grid-area: sutton;
 }
 
@@ -322,7 +366,7 @@ button
     box-shadow: var(--shadow);
 }
 
-.galway-2{
+.galway-2 {
     grid-area: galway-2;
 }
 
@@ -331,44 +375,44 @@ button
 }
 
 /* about us and sponsors */
-.about-us   {
+.about-us {
     display: grid;
     gap: 20px;
-    grid-template-areas: 
-    'description description'
-    'sponsors sponsors'
-    'pringles gillette'
-    'guinness titleist';
+    grid-template-areas:
+        'description description'
+        'sponsors sponsors'
+        'pringles gillette'
+        'guinness titleist';
     background: lightpink;
 }
 
-.description    {
+.description {
     grid-area: description;
 }
 
-.sponsors    {
+.sponsors {
     grid-area: sponsors;
 }
 
-.pringles   {
+.pringles {
     grid-area: pringles;
     text-align: center;
-    
+
 }
 
 
-.gillette   {
+.gillette {
     grid-area: gillette;
     text-align: center;
 }
 
 
-.guinness   {
-    grid-area: guinness ;
+.guinness {
+    grid-area: guinness;
     text-align: center;
 }
 
-.titleist    {
+.titleist {
     grid-area: titleist;
     text-align: center;
 }
@@ -378,35 +422,38 @@ button
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
-.gillette-png   {
+
+.gillette-png {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
+
 .guinness-png {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-} 
+}
+
 .titleist-png {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
 
-.pringles-png:hover   {
+.pringles-png:hover {
     filter: none;
     -webkit-filter: grayscale(0);
 }
 
-.gillette-png:hover   {
+.gillette-png:hover {
     filter: none;
     -webkit-filter: grayscale(0);
 }
 
-.guinness-png:hover   {
+.guinness-png:hover {
     filter: none;
     -webkit-filter: grayscale(0);
 }
 
-.titleist-png:hover   {
+.titleist-png:hover {
     filter: none;
     -webkit-filter: grayscale(0);
 }
@@ -423,8 +470,8 @@ button
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 16rem;
     grid-auto-flow: dense;
-   
-    
+
+
 }
 
 .v-grid {
@@ -451,6 +498,7 @@ button
     object-fit: cover;
 
 }
+
 /* footer */
 footer {
     display: grid;
@@ -468,15 +516,15 @@ footer a {
 }
 
 
-footer .face    {
+footer .face {
     margin-top: 1rem;
-   
+
 }
 
-footer .insta    {
+footer .insta {
     margin-top: 1rem;
 }
 
-footer .twit   {
+footer .twit {
     margin-top: 1rem;
 }
