@@ -527,12 +527,14 @@ button .sutton {
 /* footer */
 footer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 50px);
+    gap: 10px;
+    /* display: flex; */
     margin-top: 1rem;
     background-color: var(--dark);
-    color: var(--light);
     text-align: center;
-    padding: 1rem;
+    padding: .3rem;
+    justify-content: center;
 }
 
 footer a {
