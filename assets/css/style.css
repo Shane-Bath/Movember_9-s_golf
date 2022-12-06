@@ -7,6 +7,7 @@
     --primary: #000;
     --dark: #6a6a6a;
     --light: #fff;
+    --h: #474E68;
     --shadow: 0px 1px 10px rgb(104, 104, 104, 0.9);
 }
 
@@ -193,7 +194,7 @@ credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
     letter-spacing: 1.5px;
     box-shadow: var(--shadow);
     overflow: hidden;
-    opacity: .7;
+    
 
 
 }
@@ -247,6 +248,10 @@ credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
     z-index: 1;
 }
 
+.event h2 {
+    color: var(--h);
+    text-transform: uppercase;
+}
 .event {
     grid-area: event;
     min-height: 400px;
@@ -262,6 +267,10 @@ credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
     z-index: 1;
 }
 
+.sutton h2 {
+    color: var(--h);
+    text-transform: uppercase;
+}
 .sutton-png {
     margin: 1rem;
     box-shadow: var(--shadow);
@@ -325,7 +334,7 @@ credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
 .galway {
     grid-area: galway;
     padding: 1rem;
-    background: lightcyan;
+    /* background: lightcyan; */
 }
 
 /* second half of home  */
@@ -341,7 +350,7 @@ credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
     padding: 1rem;
     padding-right: 10rem;
     text-align: justify;
-    background: lightgoldenrodyellow;
+    /* background: lightgoldenrodyellow; */
 }
 
 /*  location pf the two events*/
@@ -352,7 +361,7 @@ credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
         'sutton galway-2';
     text-align: center;
     padding: 1rem;
-    background: lightblue;
+    /* background: lightblue; */
 }
 
 .locations p {
@@ -375,6 +384,10 @@ button .sutton {
     box-shadow: var(--shadow);
 }
 
+.galway-2 h2 {
+    color: var(--h);
+    text-transform: uppercase;
+}
 /* about us and sponsors */
 .about-us {
     display: grid;
@@ -384,7 +397,13 @@ button .sutton {
         'sponsors sponsors'
         'pringles gillette'
         'guinness titleist';
-    background: lightpink;
+    /* background: lightpink; */
+}
+
+.about-us h1 {
+        color: var(--h);
+        text-transform: uppercase;
+  
 }
 
 .description {
@@ -462,7 +481,7 @@ button .sutton {
 /*  picture gallery  need to fit images on grid */
 
 .gallery {
-    background: lightgreen;
+    /* background: lightgreen; */
     padding: .8rem;
     max-width: 113rem;
     margin: 0 auto;
@@ -473,6 +492,11 @@ button .sutton {
     grid-auto-flow: dense;
 
 
+}
+
+.gallery-head {
+    color: var(--h);
+    margin-left: 2rem;
 }
 
 .v-grid {
