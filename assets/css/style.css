@@ -530,17 +530,13 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 50px);
     gap: 20px;
-    /* display: flex; */
-    margin-top: 1rem;
-    background-color: #0dc7c7;
     text-align: center;
-    padding: .3rem;
+    padding-bottom: 3rem;
     justify-content: center;
 }
 
 footer a {
     text-decoration: none;
-    
 }
 
 
@@ -549,28 +545,26 @@ footer .face {
 }
 
 footer .face .fa {
-    color: var(--dark);    
+    color: #7F8487;    
     font-weight: 800;
-    font-size: larger;
+    font-size: x-large;
 }
 footer .face .fa:hover{
-    color: #000;
+    color: #413F42;
 }
-
-
 
 footer .insta {
     margin-top: 1rem;
 }
 
 .fa-instagram { 
-    color: var(--dark);    
+    color: #7F8487;    
     font-weight: 800;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .fa-instagram:hover {
-    color: #000;
+    color: #413F42
 }
 
 footer .twit {
@@ -579,11 +573,20 @@ footer .twit {
 }
 
 .fa-twitter {
-    color: var(--dark);    
+    color: #7F8487;    
     font-weight: 800;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .fa-twitter:hover {
-    color: #000;
+    color: #413F42;
+}
+
+.last-mo  {
+    margin-top: 1rem;
+    opacity: 0.7;
+}
+
+.last-mo:hover {
+    opacity: 1;
 }
