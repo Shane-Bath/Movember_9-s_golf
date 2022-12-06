@@ -12,7 +12,7 @@
 
 * {
     padding: 0;
-    margin: 0;
+    margin: 5px 5px;
 }
 
 html {
@@ -23,8 +23,8 @@ html {
 
 body {
     background: var(--light);
-    margin: 2rem 3.12rem;
     line-height: 1.4;
+    
 }
 
 img {
@@ -34,6 +34,7 @@ img {
 .wrapper {
     display: grid;
     gap: 1rem;
+   
 
 }
 
@@ -183,7 +184,7 @@ credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
 .dropdlist {
     background: var(--light);
     display: block;
-    padding: 0.84rem;
+    padding: 0.74rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
