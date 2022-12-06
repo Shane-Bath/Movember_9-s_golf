@@ -525,13 +525,14 @@ button .sutton {
 }
 
 /* footer */
+
 footer {
     display: grid;
     grid-template-columns: repeat(4, 50px);
-    gap: 10px;
+    gap: 20px;
     /* display: flex; */
     margin-top: 1rem;
-    background-color: var(--dark);
+    background-color: #0dc7c7;
     text-align: center;
     padding: .3rem;
     justify-content: center;
@@ -539,19 +540,50 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: var(--light);
+    
 }
 
 
 footer .face {
     margin-top: 1rem;
-
 }
+
+footer .face .fa {
+    color: var(--dark);    
+    font-weight: 800;
+    font-size: larger;
+}
+footer .face .fa:hover{
+    color: #000;
+}
+
+
 
 footer .insta {
     margin-top: 1rem;
 }
 
+.fa-instagram { 
+    color: var(--dark);    
+    font-weight: 800;
+    font-size: larger;
+}
+
+.fa-instagram:hover {
+    color: #000;
+}
+
 footer .twit {
     margin-top: 1rem;
+    
+}
+
+.fa-twitter {
+    color: var(--dark);    
+    font-weight: 800;
+    font-size: larger;
+}
+
+.fa-twitter:hover {
+    color: #000;
 }
