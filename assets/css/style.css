@@ -437,7 +437,7 @@ button .sutton {
     text-align: center;
 }
 
-/* add transitions to sponors logos */
+/* add transitions to sponors logos dicovered webkit */
 .pringles-png {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -548,6 +548,9 @@ footer .face .fa {
     color: #7F8487;    
     font-weight: 800;
     font-size: x-large;
+
+    /* change color hover - because icon is a font changed the color but for the image i decieded to use 
+    opacity. I guess i could opacity for both, it only came to me later*/
 }
 footer .face .fa:hover{
     color: #413F42;
@@ -586,6 +589,7 @@ footer .twit {
     margin-top: 1rem;
     opacity: 0.7;
 }
+
 
 .last-mo:hover {
     opacity: 1;
