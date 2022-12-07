@@ -3,14 +3,75 @@
 # MO 9's - 9 HOLE GOLF CHARITY EVENT
 
 
-## Movember 9's Golf Society
+## Goals for this project
 The site is to promote an annual charity nine-hole golf event to raise money for the Movember men’s health charity. The Website main purpose is to provide information on the event and to allow individuals to book a place.
+
+A promotional website to sell to tickets to a 9 hole golf event to  raise money for Movember.
+
+# Table of Contents
+- UX
+  - Site owner objectives
+  - User Experience
+  - Goals of the site
+- Design
+  - Structure
+  - Colours
+  - Fonts
+  - Images 
+  - layout
+  - transitions
+- Wireframes
+- Features
+  - Logo 
+  - Navigation 
+  - landing page 
+  - Side Banner (Ad)
+  - Event section 
+  - About us and Sponsors
+  - Gallery 
+  - Booking page 
+  - Contact us page
+  - Footer
+- Technical
+  - Tools and Libraries
+- Inspiration
+- Testing 
+  - Unfixed Bugs 
+- Deployment
+- Credit 
+
+#  UX
+
+## Site owner objectives
+
+- Promotion of Event. 
+- Provide up to date information. 
+- Point of sale for tickets. 
+- Celebrate the event and the cause.
+
+## User Experience  
+
+- Visually appealing.
+- Easy Navigation.
+- Provide appropriate information.
+- Point of contact.
+- Secure transaction.
+- Up to date information.
+
+## Goals of the site 
+- Accessible on all screen sizes.
+- visually pleasing presentation
+- 
+
+  
+
+
+
 
 
 ## Design
-I have looked at the main Movember charity website and decided to adopt a similar style and tone with this page, because to of the association between the two. Movenber does provide assets such as banner images, logo and promotional material to supporters who are setting up an event in support of the charity. There is a strong black and white theme throughout the site, along with an irreverent style of communication. I have focused the design to be viewed on a small screen first, will be able to scroll through the relevant section or use the navigation bar to head directly each section. 
+I have taken inspiration from the Movember charity website and decided to adopt a similar style and tone, because to of the association between the two.  There is a strong black and white theme throughout the site, along with an irreverent style of communication. 
 
-I am using the same fon-family as the main website. It is a google font called overpass. 
 
 
 

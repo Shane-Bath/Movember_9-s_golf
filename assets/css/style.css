@@ -176,9 +176,9 @@ credit: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
 
 /* navigation transition */
 .navbar a:hover {
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
     opacity: 1;
-    border-bottom: 2px solid gray
+    border-bottom: 2px solid #808080
 }
 
 /* Add a drop list to location button */
