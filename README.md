@@ -18,8 +18,8 @@ A promotional website to sell to tickets to a 9 hole golf event to  raise money 
   - Colours
   - Fonts
   - Images 
-  - layout
-  - transitions
+  - Layout
+  - Transitions
 - Wireframes
 - Features
   - Logo 
@@ -61,37 +61,36 @@ A promotional website to sell to tickets to a 9 hole golf event to  raise money 
 ## Goals of the site 
 - Accessible on all screen sizes.
 - visually pleasing presentation
-- 
-
-  
-
-
-
-
+- User friendly and enjoyable
 
 ## Design
-I have taken inspiration from the Movember charity website and decided to adopt a similar style and tone, because to of the association between the two.  There is a strong black and white theme throughout the site, along with an irreverent style of communication. 
+I have taken inspiration from the Movember charity website and decided to adopt a similar style and tone, because to of the association between the two.  There is a strong black and white theme throughout the site, along with an irreverent style of communication.
 
+## Structure
+- Navigation 
+  - The Movember moustache is incorporated  in the navigation bar, clicking the the     moustache will bring the user back to the home page.
+  - Navigation bar will be responsive to various screen sizes
+  - Each section will have a hover effect, slight change in the background and an under line appears
+  - On smaller devices the Navigation Bar will be behind a hamburger icon.
 
+- Colours 
+  - The main colors will be black (#000), white (#ffff) and light grey (#474E68)
+  - Navigation bar  transition from white to smokewhite (#f5f5f5) and border-bottom of grey (#808080)
+  - Font icon transition from grey (#7F8487) to a darker grey (#413F42)
+  - Sponsors logo will be in grey scale with a hover effect to revert to original colour scheme 
+- Font
+    - Main text will be a google font 'overpass', inspired by the original movember website 
+    - Headings, logo text and promotion will be a google font 'Anton' inspired by the original movember website
+- Images
+  - I have used a few photographs from my personal collection and free resource
+- Icons
+   - I have used the font awesome collection for the social media logos and arrows in the side banner
+- Layout 
+  - The site wil be scrollable from header to footer, they only pages that will be separate will the contact us page and the bookings page. They will be accessible via buttons and navigation
+  - Landing page, event page, about us / sponsors, Gallery and footer
+  
 
-
-
-## Navigation bar
-- I have used a Banner picture from the Movember branding pack for the top banner. 
-- I have included the Movember Logo. Source: xxxxxxxxx      Clicking this logo will always bring the user to the home page. 
-- A fully responsive navigation bar includes links to the all the pages, including the 
-  Home page, Location page and contact us page. 
-- The Banner picture, logo and navigation bar remain fixed on very page on the site.
-
-    ![navigation bar reduced, Mock up](/readme%20images/Nav_reduced.png)
-
-
-## Locations page
-- Details on each location, along with date and time. 
-- The main image has a link to a hidden gallery page with more picture of each venue.
-- Booking button, will bring you to a booking page.
-
-    ![location page, mockup](/readme%20images/Location_page_reduced.png)
+  
 
 
 ## Booking page
@@ -102,3 +101,8 @@ I have taken inspiration from the Movember charity website and decided to adopt 
 | Balsamiq mock up | Final draft |
 | --------- | --------- |
 | ![booking page, mockup](/readme%20images/Booking_page_reduced.png) | ![side, by side](/readme%20images/Location_page_reduced.png)
+
+
+ ![navigation bar reduced, Mock up](/readme%20images/Nav_reduced.png)
+
+   ![location page, mockup](/readme%20images/Location_page_reduced.png)
