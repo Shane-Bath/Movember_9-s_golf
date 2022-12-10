@@ -13,7 +13,7 @@ A promotional website to sell to tickets to a 9 hole golf event to  raise money 
   - Site owner objectives
   - User Experience
   - Goals of the site
-- Design
+- Design and Features
   - Structure
   - Colours
   - Fonts
@@ -68,11 +68,10 @@ I have taken inspiration from the Movember charity website and decided to adopt 
 
 ## Structure
 - Navigation 
-  - The Movember moustache is incorporated  in the navigation bar, clicking the the     moustache will bring the user back to the home page.
+  - The Movember moustache is incorporated  in the navigation bar, clicking the the     moustache will bring the user back to the home page. Logo has been created using the a moustache image and the font Anton.
   - Navigation bar will be responsive to various screen sizes
   - Each section will have a hover effect, slight change in the background and an under line appears
   - On smaller devices the Navigation Bar will be behind a hamburger icon.
-
 - Colours 
   - The main colors will be black (#000), white (#ffff) and light grey (#474E68)
   - Navigation bar  transition from white to smokewhite (#f5f5f5) and border-bottom of grey (#808080)
@@ -88,21 +87,24 @@ I have taken inspiration from the Movember charity website and decided to adopt 
 - Layout 
   - The site wil be scrollable from header to footer, they only pages that will be separate will the contact us page and the bookings page. They will be accessible via buttons and navigation
   - Landing page, event page, about us / sponsors, Gallery and footer
-  
+- Transition
+  - The transition have been used to have add interactivity and fun. I have used keyframes and webkit. 
+  - I have a shake effect to the moustache, to make it wiggle when hovered over.
+  - The sponsor logo will transition from black and white to the original colours when hovered over.
+  - The social media logo have a hover effect from light to a dark grey.
 
-  
+ ## Pages
+- Landing page
+  -  This page will consist of text and images, and a side section encouraging user to donate to the Movember organastion. 
+  - The 
+- Gallery 
+  - A mix of different sizes of images in a grid structure. I  assigned grid position and span instruction to each image, in order to fit each image.
+- Booking page
+  - Simple booking page that only require the name, email, drop down list to select the course and the number of guest. 
+  - Above the form will be two images of each golf course, again these images are link to the gallery. Within the gallery there is a link back to the booking form.
+- Footer
+  - Social media icons with hover effect which transition from a light grey to a dark grey.
+- Contact us.
+  - The contact section allows the user to contact the site owners
 
-
-## Booking page
-- Simple booking page that only require the name, email, drop down list to select the course and the number of guest. 
-- Above the form will be two images of each golf course, again these images are link to the gallery. Within the gallery there is a link back to the booking form.
-
-
-| Balsamiq mock up | Final draft |
-| --------- | --------- |
-| ![booking page, mockup](/readme%20images/Booking_page_reduced.png) | ![side, by side](/readme%20images/Location_page_reduced.png)
-
-
- ![navigation bar reduced, Mock up](/readme%20images/Nav_reduced.png)
-
-   ![location page, mockup](/readme%20images/Location_page_reduced.png)
+| 
