@@ -155,7 +155,7 @@ button a {
 
 
 /* Navigation bar */
-nav {
+.navbar {
     grid-area: navbar;
     display: flex;
     background: var(--light);
@@ -439,7 +439,7 @@ footer .twit {
 
 
 /* screen sizes */
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 480px){
     .main-grid {
     display: grid;
     grid-template-areas: 
@@ -456,8 +456,8 @@ footer .twit {
     /* grid-template: repeat(2, minmax(250px, 1fr)); */
     grid-template: repeat(1, 1fr);
     grid-auto-rows: minmax(100px, auto);
-    gap: 5rem;
-    margin: 1rem;
+    gap: 1rem;
+    margin: .5rem;
     }
 
     #home {
@@ -475,3 +475,75 @@ footer .twit {
         font-size: 2rem;
         color: aqua;
     }
+    .topnav {
+        grid-area: navbar;
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+        
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .active {
+        background-color: #04AA6D;
+        color: white;
+      }
+
+
+    /* .navbar {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+    #menu {
+        display: none;
+    }
+
+    .navbar a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+    .navbar a .icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .nav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .active {
+        background-color: #04AA6D;
+        color: white;
+      } */
+
