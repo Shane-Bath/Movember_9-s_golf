@@ -23,6 +23,11 @@ html {
     font-size: 62.5%;
 }
 
+p {
+    font-size: 1.6rem;
+    text-align: justify;
+    color: var(--primary);
+}
 body {
     background: var(--light);
     line-height: 1.4;
@@ -103,15 +108,15 @@ button a {
 .main-grid {
     display: grid;
     grid-template-areas: 
-    'logo navbar'
-    'event side-ad'
-    'second-p second-p'
-    'sutton galway-2'
-    'about-us sponsors';
+    "logo navbar"
+    "event side-ad"
+    "second-p second-p"
+    "sutton galway-2"
+    "about-us sponsors";
     /* grid-template: repeat(2, minmax(250px, 1fr)); */
     grid-template: repeat(2, 1fr);
     grid-auto-rows: minmax(100px, auto);
-    gap: 1rem;
+    gap: 5rem;
     margin: 1rem;
     position: relative;
 }
@@ -250,26 +255,104 @@ nav {
     min-width: 80rem;
     color: var(--primary);
     background: var(--light);
-    font-size: 1.6rem;
-    text-align: justify;
 }
 
-/* .event p {
-    font-size: 1.6rem;
-} */
+.event p {
+    padding: 1rem;
+}
 
+.event h2 {
+   text-transform: uppercase;
+   padding-left: 1rem;
+}
+
+/* Side ad for movember */
 .side-ad {
     grid-area: side-ad;
-    background: rgb(250, 171, 120, 0.7);
+    width: 40rem;
+    margin-left: 20rem;
+    padding: 2rem;
+    background: var(--primary);
+    text-align: center;
+    font-family: 'Anton';
 }
 
+.side-ad h2 {
+    color: var(--light);
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.h1-1 {
+    padding: 1rem;
+}
+
+ .h1-2 {
+    padding: 1rem;
+ }
+.side-ad h3 {
+    color: var(--light);
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.h3-1 {
+    padding: 1rem;
+}
+.h3-2 {
+    padding-bottom: 1rem;
+}
+
+.side-ad i {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    color: var(--light);
+}
 .second-p {
     grid-area: second-p;
-    background: rgb(101, 100, 124, 0.7);
+    display: flex;
+    flex-flow: wrap;
+    /* width: 40rem; */
+    background:var(--light);
 }
 
+.side-ad .mo {
+    animation-name: zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-fill-mode: inherit;
 
+}
 
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.3);
+    }
+}
+
+.shake {
+    animation-name: shake;
+    animation-duration: .7s;
+}
+
+.mo:hover {
+    animation-name: shake;
+    animation-duration: .7s;
+}
+
+.second-p p {
+    width: 50rem;
+    margin: 3rem;
+}
+
+.galway {
+    margin-left: 1rem;
+}
 
 /* Gallery */
 .gallery {
