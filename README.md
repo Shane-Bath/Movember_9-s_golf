@@ -95,8 +95,10 @@ I have taken inspiration from the Movember charity website and decided to adopt 
 
  ## Pages
 - Landing page
-  -  This page will consist of text and images, and a side section encouraging user to donate to the Movember organastion. 
-  - The 
+  -  This page will consist of text and images, and a side section encouraging user to donate to the Movember organisation. 
+  -   This page will inform the user about the event, direct them book a place. 
+- About us and sponsors 
+    - information about the organisation and sponsors of the event
 - Gallery 
   - A mix of different sizes of images in a grid structure. I  assigned grid position and span instruction to each image, in order to fit each image.
 - Booking page
@@ -106,5 +108,9 @@ I have taken inspiration from the Movember charity website and decided to adopt 
   - Social media icons with hover effect which transition from a light grey to a dark grey.
 - Contact us.
   - The contact section allows the user to contact the site owners
+  - This page will be a separate page
+## Wireframes
 
-| 
+I used Balsamiq to build the wireframes of the site. I found the wireframing process useful as it provided me with a visual reference point.
+ 
+ Links below to the wire frames. 
