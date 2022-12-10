@@ -32,13 +32,6 @@ img {
     max-width: 100%;
 }
 
-.wrapper {
-    display: grid;
-    gap: 1rem;
-   
-
-}
-
 .btn {
     background: var(--dark);
     color: var(--primary);
