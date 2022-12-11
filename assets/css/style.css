@@ -384,11 +384,22 @@ img {
     
     
 }
-.pringles, .gillette, .guinness, .titleist {
-    max-width: 100px;
+/* .pringles, .gillette, .guinness, .titleist {
+    
     aspect-ratio: 3/2;
     object-fit: contain;
-    }
+    } */
+
+.pringles-png,.gillette-png,.guinness-png,.titleist-png {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+
+}
+
+.pringles-png:hover, .gillette-png:hover, .guinness-png:hover, .titleist-png:hover {
+     filter: none;
+     -webkit-filter: grayscale(0);
+}
 
 .gillette {
     margin-top: 2rem;
@@ -396,10 +407,12 @@ img {
 
 
 
+
+
 /* Gallery */
 
 .gallery {
-    /* background: lightgreen; */
+    background: rgb(249, 249, 249, 07);
     padding: .8rem;
     max-width: 113rem;
     margin: 0 auto;
@@ -414,7 +427,7 @@ img {
 
 .gallery-head {
     color: var(--h);
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .v-grid {
@@ -431,8 +444,8 @@ img {
 }
 
 .bigger-grid {
-    grid-column: span 3;
-    grid-row: span 2;
+    grid-column: span 2;
+    grid-row: span 1;
 }
 
 .gallery div img {
@@ -540,6 +553,8 @@ footer .twit {
 
     .logo {
         justify-content: flex-end;
+        position: sticky;
+        top: 0;
     }
     
     .logo h1{
@@ -552,8 +567,10 @@ footer .twit {
         grid-area: navbar;
         flex-direction: column;
         align-content: flex-start;
-        
-       }
+        position: relative;
+        position: sticky;
+        top: 0;
+    }
 
 
     .toggle-button {
