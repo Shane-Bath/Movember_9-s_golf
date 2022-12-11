@@ -25,6 +25,7 @@ html {
 
 p {
     font-size: 1.6rem;
+    font-size: 2.5vw;
     text-align: justify;
     color: var(--primary);
 }
@@ -114,7 +115,8 @@ button a {
     "second-p second-p"
     "sutton sutton"
     "galway-2 galway-2"
-    "about-us sponsors";
+    "about-us about-us"
+    "sponsors sponsors";
     gap: 1rem;
     margin: 5rem;
     background: var(--light);
@@ -345,7 +347,14 @@ button a {
 .about-us  {
     grid-area: about-us;
 }
+
+.sponsors {
+    grid-area: sponsors;
+}
+
+
 /* Gallery */
+
 .gallery {
     /* background: lightgreen; */
     padding: .8rem;
@@ -466,12 +475,89 @@ footer .twit {
 
 
 /* screen sizes */
-@media screen and (max-width: 40rem) {
+@media screen and (max-width: 400px) {
+    .main-grid {
+        display: grid;
+        grid-template-areas: 
+        "logo"
+        "navbar"
+        "event"
+        "galway"
+        "second-p"
+        "sutton"
+        "galway-2"
+        "about-us"
+        "sponsors";
+        gap: 1rem;
+        margin: 1rem;
+     }
+
+    .logo {
+        justify-content: flex-end;
+    }
+    
+     
+
+     .navbar {
+        grid-area: navbar;
+        flex-direction: column;
+        align-content: flex-start;
+       }
+
+
+    .toggle-button {
+        display: flex;
+
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: row;
+        margin-top: 2rem;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    .side-ad {
+        display: none;
+    }
+
+  .event {
+    margin-top: 3rem;
+  }
+ 
+ }
+ @media screen and (max-width: 573px) {
+    .main-grid {
+        margin: 1rem;
+    }
+    .logo h1 {
+        
+    }
+ }
+
+@media screen and (max-width: 800px) {
     .logo h1{
         letter-spacing: .2rem;
         font-size: 2rem;
        
      }
+     
     .navbar {
         flex-direction: column;
         align-items: flex-start;
