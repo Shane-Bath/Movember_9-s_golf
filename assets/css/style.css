@@ -110,11 +110,13 @@ button a {
     grid-template-areas: 
     "logo navbar"
     "event side-ad"
-    "second-p galway"
-    "sutton galway-2"
+    "galway galway"
+    "second-p second-p"
+    "sutton sutton"
+    "galway-2 galway-2"
     "about-us sponsors";
     gap: 1rem;
-    margin: 1rem;
+    margin: 5rem;
     background: var(--light);
 }
 
@@ -131,8 +133,8 @@ button a {
 }
 
 .logo img {
-    width: 12.5rem;
-    height: 3.3rem;
+    max-width: 12.5rem;
+    max-height: 3.3rem;
 }
 
  .logo h1{
@@ -140,7 +142,7 @@ button a {
     text-transform: uppercase;
     color: var(--primary);
     letter-spacing: .4rem;
-    font-size: 3rem;
+    font-size: 4rem;
    
  }
 .logo a {
@@ -155,6 +157,7 @@ button a {
 
 .navbar {
     display: flex;
+    flex-direction: row-reverse;
     position: relative;
     justify-content: space-between;
     align-items: center;
@@ -172,6 +175,7 @@ button a {
 
 .navbar-links ul {
     display: flex;
+    justify-content: flex-end;
     margin: 0;
     padding: 1rem;
 }
@@ -184,16 +188,33 @@ button a {
     display: block;
     text-decoration: none;
     color: var(--primary);
-    padding: 1rem;
+    margin-right: 3rem;
 }
 
-.nav-links li:hover {
-    background-color:var(--h);
+.navbar-links li:hover {
+    border-bottom: 2px solid #808080
 }
+
+/* .navbar-links li a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: -.75em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+  }
+  
+  .navbar-links li :hover::before {
+    transform: scale(1,1);
+  } */
 
 .toggle-button {
     position: absolute;
-    top: 1rem;
+    top: .7rem;
     right: 1rem;
     display: none;
     flex-direction: column;
@@ -209,39 +230,6 @@ button a {
     border-radius: 1rem;
 }
 
-@media (max-width: 80rem) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-links {
-        display: none;
-        width: 100%;
-    }
-    
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links ul li {
-        text-align: center;
-    }
-
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
-
-}
 
 /* landing page  */
 .event {
@@ -265,7 +253,7 @@ button a {
     grid-area: side-ad;
     max-width: 40rem;
     margin-left: 0;
-    padding: 2rem;
+    padding: 1rem;
     background: var(--primary);
     text-align: center;
     font-family: 'Anton';
@@ -340,14 +328,23 @@ button a {
     background:var(--light);
 }
 
-.second-p p {
-    margin: 3rem;
-}
 
 .galway {
-    margin-left: 1rem;
+    grid-area: galway;
+    
 }
 
+.sutton {
+    grid-area: sutton;
+}
+
+.galway-2 {
+    grid-area: galway-2;
+}
+
+.about-us  {
+    grid-area: about-us;
+}
 /* Gallery */
 .gallery {
     /* background: lightgreen; */
@@ -469,3 +466,65 @@ footer .twit {
 
 
 /* screen sizes */
+@media screen and (max-width: 40rem) {
+    .logo h1{
+        letter-spacing: .2rem;
+        font-size: 2rem;
+       
+     }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+       }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    
+    .navbar-links ul {
+        width: 60%;
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .side-ad h2 {
+       font-size: 3rem;
+        
+    }
+    
+    .h1-1 {
+        padding: .4rem;
+    }
+    
+     .h1-2 {
+        padding: .4rem;
+     }
+    .side-ad h3 {
+        font-size: 2rem;
+        
+    }
+    .h3-1 {
+        padding: .4rem;
+    }
+    .h3-2 {
+        padding-bottom: .4rem;
+    }
+
+}
