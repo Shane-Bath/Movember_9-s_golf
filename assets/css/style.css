@@ -117,14 +117,14 @@ img {
     grid-template-areas: 
     "logo navbar"
     "event side-ad"
-    "galway galway"
+    "sunset sunset"
     "second-p second-p"
     "sutton galway-2"
     "about-us about-us"
     "sponsors sponsors"
     "sponsors-logo sponsors-logo";
     gap: 1rem;
-    margin: 5rem;
+    margin: 5rem 10rem 5rem 10rem;
     background: var(--light);
 }
 
@@ -165,7 +165,7 @@ img {
 
 .navbar {
     display: flex;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
     position: relative;
     justify-content: space-between;
     align-items: center;
@@ -183,24 +183,30 @@ img {
 
 .navbar-links ul {
     display: flex;
-    justify-content: flex-end;
     margin: 0;
     padding: 1rem;
+    font-weight: 600;
 }
 
 .navbar-links li {
     list-style: none;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    
 }
 
 .navbar-links li a {
-    display: block;
+    /* display: flex; */
     text-decoration: none;
+    text-transform: uppercase;
     color: var(--primary);
-    margin-right: 3rem;
+    
+    
 }
 
 .navbar-links li:hover {
+    background: rgb(205, 205, 205);
     border-bottom: 2px solid #808080
+    
 }
 
 .toggle-button {
@@ -223,9 +229,10 @@ img {
 
 
 /* landing page  */
+
 .event {
     grid-area: event;
-    max-width: 80rem;
+    font-size: 1.6rem;
     color: var(--primary);
     background: var(--light);
 }
@@ -235,7 +242,8 @@ img {
 }
 
 .event h2 {
-   
+   font-size: 2rem;
+   font-weight: 800;
    padding-left: 1rem;
 }
 
@@ -243,7 +251,7 @@ img {
 .side-ad {
     grid-area: side-ad;
     max-width: 40rem;
-    margin-left: 0;
+    margin-left: 15rem;
     padding: 1rem;
     background: var(--primary);
     text-align: center;
@@ -283,6 +291,8 @@ img {
     color: var(--light);
 }
 
+/* Logo animation  */
+
 .side-ad .mo {
     animation-name: zoom;
     animation-duration: 4s;
@@ -311,17 +321,17 @@ img {
     animation-duration: .7s;
 }
 
-.second-p {
+/* end of animation  */
+
+
+.second-paragraph {
     grid-area: second-p;
-    display: flex;
-    flex-flow: wrap;
-    max-width: 80rem;
-    background:var(--light);
+    
 }
 
 
-.galway {
-    grid-area: galway;
+.sunset {
+    grid-area: sunset;
     
 }
 /* end of landing page */
