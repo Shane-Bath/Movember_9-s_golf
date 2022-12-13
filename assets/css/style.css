@@ -114,11 +114,12 @@ img {
 
 .main-grid {
     display: grid;
+    /* grid-template-columns: 846.5px 846.5px; */
     grid-template-areas: 
     "logo navbar"
-    "event side-ad"
+    "event second-paragraph"
     "sunset sunset"
-    "second-p second-p"
+    
     "sutton galway-2"
     "about-us about-us"
     "sponsors sponsors"
@@ -140,6 +141,8 @@ img {
     top: 0;
     
 }
+
+
 
 .logo img {
     max-width: 12.5rem;
@@ -235,32 +238,59 @@ img {
 
 .event {
     grid-area: event;
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: flex-start; */
     font-size: 1.6rem;
     color: var(--primary);
     background: var(--light);
 }
 
-.event p {
-    padding: 1rem;
-}
+
 
 .event h2 {
-   font-size: 2rem;
-   font-weight: 800;
-   padding-left: 1rem;
+   font-size: 3rem;
+   font-weight: 800
+}
+.event p {
+    margin: 1rem 1rem 1rem 0rem;
 }
 
+.sutton-png {
+    object-fit: cover;
+
+    box-shadow: var(--shadow);
+    padding: 1rem;
+}
 /* Side ad for movember */
+.second-paragraph {
+    grid-area: second-paragraph;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 3.6rem;
+    
+}
 .side-ad {
-    grid-area: side-ad;
+    
     /* max-width: 40rem; I need to change this bigger screen sizes */
-    margin-left: 15rem;
+    /* margin-left: 15rem; */
     padding: 1rem;
     background: var(--primary);
     text-align: center;
     font-family: 'Anton';
 }
 
+@media screen and (min-width: 573px) {
+    .side-ad {max-width: 40rem;
+    }
+     
+    
+    
+
+    
+}
 .side-ad h2 {
     color: var(--light);
     font-size: 5rem;
@@ -325,12 +355,6 @@ img {
 }
 
 /* end of animation  */
-
-
-.second-paragraph {
-    grid-area: second-p;
-    
-}
 
 
 .sunset {
@@ -565,12 +589,12 @@ footer .twit {
     }
     .main-grid {
         display: grid;
+        grid-template-columns: minmax(390px, 573px);
         grid-template-areas: 
         "logo"
         "navbar"
         "event"
-        "side-ad"
-        "second-p"
+        "second-paragraph"
         "sunset"
         "sutton"
         "galway-2"
