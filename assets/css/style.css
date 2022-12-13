@@ -253,7 +253,7 @@ img {
 /* Side ad for movember */
 .side-ad {
     grid-area: side-ad;
-    /* max-width: 40rem; */
+    /* max-width: 40rem; I need to change this bigger screen sizes */
     margin-left: 15rem;
     padding: 1rem;
     background: var(--primary);
@@ -404,7 +404,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem 3rem 0 3rem;
+    
     
     
 }
@@ -577,7 +577,7 @@ footer .twit {
         "about-us"
         "sponsors"
         "sponsors-logo";
-        gap: 1rem;
+        
         margin: 1rem;
      }
 /* logo mobile */
@@ -596,6 +596,20 @@ footer .twit {
     .logo h1{
         letter-spacing: .2rem;
         font-size: 2rem;
+        
+    }
+
+    .event {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+
+    .event, .second-paragraph, .sutton, .galway-2 , .about-us, .sponsors p {
+        font-size: 1.3rem;
+        margin: .5rem;
         
     }
 /* navigation mobile */
@@ -629,7 +643,7 @@ footer .twit {
     
     .navbar-links li {
         list-style: none;
-        padding: 1rem 2.5rem 1rem 2.5rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;
         
     }
     
@@ -647,12 +661,17 @@ footer .twit {
         border-bottom: 2px solid #808080
         
     }
+
+    /* end of navigation  */
+
+    /* side- ad  NEED TO CHECK RIGHT MARGIN*/
     .side-ad {
         grid-area: side-ad;
         display: flex;
         width: 100%;
         margin: 0;
         align-items: center;
+        margin-right: 1rem;
     }
     
     .side-ad mo {
@@ -663,10 +682,9 @@ footer .twit {
         display: none;
     }
 
-  .event {
-    margin-top: 3rem;
-  }
+/*  end of side ad */
 
+  
   .sponsors-logo {
     grid-area: sponsors-logo;
     display: flex;
@@ -676,7 +694,7 @@ footer .twit {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem 3rem 0 3rem;
+    
   }
 
   .pringles-png,.gillette-png,.guinness-png,.titleist-png {
@@ -691,7 +709,7 @@ footer .twit {
 }
 
 .gillette {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
   /* gallary mobile */
