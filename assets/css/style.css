@@ -9,7 +9,7 @@
     --light: #fff;
     --h: #474E68;
     --shadow: 0px 1px 10px rgb(104, 104, 104, 0.9);
-    --head:font-size 
+    --head: font-size
 }
 
 * {
@@ -30,14 +30,14 @@ p {
     color: var(--primary);
 }
 
-h2 { 
+h2 {
     text-transform: uppercase;
 }
 
 body {
     background: var(--light);
     line-height: 1.4;
-    
+
 }
 
 img {
@@ -114,22 +114,22 @@ img {
 
 .main-grid {
     display: grid;
-    /* grid-template-columns: 846.5px 846.5px; */
-    grid-template-areas: 
-    "logo navbar"
-    "event second-paragraph"
-    "sunset sunset"
-    
-    "sutton galway-2"
-    "about-us about-us"
-    "sponsors sponsors"
-    "sponsors-logo sponsors-logo";
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        "logo navbar"
+        "event second-paragraph"
+        "sunset sunset"
+
+        "sutton galway-2"
+        "about-us about-us"
+        "sponsors sponsors"
+        "sponsors-logo sponsors-logo";
     gap: 1rem;
     margin: 5rem 10rem 5rem 10rem;
     background: var(--light);
 }
 
- /* Logo */
+/* Logo */
 
 .logo {
     grid-area: logo;
@@ -139,7 +139,7 @@ img {
     position: relative;
     position: sticky;
     top: 0;
-    
+
 }
 
 
@@ -149,18 +149,20 @@ img {
     max-height: 3.3rem;
 }
 
- .logo h1{
+.logo h1 {
     font-family: 'Anton';
     text-transform: uppercase;
     color: var(--primary);
     letter-spacing: .4rem;
     font-size: 4rem;
-   
- }
-.logo a {
-     text-decoration: none;
+
 }
- .logo:hover {
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo:hover {
     animation: shake .5s;
 }
 
@@ -179,7 +181,7 @@ img {
     position: sticky;
     top: 0;
     font-size: 2rem;
-    
+
 }
 
 .navbar-links {
@@ -197,7 +199,7 @@ img {
 .navbar-links li {
     list-style: none;
     padding: 1rem 2.5rem 1rem 2.5rem;
-    
+
 }
 
 .navbar-links li a {
@@ -205,14 +207,13 @@ img {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--primary);
-    
-    
+
+
 }
 
 .navbar-links li:hover {
     background: rgb(205, 205, 205);
     border-bottom: 2px solid #808080
-    
 }
 
 .toggle-button {
@@ -240,7 +241,7 @@ img {
     grid-area: event;
     display: flex;
     flex-direction: column;
-    
+
     /* align-items: flex-start; */
     font-size: 1.6rem;
     color: var(--primary);
@@ -250,32 +251,34 @@ img {
 
 
 .event h2 {
-   font-size: 3rem;
-   font-weight: 800
+    font-size: 3rem;
+    font-weight: 800
 }
+
 .event p {
     margin: 1rem 1rem 1rem 0rem;
 }
 
 .sutton-png {
-    
+
     box-shadow: var(--shadow);
     padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+
 /* Side ad for movember */
 .second-paragraph {
     grid-area: second-paragraph;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 
 .side-ad {
-    
+
     /* max-width: 40rem; I need to change this bigger screen sizes */
     /* margin-left: 15rem; */
     margin-top: 1rem;
@@ -289,28 +292,30 @@ img {
 }
 
 @media screen and (min-width: 573px) {
-    .side-ad {max-width: 40rem;
+    .side-ad {
+        max-width: 40rem;
     }
-     
+
     .second-paragraph p {
         margin: 5rem 0rem 2rem 1rem;
     }
-    
+
 }
 
 .side-ad h2 {
     color: var(--light);
     font-size: 4rem;
-    
+
 }
 
 .h1-1 {
     padding: 1rem;
 }
 
- .h1-2 {
+.h1-2 {
     padding: 1rem;
- }
+}
+
 .side-ad h3 {
     color: var(--light);
     font-size: 3rem;
@@ -320,6 +325,7 @@ img {
 .h3-1 {
     padding: 1rem;
 }
+
 .h3-2 {
     padding-bottom: 1rem;
 }
@@ -369,65 +375,116 @@ img {
 
 .sunset {
     grid-area: sunset;
-    
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: auto;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+
 }
+
 /* end of landing page */
 
- /* locations */
+/* locations */
+
+
 .sutton {
     grid-area: sutton;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--primary);
+
 }
 
-.sutton-img {
-    width: 100%;
-}
 .sutton h2 {
+    font-size: 3rem;
+    font-weight: 800;
     color: var(--primary);
+    margin: 1rem 1rem;
+}
+
+
+.sutton-img {
+    max-width: auto;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+}
+
+.sutton h2 {
     
+
 }
 
 .sutton p {
     color: var(--primary);
-    margin: .5rem .5rem;
+    margin: 2rem 1rem 2rem 0rem;
+    
 }
+/* 
 .btn {
     position: relative;
     left: 40%;
-}
+} */
 
 .galway-2 {
     grid-area: galway-2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     color: var(--primary);
 }
 
+.galway-2 h2 {
+    margin: 1rem 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
 .galway-img {
-    width: 100%;
+    max-width: auto;
+    padding: 1rem;
+    box-shadow: var(--shadow);
 }
 
 .galway-2 p {
     color: var(--primary);
-    margin: .5rem .5rem;
+    margin: 2rem 0rem 2rem 1rem;
 }
 
 /* end of locations */
 
 /* About us and Sponsors */
 
-.about-us  {
+.about-us {
     grid-area: about-us;
     color: var(--primary);
+    margin: 2rem 0rem 2rem 0rem;
 }
 
+.about-us h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--primary);
+    
+}
 
 
 .sponsors {
     grid-area: sponsors;
 }
 
-.sponsors h2 {
+.sponsors {
     color: var(--primary);
+    margin: 0rem 0rem 2rem 0rem;
 }
+ .sponsors h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--primary);
+    
+}
+ 
 
 .sponsors-logo {
     grid-area: sponsors-logo;
@@ -438,25 +495,32 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
-    
-    
+
+
+
 }
+
 /* .pringles, .gillette, .guinness, .titleist {
     
     aspect-ratio: 3/2;
     object-fit: contain;
     } */
 
-.pringles-png,.gillette-png,.guinness-png,.titleist-png {
+.pringles-png,
+.gillette-png,
+.guinness-png,
+.titleist-png {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 
 }
 
-.pringles-png:hover, .gillette-png:hover, .guinness-png:hover, .titleist-png:hover {
-     filter: none;
-     -webkit-filter: grayscale(0);
+.pringles-png:hover,
+.gillette-png:hover,
+.guinness-png:hover,
+.titleist-png:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
 }
 
 .gillette {
@@ -470,11 +534,12 @@ img {
 /* Gallery */
 .gallery-head {
     color: var(--h);
-    margin:0 38rem 2rem;
+    margin: 0 38rem 2rem;
     font-size: 2rem;
     color: var(--primary);
-    
+
 }
+
 .gallery {
     background: rgb(249, 249, 249, 07);
     padding: .8rem;
@@ -491,7 +556,7 @@ img {
 .v-grid {
     grid-column: span 2;
     grid-row: span 2;
-    
+
 }
 
 .h-grid {
@@ -538,14 +603,15 @@ footer .face {
 }
 
 footer .face .fa {
-    color: #7F8487;    
+    color: #7F8487;
     font-weight: 800;
     font-size: x-large;
 
     /* change color hover - because icon is a font changed the color but for the image i decieded to use 
     opacity. I guess i could opacity for both, it only came to me later*/
 }
-footer .face .fa:hover{
+
+footer .face .fa:hover {
     color: #413F42;
 }
 
@@ -553,8 +619,8 @@ footer .insta {
     margin-top: 1rem;
 }
 
-.fa-instagram { 
-    color: #7F8487;    
+.fa-instagram {
+    color: #7F8487;
     font-weight: 800;
     font-size: x-large;
 }
@@ -565,11 +631,11 @@ footer .insta {
 
 footer .twit {
     margin-top: 1rem;
-    
+
 }
 
 .fa-twitter {
-    color: #7F8487;    
+    color: #7F8487;
     font-weight: 800;
     font-size: x-large;
 }
@@ -578,7 +644,7 @@ footer .twit {
     color: #413F42;
 }
 
-.last-mo  {
+.last-mo {
     margin-top: 1rem;
     opacity: 0.7;
 }
@@ -597,68 +663,73 @@ footer .twit {
     p {
         font-size: 1.2rem;
     }
+
     .main-grid {
         display: grid;
         grid-template-columns: minmax(390px, 573px);
-        grid-template-areas: 
-        "logo"
-        "navbar"
-        "event"
-        "second-paragraph"
-        "sunset"
-        "sutton"
-        "galway-2"
-        "about-us"
-        "sponsors"
-        "sponsors-logo";
-        
+        grid-template-areas:
+            "logo"
+            "navbar"
+            "event"
+            "second-paragraph"
+            "sunset"
+            "sutton"
+            "galway-2"
+            "about-us"
+            "sponsors"
+            "sponsors-logo";
+
         margin: 1rem;
-     }
-/* logo mobile */
+    }
+
+    /* logo mobile */
     .logo {
         grid-area: logo;
         display: flex;
         flex-direction: column;
-        
-    }
-    
-    .logo img {
-        
-        
-    }
-    
-    .logo h1{
-        letter-spacing: .2rem;
-        font-size: 2rem;
-        
+
     }
 
-    .event, .second-paragraph, .sutton, .galway-2 , .about-us, .sponsors p {
+    .logo img {}
+
+    .logo h1 {
+        letter-spacing: .2rem;
+        font-size: 2rem;
+
+    }
+
+    .event,
+    .second-paragraph,
+    .sutton,
+    .galway-2,
+    .about-us,
+    .sponsors p {
         font-size: 1.3rem;
         margin: .5rem;
-        
+
     }
-/* navigation mobile */
-     .navbar {
+
+    /* navigation mobile */
+    .navbar {
         grid-area: navbar;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        
-        
+
+
         background-color: var(--light);
         color: var(--primary);
         position: relative;
         position: sticky;
         top: 0;
         font-size: 1.5rem;
-        
+
     }
-    
+
     .navbar-links {
         height: 100%;
     }
-    
+
     .navbar-links ul {
         grid-area: navbar;
         display: flex;
@@ -666,26 +737,25 @@ footer .twit {
         padding: 1rem;
         font-weight: 600;
     }
-    
+
     .navbar-links li {
         list-style: none;
         padding: 1rem 1.5rem 1rem 1.5rem;
-        
+
     }
-    
+
     .navbar-links li a {
         display: flex;
         text-decoration: none;
         text-transform: uppercase;
         color: var(--primary);
-        
-        
+
+
     }
-    
+
     .navbar-links li:hover {
         background: rgb(205, 205, 205);
         border-bottom: 2px solid #808080
-        
     }
 
     /* end of navigation  */
@@ -704,21 +774,22 @@ footer .twit {
     .side-ad {
         grid-area: side-ad;
         display: flex;
-        
+
         margin: 0;
         align-items: center;
         padding: 0rem 0rem 0rem 0rem;
     }
-    
+
     .side-ad mo {
         display: flex;
         justify-items: auto;
 
     }
+
     .side-ad h2 {
-    color: var(--light);
-    font-size: 3rem;
-    
+        color: var(--light);
+        font-size: 3rem;
+
     }
 
     .h1-1 {
@@ -728,6 +799,7 @@ footer .twit {
     .h1-2 {
         padding: .4rem;
     }
+
     .side-ad h3 {
         color: var(--light);
         font-size: 2rem;
@@ -737,6 +809,7 @@ footer .twit {
     .h3-1 {
         padding: .4rem;
     }
+
     .h3-2 {
         padding-bottom: .4rem;
     }
@@ -744,42 +817,69 @@ footer .twit {
     .mo {
         max-width: 70%;
     }
+
     .side-ad i {
         display: none;
     }
 
-/*  end of side ad */
+    /*  end of side ad */
 
-  
-  .sponsors-logo {
-    grid-area: sponsors-logo;
-    display: flex;
-    width: 100%;
-    gap: 1rem;
-    background-color: var(--light);
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
-  }
+    /* locations  */
 
-  .pringles-png,.gillette-png,.guinness-png,.titleist-png {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    .sutton {
+        flex-direction: column;
+        align-items: center;
+    }
 
-}
+    /* .sutton img {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    } */
 
-.pringles-png:hover, .gillette-png:hover, .guinness-png:hover, .titleist-png:hover {
-     filter: none;
-     -webkit-filter: grayscale(0);
-}
+    .btn {
+        left: 0%;
+        margin-top: 1rem;
 
-.gillette {
-    margin-top: 1rem;
-}
+    }
 
-  /* gallary mobile */
-  /* .gallery {
+
+
+
+    .sponsors-logo {
+        grid-area: sponsors-logo;
+        display: flex;
+        width: 100%;
+        gap: 1rem;
+        background-color: var(--light);
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .pringles-png,
+    .gillette-png,
+    .guinness-png,
+    .titleist-png {
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+
+    }
+
+    .pringles-png:hover,
+    .gillette-png:hover,
+    .guinness-png:hover,
+    .titleist-png:hover {
+        filter: none;
+        -webkit-filter: grayscale(0);
+    }
+
+    .gillette {
+        margin-top: 1rem;
+    }
+
+    /* gallary mobile */
+    /* .gallery {
     background: rgb(249, 249, 249, 07);
     padding: .8rem;
     max-width: 100%;
@@ -825,25 +925,25 @@ footer .twit {
     object-fit: cover;
 
 } */
- 
- }
- 
+
+}
+
 
 @media screen and (min-width: 574px) and (max-width: 1136px) {
     .main-grid {
         margin: 2rem;
     }
-    
-    .logo h1{
+
+    .logo h1 {
         letter-spacing: .2rem;
         font-size: 2.5rem;
-       
-     }
-     
+
+    }
+
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-       }
+    }
 
     .toggle-button {
         display: flex;
@@ -854,7 +954,7 @@ footer .twit {
         width: 100%;
         font-size: 1.2rem;
     }
-    
+
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
@@ -873,26 +973,29 @@ footer .twit {
     }
 
     .side-ad h2 {
-       font-size: 3rem;
-        
+        font-size: 3rem;
+
     }
-    
+
     .h1-1 {
         padding: .4rem;
     }
-    
-     .h1-2 {
+
+    .h1-2 {
         padding: .4rem;
-     }
+    }
+
     .side-ad h3 {
         font-size: 2rem;
-        
+
     }
+
     .h3-1 {
         padding: .4rem;
     }
+
     .h3-2 {
         padding-bottom: .4rem;
     }
-    
+
 }
