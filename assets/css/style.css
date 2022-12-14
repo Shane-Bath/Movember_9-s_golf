@@ -495,16 +495,8 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-
-
 }
 
-/* .pringles, .gillette, .guinness, .titleist {
-    
-    aspect-ratio: 3/2;
-    object-fit: contain;
-    } */
 
 .pringles-png,
 .gillette-png,
@@ -522,6 +514,14 @@ img {
     filter: none;
     -webkit-filter: grayscale(0);
 }
+
+.pringles-png,
+.gillette-png,
+.guinness-png,
+.titleist-png {
+    
+}
+
 
 .gillette {
     margin-top: 2rem;
