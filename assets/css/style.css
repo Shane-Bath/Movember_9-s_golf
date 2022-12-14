@@ -119,7 +119,6 @@ img {
         "logo navbar"
         "event second-paragraph"
         "sunset sunset"
-
         "sutton galway-2"
         "about-us about-us"
         "sponsors sponsors"
@@ -172,9 +171,9 @@ img {
 .navbar {
     grid-area: navbar;
     display: flex;
-    /* flex-direction: row-reverse; */
     position: relative;
     justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     background-color: var(--light);
     color: var(--primary);
@@ -194,6 +193,7 @@ img {
     margin: 0;
     padding: 1rem;
     font-weight: 600;
+    gap: 4rem;
 }
 
 .navbar-links li {
@@ -212,7 +212,9 @@ img {
 }
 
 .navbar-links li:hover {
-    background: rgb(205, 205, 205);
+    background: rgb(247, 247, 247);
+    box-shadow: var(--shadow);
+    border-radius: 1rem;
     border-bottom: 2px solid #808080
 }
 
@@ -715,8 +717,6 @@ footer .twit {
         display: flex;
         flex-direction: row;
         justify-content: center;
-
-
         background-color: var(--light);
         color: var(--primary);
         position: relative;
@@ -736,6 +736,7 @@ footer .twit {
         margin: 0;
         padding: 1rem;
         font-weight: 600;
+        gap: 0rem;
     }
 
     .navbar-links li {
@@ -753,10 +754,7 @@ footer .twit {
 
     }
 
-    .navbar-links li:hover {
-        background: rgb(205, 205, 205);
-        border-bottom: 2px solid #808080
-    }
+  
 
     /* end of navigation  */
 
@@ -774,8 +772,7 @@ footer .twit {
     .side-ad {
         grid-area: side-ad;
         display: flex;
-
-        margin: 0;
+        margin-top: 1rem;
         align-items: center;
         padding: 0rem 0rem 0rem 0rem;
     }
