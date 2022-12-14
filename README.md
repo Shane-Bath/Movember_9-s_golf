@@ -21,20 +21,8 @@ A promotional website to sell to tickets to a 9 hole golf event to  raise money 
   - Layout
   - Transitions
 - Wireframes
-- Features
-  - Logo 
-  - Navigation 
-  - landing page 
-  - Side Banner (Ad)
-  - Event section 
-  - About us and Sponsors
-  - Gallery 
-  - Booking page 
-  - Contact us page
-  - Footer
 - Technical
   - Tools and Libraries
-- Inspiration
 - Testing 
   - Unfixed Bugs 
 - Deployment
@@ -114,3 +102,15 @@ I have taken inspiration from the Movember charity website and decided to adopt 
 I used Balsamiq to build the wireframes of the site. I found the wireframing process useful as it provided me with a visual reference point.
  
  Links below to the wire frames. 
+
+ ## Technical 
+ - Tools and Library 
+
+
+## Testing 
+
+## Unfixed bugs
+
+## Deployment 
+
+## Credit
