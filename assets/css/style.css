@@ -955,21 +955,38 @@ body {
 
 /* booking page */
 
+#booking-top {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        "logo navbar"
+       
+}
+
 body {
-    background: #f0f0f0;
+    background: var(--light);
     font-family: inherit;
     line-height: inherit;
+    
 }
 
 #booking {
-    width: 50rem;
+    grid-area: booking;
+}
+
+.navbar  ul li {
+    grid-area: navbar;
+}
+
+#booking {
+    max-width: 50rem;
     margin: 3rem auto;
     background-color: var(--light);
     position: relative;
     padding: 1rem;
 }
 
-#booking .wrap {
+#booking {
     padding: 1rem;
 }
 
@@ -1070,7 +1087,55 @@ body {
     color: var(--primary);
 }
 
+.book-button {
+    margin-top: 5rem;
+    text-align: center;
+}
 
+.book-button input  {
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: .6rem;
+    cursor: pointer;
+    background: var(--primary);
+    color: var(--light);
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 0 0 #424141,2px 2px 0 0 #424141,3px 3px 0 0 #424141;
+    transition: all 250ms ease;
+    filter: (0);
+}
+   
+
+.book-button input:hover {
+    opacity: 80%;
+    box-shadow: 1px 1px 0 0 #DFDFDF,2px 2px 0 0 #DFDFDF,3px 3px 0 0 #DFDFDF;
+    margin-top: 22px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    animation: shake .5s;
+}
+
+.hover-text {
+    align-items: center;
+    font-weight: 800;
+    color: var(--primary);
+    opacity: 10%;
+}
+
+.hover-text:hover {
+    opacity: 100%;
+}
+
+#booking-footer {
+    grid-area: footer;
+    margin-top: 13rem;
+}
 
 /* screen sizes */
 @media screen and (max-width: 573px) {
@@ -1292,6 +1357,18 @@ body {
         font-size: 0.8em;
         }
 
+         /* Mobile booking page */
+
+         #booking-top {
+             display: flex;
+             align-items: center;
+            flex-direction: column;
+         }
+
+}
+
+
+        
 
 
 

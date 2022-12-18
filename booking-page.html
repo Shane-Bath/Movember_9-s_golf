@@ -10,82 +10,120 @@
 </head>
 
 <body>
-    <section id="booking">
-        <div class="header">
-            <h1>Book your place now </h1>
+    <div id="booking-top">
+    <section id="booking-logo">
+        <div id="home" class="logo">
+            <a href="./index.html">
+                <img src="./assets/images/main-logo.png" alt="movember logo moustache">
+            </a>
+            <a href="./index.html">
+                <h1>
+                    Movember 9's
+                </h1>
+            </a>
+
         </div>
-        <div class="">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo hic ullam aliquam! Sunt, rerum
-                cumque.
-            </p>
+    </section>
 
-            <form action="" method="post" class="booking-form">
-                <div class="name">
-                    <p class="input-wrapper-booking"><input type="text" name="booking-name" value="" id="booking-name">
-                        <label for="contact-name">NAME</label>
-                    </p>
-                </div>
-
-                <div class="email">
-                    <p class="input-wrapper-booking"><input type="text" name="contact-email" value=""
-                            id="contact-email">
-                        <label for="contact-email">EMAIL</label>
-
-                </div>
-
-
-                <div class="number-players">
-                    <p class="input-wrapper-booking">
-                        <input type="number" name="number-players" value="" id="number-players" min="1" max="4">
-                        <label for="number-players">PLAYERS</label>
-                    </p>
-                </div>
-
-                <div class="pick-venue">
-                    <p class="input-wrapper-booking">
-                        <select name="list-venues" name="venue" value="" id="venue">
-                            <option value="">--Please choose your course--</option>
-                            <option value="Sutton">Sutton</option>
-                            <option value="Galway">Galway</option>
-                        </select>
-
-                        <label for="venue">VENUE</label>
-                        
-                    </p>
-                </div>
+    <section id="navigation">
+        <nav class="navbar">
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#locations">Locations</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="/contact-us.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav> 
+    </section>
+</div>
 
 
 
-                <footer>
-                    <div class="face">
-                        <a href="https://www.facebook.com" target="_blank">
-                            <i class="fa-brands fa-facebook fa fa-1.5x">
-                            </i>
-                        </a>
+        <section id="booking">
+            <div class="header">
+                <h1>Book your place now </h1>
+            </div>
+            <div class="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo hic ullam aliquam! Sunt, rerum
+                    cumque.
+                </p>
+
+                <form action="" method="post" class="booking-form">
+                    <div class="name">
+                        <p class="input-wrapper-booking"><input type="text" name="booking-name" value=""
+                                id="booking-name">
+                            <label for="contact-name">NAME</label>
+                        </p>
+                    </div>
+
+                    <div class="email">
+                        <p class="input-wrapper-booking"><input type="text" name="contact-email" value=""
+                                id="contact-email">
+                            <label for="contact-email">EMAIL</label>
 
                     </div>
-                    <div class="insta">
-                        <a href="http://www.instgram.com" target="_blank">
-                            <i class="fa-brands fa-instagram fa-1.5x"></i>
-                        </a>
-
-                    </div>
-                    <div class="twit">
-                        <a href="https://www.twitter.com" target="_blank">
-                            <i class="fa-brands fa-twitter fa-1.5x"></i>
-                        </a>
-                    </div>
-                    <div class="last-mo">
-                        <a href="https://www.movember.com" target="_blank">
-                            <img src="./assets/images/footer-mo.png" alt="">
-                        </a>
-                    </div>
-                </footer>
 
 
-                <script src="https://kit.fontawesome.com/ed160d90da.js" crossorigin="anonymous"></script>
-                <script src="script.js" defer></script>
+                    <div class="number-players">
+                        <p class="input-wrapper-booking">
+                            <input type="number" name="number-players" value="" id="number-players" min="1" max="4">
+                            <label for="number-players">PLAYERS</label>
+                        </p>
+                    </div>
+
+                    <div class="pick-venue">
+                        <p class="input-wrapper-booking">
+                            <select name="list-venues" name="venue" value="" id="venue">
+                                <option value="">--Please choose your course--</option>
+                                <option value="Sutton">Sutton</option>
+                                <option value="Galway">Galway</option>
+                            </select>
+
+                            <label for="venue">VENUE</label>
+
+                        </p>
+                    </div>
+                    <div class="book-button">
+
+                        <input type="image" value="Book Now" src="/assets/images/side-ad-mo.PNG" alt="booking-button">
+                        <h2 class="hover-text">Book Now !</h2>
+                    </div>
+                </form>
+
+        </section>
+
+        <footer id="booking-footer">
+            <div class="face">
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fa-brands fa-facebook fa fa-1.5x">
+                    </i>
+                </a>
+
+            </div>
+            <div class="insta">
+                <a href="http://www.instgram.com" target="_blank">
+                    <i class="fa-brands fa-instagram fa-1.5x"></i>
+                </a>
+
+            </div>
+            <div class="twit">
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fa-brands fa-twitter fa-1.5x"></i>
+                </a>
+            </div>
+            <div class="last-mo">
+                <a href="https://www.movember.com" target="_blank">
+                    <img src="./assets/images/footer-mo.png" alt="">
+                </a>
+            </div>
+        </footer>
+
+
+        <script src="https://kit.fontawesome.com/ed160d90da.js" crossorigin="anonymous"></script>
+        <script src="script.js" defer></script>
 </body>
 
 </html>
