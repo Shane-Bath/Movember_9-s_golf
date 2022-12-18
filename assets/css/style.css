@@ -836,7 +836,7 @@ body {
     box-sizing: border-box;
     padding: 1.6rem;
     transition: all 250ms ease;
-    color: #5e5e5e;
+    color: var(--primary);
     text-indent: 20%;
     
 }
@@ -951,8 +951,126 @@ body {
     animation: shake .5s;
 }
 
-
  /* end of contact us page  */
+
+/* booking page */
+
+body {
+    background: #f0f0f0;
+    font-family: inherit;
+    line-height: inherit;
+}
+
+#booking {
+    width: 50rem;
+    margin: 3rem auto;
+    background-color: var(--light);
+    position: relative;
+    padding: 1rem;
+}
+
+#booking .wrap {
+    padding: 1rem;
+}
+
+#booking h1 {
+    background: var(--primary);
+    font-family: 'anton';
+    font-size: 3rem;
+    padding: .6rem 0 .6rem 1rem;
+    color: var(--light);
+    letter-spacing: 2.3px;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.input-wrapper-booking {
+    position: relative;
+}
+.input-wrapper-booking input[type="text"] {
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+    background: var(--light);
+    border: 1px solid #DADADA;
+    border: 1px solid #DADADA;
+    box-shadow: 0 0 1px 0 #E4E4E4;
+    box-sizing: border-box;
+    padding: 1.6rem;
+    color: var(--primary);
+    text-indent: 20%;
+}
+
+.input-wrapper-booking input[type="text"]:focus {
+    background: rgba(242, 56, 90, 0.05);
+    box-shadow: inset 2px 2px 5px 0 #DADADA;
+    outline: none;
+    text-indent: 20%;
+}
+
+.input-wrapper-booking label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: var(--primary);
+    color: var(--light);
+    font: inherit;
+    box-sizing: border-box;
+    width: 20%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    text-align: center;
+    line-height: 4.4rem;
+}
+
+#booking p {
+    margin-bottom: 2rem;
+
+}
+.name, .email {
+    margin-bottom: 3rem;
+}
+
+.number-players {
+    margin-top: 3rem;
+    line-height: 4.4rem
+
+}
+
+.number-players input {
+    display: block;
+    margin-top: 1rem;
+    text-indent: 50%;
+    width: 50%;
+    border: 1px solid #DADADA;
+    border: 1px solid #DADADA;
+    box-shadow: 0 0 1px 0 #E4E4E4;
+    box-sizing: border-box;
+    padding: 1.6rem;
+    color: var(--primary);
+    font-weight: 800;  
+}
+
+.pick-venue {
+    margin-top: 3rem;
+    line-height: 4.4rem
+}
+
+.pick-venue select {
+    display: block;
+    margin-top: 1rem;
+    text-indent: 50%;
+    width: 50%;
+    border: 1px solid #DADADA;
+    border: 1px solid #DADADA;
+    box-shadow: 0 0 1px 0 #E4E4E4;
+    box-sizing: border-box;
+    padding: 1.6rem;
+    color: var(--primary);
+}
+
+
 
 /* screen sizes */
 @media screen and (max-width: 573px) {
