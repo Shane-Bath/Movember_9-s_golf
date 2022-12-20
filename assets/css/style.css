@@ -22,6 +22,10 @@ html {
     font-family: 'Overpass', sans-serif;
     color: var(--dark);
     font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+    
+     
 }
 
 p {
@@ -233,7 +237,7 @@ img {
 }
 
 
-.side-ad {
+.side-banner {
     margin-top: 1rem;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -244,7 +248,7 @@ img {
     font-family: 'Anton';
 }
 
-.side-ad h2 {
+.side-banner h2 {
     color: var(--light);
     font-size: 4rem;
 
@@ -258,7 +262,7 @@ img {
     padding: 1rem;
 }
 
-.side-ad h3 {
+.side-banner h3 {
     color: var(--light);
     font-size: 3rem;
     text-transform: uppercase;
@@ -272,7 +276,7 @@ img {
     padding-bottom: 1rem;
 }
 
-.side-ad i {
+.side-banner i {
     display: flex;
     flex-direction: column;
     margin: 5px;
@@ -284,7 +288,7 @@ img {
 /* Logo animation  */
 
 
-.side-ad .mo {
+.side-banner .mo {
     animation-name: zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -309,9 +313,10 @@ img {
     grid-area: sunset;
     display: flex;
     flex-direction: column-reverse;
-    max-width: auto;
+    max-width: 180rem;
     padding: 1rem;
     box-shadow: var(--shadow);
+    margin-bottom: 10rem;
 
 }
 
@@ -351,12 +356,6 @@ img {
 
 }
 
-/* 
-.btn {
-    position: relative;
-    left: 40%;
-} */
-
 .galway-2 {
     grid-area: galway-2;
     display: flex;
@@ -385,11 +384,15 @@ img {
 /* end of locations */
 
 /* About us and Sponsors */
-
+/* #about {
+    height: 100vh;
+    scroll-margin-top: 10rem;
+} */
 .about-us {
     grid-area: about-us;
     color: var(--primary);
     margin: 2rem 0rem 2rem 0rem;
+    
 }
 
 .about-us h2 {
@@ -1072,6 +1075,15 @@ body {
 }
 
 /* screen sizes */
+
+@media screen and (min-width: 992px) {
+    #location {
+        height: 100vh;
+        scroll-margin-top: 10rem;
+    }
+    
+}
+
 @media screen and (max-width: 573px) {
     p {
         font-size: 1.2rem;
@@ -1180,21 +1192,27 @@ body {
     }
 
     /* side- ad  NEED TO CHECK RIGHT MARGIN*/
-    .side-ad {
+    #page-2 {
+        margin-top: 1rem;
+        margin-left: 0px;
+        
+    }
+    .side-banner {
         grid-area: side-ad;
         display: flex;
         margin-top: 1rem;
+        margin-bottom: 1rem;
         align-items: center;
         padding: 0rem 0rem 0rem 0rem;
     }
 
-    .side-ad mo {
+    .side-banner mo {
         display: flex;
         justify-items: auto;
 
     }
 
-    .side-ad h2 {
+    .side-banner h2 {
         color: var(--light);
         font-size: 3rem;
 
@@ -1208,7 +1226,7 @@ body {
         padding: .4rem;
     }
 
-    .side-ad h3 {
+    .side-banner h3 {
         color: var(--light);
         font-size: 2rem;
         text-transform: uppercase;
@@ -1226,7 +1244,7 @@ body {
         max-width: 70%;
     }
 
-    .side-ad i {
+    .side-banner i {
         display: none;
     }
 
@@ -1234,15 +1252,23 @@ body {
 
     /* locations  */
 
+    #location {
+        scroll-margin-top: 9rem;
+    }
+
     .sutton {
+        
         flex-direction: column;
         align-items: center;
     }
 
-    /* .sutton img {
-        margin-top: .5rem;
-        margin-bottom: .5rem;
-    } */
+    .sutton-img
+    .galway-img
+    {
+        width: fit-content;
+    }
+
+
 
     .btn {
         left: 0%;

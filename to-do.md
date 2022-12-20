@@ -1,16 +1,29 @@
 ## To-do list 
+#general
+- html and css edits 
+- ~~rename side ad~~
+- button
+- galway picture 
+- galway text
+- contact us text
+- booking text
 
-### Meta data and design 
-- complete meta data
-    - Keywords 
-    - discription
-    - review SEO meta data 
-    
-- Font family 
-    - Google font overpass
+#Small screen (max 576 px)
+- Navbar not sticking
+- ~~second paragraph not aligned~~
+- ad not align
+- location not moving to correct place 
+- contact us top bar padding 
+- contact us nav not working 
+- is logo centered
+- reduce header sizes
+- margins
 
-- figure out why checkboxes are not working in markdown
 
-### Basic structure 
-- set up format of site 
-- set up css style
+#middle screen (min 577 px)
+- navigation 
+- align paragraphs 
+- locations margin
+
+
+#large screen (min 992px)
