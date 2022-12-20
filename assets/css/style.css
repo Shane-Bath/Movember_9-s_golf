@@ -367,7 +367,8 @@ img {
 
 
 .sutton-img {
-    max-width: auto;
+    width: 95%;
+    
     padding: 1rem;
     box-shadow: var(--shadow);
 }
@@ -393,7 +394,8 @@ img {
 }
 
 .galway-img {
-    max-width: auto;
+    width: 95%;
+    
     padding: 1rem;
     box-shadow: var(--shadow);
 }
@@ -1019,7 +1021,7 @@ body {
 
 /* screen sizes */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     #location {
         height: 100vh;
         scroll-margin-top: 10rem;
@@ -1044,16 +1046,19 @@ body {
     .about-us {
         grid-area: about-us;
         margin-top: 4rem;
+        width: auto;
     }
 
     .sponsors {
         grid-area: sponsors;
         margin-top: 4rem;
+        width: auto;
     }
 
     .sponsors-logo {
         grid-area: sponsors-logo;
         margin: 4rem 2rem;
+        width: auto;
     }
 
     footer {
@@ -1061,12 +1066,137 @@ body {
     }
 }
 
+@media screen and (min-width: 781px) and (max-width: 1100px) {
 
-@media screen and (max-width: 573px) {
+    .event,
+    .second-paragraph,
+    .sutton,
+    .galway-2,
+    .about-us,
+    .sponsors,
+    p {
+        font-size: 1.5rem;
+        margin: .5rem;
+    }
+
+    .event h2,
+    .sutton h2,
+    .galway-2 h2,
+    .about-us h2,
+    .sponsors h2 {
+        font-size: 2.6rem;
+        
+    }
+    
+    .main-grid {
+        margin: 2rem;
+    }
+
+    .logo h1 {
+        letter-spacing: .2rem;
+        font-size: 2.5rem;
+
+    }
+
+    .navbar-links ul {
+        flex-direction: row;
+        gap: 0;
+        padding: 0;
+        display: flex;
+        width: auto;
+        font-size: 1.2rem;
+
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .side-banner {
+        padding-bottom: 0;
+    }
+
+    .side-banner h2 {
+        font-size: 3rem;
+
+    }
+
+    .h1-1 {
+        padding: .4rem;
+    }
+
+    .h1-2 {
+        padding: .4rem;
+    }
+
+    .side-banner h3 {
+        font-size: 2rem;
+
+    }
+
+    .h3-1 {
+        padding: .4rem;
+    }
+
+    .h3-2 {
+        padding-bottom: .4rem;
+    }
+
+    .sunset {
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    .sutton-img,
+    .galway-img {
+        width: 90%;
+    }
+
+    .book-button {
+        width: 80%;
+    }
+
+    #about {
+        margin: 2rem;
+    }
+
+    #about h2 {
+        padding: 2rem 0rem 2rem 0rem;
+        text-align: center;
+    }
+
+    .about-us {
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .sponsors h2 {
+        margin-top: 3rem;
+    }
+
+    .sponsors-logo {
+        margin-top: 3rem;
+        
+    }
+
+    .sponsors-logo img {
+        width: 80%;
+        
+    }
+
+}
+
+
+@media screen and (max-width: 780px) {
 
     .main-grid {
         display: grid;
-        grid-template-columns: minmax(390px, 573px);
+        grid-template-columns: minmax(390px, 780px);
         grid-template-areas:
             "logo"
             "navbar"
@@ -1260,6 +1390,7 @@ body {
         
         flex-direction: column;
         align-items: center;
+        
     }
 
     .sutton-img
@@ -1285,6 +1416,7 @@ body {
     #about {
         height: 100vh;
         scroll-margin-top: 8rem;
+        width: auto;
     }
 
     .about-us,
@@ -1371,76 +1503,7 @@ body {
 
 
 
-@media screen and (min-width: 574px) and (max-width: 1136px) {
-    .main-grid {
-        margin: 2rem;
-    }
 
-    .logo h1 {
-        letter-spacing: .2rem;
-        font-size: 2.5rem;
-
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-links {
-        display: none;
-        width: 100%;
-        font-size: 1.2rem;
-    }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links li {
-        text-align: center;
-    }
-
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
-
-    .side-ad h2 {
-        font-size: 3rem;
-
-    }
-
-    .h1-1 {
-        padding: .4rem;
-    }
-
-    .h1-2 {
-        padding: .4rem;
-    }
-
-    .side-ad h3 {
-        font-size: 2rem;
-
-    }
-
-    .h3-1 {
-        padding: .4rem;
-    }
-
-    .h3-2 {
-        padding-bottom: .4rem;
-    }
-
-}
 
 /* Animation */
 
