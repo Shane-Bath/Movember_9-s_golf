@@ -47,7 +47,7 @@ img {
     max-width: 100%;
 }
 
-
+/* booking button */
 .book-button {
     margin-top: 5rem;
     text-align: center;
@@ -98,6 +98,7 @@ img {
     text-decoration: none;
     color: var(--primary);
 }
+/*  End of Booking button */
 
 /* Navigation  */
 
@@ -243,12 +244,7 @@ img {
 .sutton-png:hover {
     transform: scale(1.1);
     transition: ease-out-in .5sec;
-
 }
-
-
-
-
 
 /* Side ad for movember */
 
@@ -265,7 +261,6 @@ img {
     align-items: center;
 
 }
-
 
 .side-banner {
     margin-top: 1rem;
@@ -313,10 +308,7 @@ img {
     color: var(--light);
 }
 
-
-
 /* Logo animation  */
-
 
 .side-banner .mo {
     animation-name: zoom;
@@ -337,7 +329,6 @@ img {
 }
 
 /* end of animation  */
-
 
 .sunset {
     grid-area: sunset;
