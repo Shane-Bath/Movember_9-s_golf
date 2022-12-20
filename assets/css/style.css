@@ -1061,7 +1061,7 @@ body {
 
 /* screen sizes */
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
     #location {
         height: 100vh;
         scroll-margin-top: 10rem;
@@ -1080,11 +1080,25 @@ body {
     margin: 3rem 10rem 5rem 10rem;
     background: var(--light);
     }
+
+    .about-us {
+        grid-area: about-us;
+    
+    }
+
+    .sponsors {
+        grid-area: sponsors;
+    }
+
+    .sponsors-logo {
+        grid-area: sponsors-logo;
+    }
+
+    footer {
+        grid-area: footer;
+    }
 }
 
-.about-us {
-
-}
 
 @media screen and (max-width: 573px) {
 
@@ -1098,14 +1112,22 @@ body {
             "second-paragraph"
             "sunset"
             "sutton"
-            "galway-2"
+            "galway-2";
+
+        margin: 1rem;
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: minmax(390px, 573px);
+        grid-template-areas: 
             "about-us"
             "sponsors"
             "sponsors-logo"
             "footer";
-
         margin: 1rem;
-    }
+       
+        }
 
     .event,
     .second-paragraph,
