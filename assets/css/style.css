@@ -488,19 +488,14 @@ img {
     margin-top: 2rem;
 }
 
-
-
-
-
 /* Gallery */
 
-
 .gallery-head {
+    display: flex;
+    justify-content: center;
     color: var(--h);
-    margin: 3rem 38rem;
     font-size: 4rem;
     color: var(--primary);
-    text-align: center;
     font-weight: 800;
 }
 
@@ -1514,6 +1509,10 @@ body {
           .input_wrapper label {
         line-height: 3.5em;
         font-size: 0.8em;
+        }
+
+        .gallery-head h2 {
+            font-size: 3rem;
         }
 
 }
