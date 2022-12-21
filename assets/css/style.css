@@ -151,6 +151,14 @@ img {
     animation: shake .5s;
 }
 
+#contact-logo,
+#gallery-logo,
+#booking-logo {
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+
 
 /* Navigation bar */
 
@@ -308,6 +316,7 @@ img {
     color: var(--light);
 }
 
+
 /* Logo animation  */
 
 .side-banner .mo {
@@ -419,15 +428,22 @@ img {
     font-size: 3rem;
     font-weight: 800;
     color: var(--primary);
+    margin-bottom: 3rem;
 
 }
 
+.gallery-p {
+    margin-top: 1rem;
+    font-weight: 800;
+}
+ 
 .sponsors {
     color: var(--primary);
     margin: 0rem 0rem 2rem 0rem;
 }
 
 .sponsors h2 {
+    margin-bottom: 3rem;
     font-size: 3rem;
     font-weight: 800;
     color: var(--primary);
@@ -477,12 +493,15 @@ img {
 
 
 /* Gallery */
+
+
 .gallery-head {
     color: var(--h);
-    margin: 0 38rem 2rem;
-    font-size: 2rem;
+    margin: 3rem 38rem;
+    font-size: 4rem;
     color: var(--primary);
-
+    text-align: center;
+    font-weight: 800;
 }
 
 .gallery {
@@ -873,13 +892,6 @@ body {
 
 /* booking page */
 
-#booking-top {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas:
-        "logo navbar"
-       
-}
 
 body {
     background: var(--light);
@@ -1503,18 +1515,6 @@ body {
         line-height: 3.5em;
         font-size: 0.8em;
         }
-
-
-        /* mobile contact page */
-
-
-         /* Mobile booking page */
-
-         #booking-top {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-         }
 
 }
 
