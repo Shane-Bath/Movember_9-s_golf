@@ -48,6 +48,7 @@ img {
 }
 
 /* booking button */
+
 .book-button {
     margin-top: 5rem;
     text-align: center;
@@ -120,13 +121,17 @@ img {
     position: relative;
     position: sticky;
     top: 0;
+    z-index: 9999;
+    
 }
 
 .logo {
     grid-area: logo;
     background: var(--light);
+    /* background: red; */
     display: flex;
     align-items: center;
+    padding-bottom: 3rem;
 }
 
 .logo img {
@@ -166,6 +171,7 @@ img {
     position: relative;
     position: sticky;
     top: 0;
+    padding-bottom: 3rem;
 }
 
 .navbar {
@@ -175,8 +181,10 @@ img {
     justify-content: flex-end;
     align-items: center;
     background-color: var(--light);
+    /* background: red; */
     color: var(--primary);
     font-size: 2rem;
+    padding-bottom: 1.3rem;
 
 }
 
@@ -566,8 +574,7 @@ footer .face .fa {
     font-weight: 800;
     font-size: x-large;
 
-    /* change color hover - because icon is a font changed the color but for the image i decieded to use 
-    opacity. I guess i could opacity for both, it only came to me later*/
+    /* change color hover */
 }
 
 footer .face .fa:hover {
@@ -612,60 +619,6 @@ footer .twit {
 .last-mo:hover {
     opacity: 1;
 }
-
-
-
-
-
-
-    /* gallary mobile
-    /* .gallery {
-    background: rgb(249, 249, 249, 07);
-    padding: .8rem;
-    max-width: 100%;
-    margin: 0 auto;
-    display: grid;
-    gap: .8rem;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-auto-rows: 16rem;
-    grid-auto-flow: dense;
-
-
-}
-
-.gallery-head {
-    color: var(--h);
-    margin-left: 1rem;
-}
-
-.v-grid {
-    grid-column: span 4;
-    grid-row: span 2;
-    
-}
-
-.h-grid {
-    grid-column: span 2;
-    grid-row: span 2;
-}
-
-.big-grid {
-    grid-column: span 4;
-    grid-row: span 3;
-}
-
-.bigger-grid {
-    grid-column: span 4;
-    grid-row: span 2;
-}
-
-.gallery div img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-} */
-
 
 
 /* Contact-us page */
