@@ -150,11 +150,7 @@
                     </a>
                 </div>
 
-                <div class="container">
-                    <div class="interior">
-                        <a href="#open-modal" class="modal-btn">Book Now!</a>
-                    </div>
-                </div>
+                
         </section>
         <!-- galway -->
         <div class="galway-2">
@@ -163,7 +159,8 @@
             <p>Founded in 1885 by Mr. John Lumsden, The Royal Dublin Golf Club is steeped in golfing history and
                 presents a stern golfing examination on a truly magnificent links course and is widely accepted as one
                 of the greatest links courses in the world. The links was originally designed by H.S.Colt, the world
-                famous golf architect from Sunningdale. A great opportunity to play this magnificent old links while helping with men's health research.</p>
+                famous golf architect from Sunningdale. A great opportunity to play this magnificent old links while
+                helping with men's health research.</p>
 
             <div class="book-button">
                 <a href="booking-page.html">
@@ -264,69 +261,82 @@
             </div>
         </footer>
     </section>
-<!-- modal -->
-<div class="open-window" id="open-modal"></div> 
-<a href="#" title="close" class="modal-close"></a>
-<section id="booking">
-    <div class="header">
-        <h1>Book your place now </h1>
+    <!-- modal -->
+
+    <div class="container">
+        <div class="interior">
+            <a href="#open-modal" class="modal-btn">Book Now!</a>
+        </div>
     </div>
-    <div class="">
-        <p>
-            Book your place now, select your preferred course and the number of players. See you on the first.
-        </p>
-
-        <form action="" method="post" class="booking-form">
-            <div class="name">
-                <p class="input-wrapper-booking"><input type="text" name="booking-name" value="" id="booking-name">
-                    <label for="contact-name">NAME</label>
-                </p>
-            </div>
-
-            <div class="email">
-                <p class="input-wrapper-booking"><input type="text" name="contact-email" value=""
-                        id="contact-email">
-                    <label for="contact-email">EMAIL</label>
-
-            </div>
 
 
-            <div class="number-players">
-                <p class="input-wrapper-booking">
-                    <input type="number" name="number-players" value="" id="number-players" min="1" max="4">
-                    <label for="number-players">PLAYERS</label>
-                </p>
-            </div>
+    <div class="modal-window" id="open-modal">
+        <div>
+            <a href="#" title="close" class="modal-close">close</a>
+            <section id="booking">
+                <div class="header">
+                    <h1>Book your place now </h1>
+                </div>
+                <div class="">
+                    <p>
+                        Book your place now, select your preferred course and the number of players. See you on the
+                        first.
+                    </p>
 
-            <div class="pick-venue">
-                <p class="input-wrapper-booking">
-                    <select name="list-venues" name="venue" value="" id="venue">
-                        <option value="">--Please choose your course--</option>
-                        <option value="Sutton">Sutton</option>
-                        <option value="Galway">Galway</option>
-                    </select>
+                    <form action="" method="post" class="booking-form">
+                        <div class="name">
+                            <p class="input-wrapper-booking"><input type="text" name="booking-name" value=""
+                                    id="booking-name">
+                                <label for="contact-name">NAME</label>
+                            </p>
+                        </div>
 
-                    <label for="venue">VENUE</label>
+                        <div class="email">
+                            <p class="input-wrapper-booking"><input type="text" name="contact-email" value=""
+                                    id="contact-email">
+                                <label for="contact-email">EMAIL</label>
 
-                </p>
-            </div>
-            <div class="book-button">
-                <a href="thank-you.html">
-                    <img src="./assets/images/side-ad-mo.png" alt="button moustache">
-                </a>
-
-
-
-            </div>
-        </form>
-
-
-    <!-- scripts -->
-    <script src="https://kit.fontawesome.com/ed160d90da.js" crossorigin="anonymous"></script>
-    <script src="script.js" defer></script>
+                        </div>
 
 
-    <!-- wrapper ends -->
+                        <div class="number-players">
+                            <p class="input-wrapper-booking">
+                                <input type="number" name="number-players" value="" id="number-players" min="1" max="4">
+                                <label for="number-players">PLAYERS</label>
+                            </p>
+                        </div>
+
+                        <div class="pick-venue">
+                            <p class="input-wrapper-booking">
+                                <select name="list-venues" name="venue" value="" id="venue">
+                                    <option value="">--Please choose your course--</option>
+                                    <option value="Sutton">Sutton</option>
+                                    <option value="Galway">Galway</option>
+                                </select>
+
+                                <label for="venue">VENUE</label>
+
+                            </p>
+                        </div>
+                        <div class="book-button">
+                            <a href="thank-you.html">
+                                <img src="./assets/images/side-ad-mo.png" alt="button moustache">
+                            </a>
+
+
+
+                        </div>
+                    </form>
+                </div>
+        </div>
+
+
+        <!-- scripts -->
+        <script src="https://kit.fontawesome.com/ed160d90da.js" crossorigin="anonymous"></script>
+        <script src="script.js" defer></script>
+
+
+        <!-- wrapper ends -->
 
 
 </body>
