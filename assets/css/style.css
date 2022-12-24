@@ -451,31 +451,16 @@ img {
     margin: 2rem 0rem 2rem 0rem;
     float: left;
 }
-
-.about-us h2 {
+#about  h2 {
     font-size: 3rem;
     font-weight: 800;
-    color: var(--primary);
-    margin-bottom: 3rem;
-
-}
-
-.gallery-p {
-    margin-top: 1rem;
-    font-weight: 800;
+    padding: 2rem 0 3rem 0;
+    text-align: center;
 }
  
 .sponsors {
     color: var(--primary);
     margin: 0rem 0rem 2rem 0rem;
-}
-
-.sponsors h2 {
-    margin-bottom: 3rem;
-    font-size: 3rem;
-    font-weight: 800;
-    color: var(--primary);
-
 }
 
 .sponsors-logo {
@@ -1002,7 +987,7 @@ body {
 
 .modal-window {
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(85, 174, 171, 0.768);
     top: 0;
     right: 0;
     bottom: 0;
@@ -1025,11 +1010,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 2em;
-    background: white;
+    background: var(--light);
   }
   
   .modal-close {
-    color: #aaa;
+    color: var(--dark);
     line-height: 50px;
     font-size: 80%;
     position: absolute;
@@ -1040,7 +1025,7 @@ body {
     text-decoration: none;
   }
   .modal-close:hover {
-    color: black;
+    color: var(--h);
   }
  
   a {
