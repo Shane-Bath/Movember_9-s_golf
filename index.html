@@ -278,7 +278,7 @@
 
                     <form action="/thank-you.html" method="get" class="booking-form">
                         <div class="name">
-                            <p class="input-wrapper-booking"><input type="text" name="booking-name" value="" required="name"
+                            <p class="input-wrapper-booking"><input type="text" name="booking-name" value="" required
                                     id="booking-name">
                                 <label for="contact-name">NAME</label>
                             </p>
@@ -286,7 +286,7 @@
 
                         <div class="email">
                             <p class="input-wrapper-booking"><input type="email" name="contact-email" value=""
-                                    id="contact-email" required="">
+                                    id="contact-email" required>
                                 <label for="contact-email">EMAIL</label>
 
                         </div>
@@ -294,14 +294,14 @@
 
                         <div class="number-players">
                             <p class="input-wrapper-booking">
-                                <input type="number" name="number-players" value="" id="number-players" min="1" max="4">
+                                <input type="number" name="number-players" value="" id="number-players" min="1" max="4" required>
                                 <label for="number-players">PLAYERS</label>
                             </p>
                         </div>
 
                         <div class="pick-venue">
                             <p class="input-wrapper-booking">
-                                <select name="list-venues" name="venue" value="" id="venue">
+                                <select name="list-venues" name="venue" value="" id="venue" required>
                                     <option value="">--Please choose your course--</option>
                                     <option value="Sutton">Sutton</option>
                                     <option value="Galway">Galway</option>
@@ -311,14 +311,25 @@
 
                             </p>
                         </div>
-                        <div class="book-button">
+                        <!-- <div class="book-button">
                             <a href="thank-you.html">
                                 <img src="./assets/images/side-ad-mo.png" alt="button moustache">
                             </a>
+                        </div> -->
+
+                            <div class="book-button">
+                                
+                                    <button type="submit" class="submit-btn">
+                                    <img src="./assets/images/side-ad-mo.png" alt="button moustache">
+                               <p>Book Now</p> 
+                               
+                                </button>
+                               
+                            </div>
 
 
 
-                        </div>
+                       
                     </form>
                 </div>
         </div>

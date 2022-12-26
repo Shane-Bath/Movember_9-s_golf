@@ -121,7 +121,7 @@ img {
     animation: shake .5s;
 }
 
-.hover-text {
+/* .hover-text {
     align-items: center;
     font-weight: 800;
     color: var(--primary);
@@ -130,13 +130,27 @@ img {
 
 .hover-text:hover {
     opacity: 100%;
+} */
+
+.submit-btn {
+    padding: 1rem;
+    background-color: var(--light);
+    border: none;
 }
 
+.submit-btn p {
+    font-size: 2rem;
+    text-align: center;
+}
 
 .book-button a {
     text-decoration: none;
     color: var(--primary);
 }
+
+
+
+
 /*  End of Booking Button */
 
 /* 4 - Main grid (layout) */
@@ -923,7 +937,7 @@ body {
 .input-wrapper-booking input[type="number"] {
     margin-top: 1rem;
     display: block;
-    width: 100%;
+    width: 50%;
     background: var(--light);
     border: 1px solid #DADADA;
     border: 1px solid #DADADA;
@@ -931,7 +945,7 @@ body {
     box-sizing: border-box;
     padding: 1.6rem;
     color: var(--primary);
-    text-indent: 20%;
+    text-indent: 50%;
 }
 
 .input-wrapper-booking input[type="text"]:focus {
@@ -951,7 +965,7 @@ body {
     background: rgba(232, 181, 190, 0.05);
     box-shadow: inset 2px 2px 5px 0 #DADADA;
     outline: none;
-    text-indent: 20%;
+    text-indent: 50%;
 }
 
 
@@ -1090,6 +1104,7 @@ body {
     margin-bottom: 1.5rem;
   }
 
+/* end of modal */
 
 /* Acknowledgement and Redirect page */
 
