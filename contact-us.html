@@ -43,31 +43,33 @@
                 </div>
             </label> <input type="checkbox" id="first-contact">
 
-            <form action="" method="post" class="contact-form">
+            <form action="/thank-you.html" method="get" class="contact-form">
                 <div class="name">
-                    <p class="input-wrapper"><input type="text" name="contact-name" value="" id="contact-name">
+                    <p class="input-wrapper"><input type="text" name="contact-name" value="" id="contact-name"
+                            required>
                         <label for="contact-name">NAME</label>
                     </p>
                 </div>
                 <div class="email">
-                    <p class="input-wrapper"><input type="text" name="contact-email" value="" id="contact-email">
+                    <p class="input-wrapper"><input type="text" name="contact-email" value="" id="contact-email"
+                            required>
                         <label for="contact-email">EMAIL</label>
                     </p>
                 </div>
 
                 <div class="text">
 
-                    <p class="textarea-wrapper"><textarea name="contact-message" id="contact-message"></textarea>
+                    <p class="textarea-wrapper"><textarea name="contact-message"
+                            id="contact-message"></textarea>
                     </p>
                 </div>
 
                 <div class="book-button">
-                    <a href="thank-you.html">
+                    <button type="submit" class="submit-btn">
                         <img src="./assets/images/side-ad-mo.png" alt="button moustache">
-                    </a>
-
-                    <!-- add logo image -->
-
+                        <p>Contact Us</p>
+                    </button>
+                </div>
             </form>
         </div>
     </section>
