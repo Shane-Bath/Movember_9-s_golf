@@ -450,6 +450,10 @@ img {
     scroll-margin-top: 13rem;
     
 }
+
+#about p {
+    text-align: center;
+}
 .about-us {
     color: var(--primary);
     margin: 0rem 0rem 2rem 0rem;
@@ -461,7 +465,13 @@ img {
     padding: 2rem 0 3rem 0;
     text-align: center;
 }
- 
+
+#about h3 {
+    font-size: 2.4rem;
+    padding: 2rem;
+    text-align: center;
+}
+
 .sponsors {
     color: var(--primary);
     margin: 0rem 0rem 2rem 0rem;
@@ -1071,7 +1081,7 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 12vh;
   }
   
   .modal-window > div {
@@ -1138,7 +1148,7 @@ body {
   
   .modal-window-contact div:not(:last-of-type) {
     margin-bottom: 1.5rem;
-  } */
+  } 
 
 
 /* Acknowledgement and Redirect page */
