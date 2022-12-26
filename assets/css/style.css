@@ -294,13 +294,6 @@ img {
     padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    /* transform: scale(1);
-    transition: ease-in-out 5sec; */
-}
-
-.sutton-png:hover {
-    transform: ease-in-out scale(1.1) 3sec;
-    /* transition: ease-in-out 10sec; */
 }
 
 /* Side Banner */
@@ -1169,7 +1162,6 @@ body {
     }
 
     #about {
-        margin-top: 2rem;
         display: grid;
         grid-template-columns: repeat(2, 50%);
         grid-template-columns: 50% 50%;
@@ -1181,18 +1173,18 @@ body {
         margin: 1rem 10rem 5rem 10rem;
         background: var(--light);
         
+        
     }
 
     .about-us {
         grid-area: about-us;
-        margin-top: 4rem;
         width: auto;
     }
 
 
     .sponsors {
         grid-area: sponsors;
-        margin-top: 4rem;
+        margin-top: 2rem;
         width: auto;
     }
 
