@@ -1161,6 +1161,7 @@ body {
     #about {
         margin-top: 2rem;
         display: grid;
+        grid-template-columns: repeat(2, 50%);
         grid-template-columns: 50% 50%;
         grid-template-areas: 
             "about-us about-us"
@@ -1169,6 +1170,7 @@ body {
             "footer footer";
         margin: 1rem 10rem 5rem 10rem;
         background: var(--light);
+        
     }
 
     .about-us {
@@ -1176,6 +1178,7 @@ body {
         margin-top: 4rem;
         width: auto;
     }
+
 
     .sponsors {
         grid-area: sponsors;
@@ -1726,6 +1729,72 @@ body {
     animation-name: shake;
     animation-duration: .7s;
 }
+
+/* New button effect */
+@-webkit-keyframes sheen {
+    0% {
+      transform: skewY(-45deg) translateX(0);
+    }
+    100% {
+      transform: skewY(-45deg) translateX(12.5em);
+    }
+  }
+  @keyframes sheen {
+    0% {
+      transform: skewY(-45deg) translateX(0);
+    }
+    100% {
+      transform: skewY(-45deg) translateX(12.5em);
+    }
+  }
+
+  new-btn {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .button {
+    padding: .8rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    font-size: 2rem;
+    display: inline-block;
+    border-radius: 0.3rem;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .button:before {
+    content: "";
+    background-color: var(--light);
+    height: 100%;
+    width: 3rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -4.5rem;
+    transform: skewX(-45deg) translateX(0);
+    transition: none;
+  }
+
+  .button:hover {
+    background-color: var(--dark);
+    color: var(--light);
+    border: var(--primary);
+    border-bottom: 4px solid var(--dark);
+  }
+
+  .button:hover:before {
+    transform: skewX(-45deg) translateX(13.5em);
+    transition: all 0.5s ease-in-out;
+  }
+  
 
 /* end of animation  */
 
