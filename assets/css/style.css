@@ -121,17 +121,6 @@ img {
     animation: shake .5s;
 }
 
-/* .hover-text {
-    align-items: center;
-    font-weight: 800;
-    color: var(--primary);
-    opacity: 10%;
-}
-
-.hover-text:hover {
-    opacity: 100%;
-} */
-
 .submit-btn {
     padding: 1rem;
     background-color: var(--light);
@@ -999,20 +988,6 @@ body {
 
 }
 
-/* .number-players input {
-    display: block;
-    margin-top: 1rem;
-    text-indent: 50%;
-    width: 50%;
-    border: 1px solid #DADADA;
-    border: 1px solid #DADADA;
-    box-shadow: 0 0 1px 0 #E4E4E4;
-    box-sizing: border-box;
-    padding: 1.6rem;
-    color: var(--primary);
-    font-weight: 800;  
-} */
-
 .pick-venue {
     margin-top: 3rem;
     line-height: 4.4rem
@@ -1039,7 +1014,7 @@ body {
 
 /* end of Booking page */
 
-/* Modal */
+/* Modal Booking */
 
 .modal-window {
     position: fixed;
@@ -1054,11 +1029,13 @@ body {
     pointer-events: none;
     transition: all 0.3s;
   }
+
   .modal-window:target {
     visibility: visible;
     opacity: 1;
     pointer-events: auto;
   }
+
   .modal-window > div {
     width: 50rem;
     position: absolute;
@@ -1080,6 +1057,7 @@ body {
     width: 3rem;
     text-decoration: none;
   }
+
   .modal-close:hover {
     color: var(--h);
   }
@@ -1099,12 +1077,69 @@ body {
   .modal-window > div {
     border-radius: 1rem;
   }
-  
+
   .modal-window div:not(:last-of-type) {
     margin-bottom: 1.5rem;
   }
 
-/* end of modal */
+/* end of modal booking*/
+
+/* Modal contact us */
+
+.modal-window-contact {
+    position: fixed;
+    background-color: rgba(85, 174, 171, 0.768);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+
+  .modal-window-contact:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .modal-window-contact > div {
+    width: 50rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: var(--light);
+  }
+
+  .modal-close-contact {
+    color: var(--primary);
+    line-height: 5rem;
+    font-size: 95%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 3rem;
+    text-decoration: none;
+  }
+
+  .modal-close-contact:hover {
+    color: var(--h);
+  }
+
+  .modal-window-contact > div {
+    border-radius: 1rem;
+  }
+  
+  .modal-window-contact div:not(:last-of-type) {
+    margin-bottom: 1.5rem;
+  } */
+
 
 /* Acknowledgement and Redirect page */
 

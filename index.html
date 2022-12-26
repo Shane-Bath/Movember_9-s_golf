@@ -191,77 +191,86 @@
             <h2>Gallery</h2>
 
             <p class="gallery-p">Check our spring event earlier this year, click the link to our
-                <a href="gallery.html"> Gallery.</a>
+                <button><a href="gallery.html"> Gallery.</a></button>
             </p>
+            <div>
+                <h2>Contact us</h2>
+                <p>You have a question, looking for more information, you would like to sponsors our little event, drop
+                    us a
+                    quick email below.</p>
 
-            <h2>Contact us</h2>
-            <p>You have a question, looking for more information, you would like to sponsors our little event, drop us a
-                quick email below.</p>
-        </div>
-
-        <div class="sponsors">
-            <h2>Sponsors</h2>
-            <p>Thank you to our sponsors, Pringles, Guinness, Gillette, and Titleist for their support of our
-                charity golf tournament. We appreciate their generosity and look forward to a successful event. We
-                could not have done it without their help, thank you!</p>
-        </div>
-
-        <div class="sponsors-logo">
-            <div class="pringles">
-                <a href="https://www.pringles.com/" target="_blank">
-                    <img src="./assets/images/pringles.png" alt="" class="pringles-png">
-                </a>
-            </div>
-            <div class="gillette">
-                <a href="https://gillette.com/" target="_blank">
-                    <img src="./assets/images/gillette.png" alt="" class="gillette-png">
-                </a>
-            </div>
-            <div class="guinness">
-                <a href="https://www.guinness.com/" target="_blank">
-                    <img src="./assets/images/guinness.jpg" alt="" class="guinness-png">
-                </a>
+                <div class="container">
+                    <div class="interior">
+                        <a href="#open-modal-contact" class="book-button">
+                            <img src="./assets/images/side-ad-mo.png" alt="button moustache">
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <div class="titleist">
-                <a href="https://www.titleist.ie/" target="_blank">
-                    <img src="./assets/images/titleist.png" alt="" class="titleist-png">
-                </a>
+            <div class="sponsors">
+                <h2>Sponsors</h2>
+                <p>Thank you to our sponsors, Pringles, Guinness, Gillette, and Titleist for their support of our
+                    charity golf tournament. We appreciate their generosity and look forward to a successful event. We
+                    could not have done it without their help, thank you!</p>
             </div>
-        </div>
 
-        <!-- end of main grid -->
+            <div class="sponsors-logo">
+                <div class="pringles">
+                    <a href="https://www.pringles.com/" target="_blank">
+                        <img src="./assets/images/pringles.png" alt="" class="pringles-png">
+                    </a>
+                </div>
+                <div class="gillette">
+                    <a href="https://gillette.com/" target="_blank">
+                        <img src="./assets/images/gillette.png" alt="" class="gillette-png">
+                    </a>
+                </div>
+                <div class="guinness">
+                    <a href="https://www.guinness.com/" target="_blank">
+                        <img src="./assets/images/guinness.jpg" alt="" class="guinness-png">
+                    </a>
+                </div>
 
-        <!-- footer -->
-
-        <footer>
-            <div class="face">
-                <a href="https://www.facebook.com" target="_blank">
-                    <i class="fa-brands fa-facebook fa fa-1.5x">
-                    </i>
-                </a>
-
+                <div class="titleist">
+                    <a href="https://www.titleist.ie/" target="_blank">
+                        <img src="./assets/images/titleist.png" alt="" class="titleist-png">
+                    </a>
+                </div>
             </div>
-            <div class="insta">
-                <a href="http://www.instgram.com" target="_blank">
-                    <i class="fa-brands fa-instagram fa-1.5x"></i>
-                </a>
 
-            </div>
-            <div class="twit">
-                <a href="https://www.twitter.com" target="_blank">
-                    <i class="fa-brands fa-twitter fa-1.5x"></i>
-                </a>
-            </div>
-            <div class="last-mo">
-                <a href="https://www.movember.com" target="_blank">
-                    <img src="./assets/images/footer-mo.png" alt="">
-                </a>
-            </div>
-        </footer>
+            <!-- end of main grid -->
+
+            <!-- footer -->
+
+            <footer>
+                <div class="face">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fa-brands fa-facebook fa fa-1.5x">
+                        </i>
+                    </a>
+
+                </div>
+                <div class="insta">
+                    <a href="http://www.instgram.com" target="_blank">
+                        <i class="fa-brands fa-instagram fa-1.5x"></i>
+                    </a>
+
+                </div>
+                <div class="twit">
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fa-brands fa-twitter fa-1.5x"></i>
+                    </a>
+                </div>
+                <div class="last-mo">
+                    <a href="https://www.movember.com" target="_blank">
+                        <img src="./assets/images/footer-mo.png" alt="">
+                    </a>
+                </div>
+            </footer>
     </section>
 
-    <!-- modal -->
+    <!-- modal Booking page and contact-us -->
 
     <div class="modal-window" id="open-modal">
         <div>
@@ -270,7 +279,7 @@
                 <div class="header">
                     <h1>Book your place now </h1>
                 </div>
-                <div class="">
+                <div>
                     <p>
                         Book your place now, select your preferred course and the number of players. See you on the
                         first.
@@ -294,7 +303,8 @@
 
                         <div class="number-players">
                             <p class="input-wrapper-booking">
-                                <input type="number" name="number-players" value="" id="number-players" min="1" max="4" required>
+                                <input type="number" name="number-players" value="" id="number-players" min="1" max="4"
+                                    required>
                                 <label for="number-players">PLAYERS</label>
                             </p>
                         </div>
@@ -311,36 +321,82 @@
 
                             </p>
                         </div>
-                        <!-- <div class="book-button">
-                            <a href="thank-you.html">
+                        <div class="book-button">
+
+                            <button type="submit" class="submit-btn">
                                 <img src="./assets/images/side-ad-mo.png" alt="button moustache">
-                            </a>
-                        </div> -->
+                                <p>Book Now</p>
 
-                            <div class="book-button">
-                                
-                                    <button type="submit" class="submit-btn">
-                                    <img src="./assets/images/side-ad-mo.png" alt="button moustache">
-                               <p>Book Now</p> 
-                               
-                                </button>
-                               
-                            </div>
-
-
-
-                       
+                            </button>
+                        </div>
                     </form>
                 </div>
         </div>
+    </div>
+    <!-- end booking modal -->
+
+    <!-- contact-us modal -->
+    <div class="modal-window-contact" id="open-modal-contact">
+        <div>
+            <a href="#about" title="close" class="modal-close-contact">close</a>
+            <section id="contact">
+                <div class="header">
+                    <h1>CONTACT US</h1>
+                </div>
+                <div class="wrap">
+                    <p>
+                        You have a question, looking for more information, you would like to sponsors our little event,
+                        drop us
+                        a
+                        quick email below.
+                    </p>
+
+                    <label for="first-contact" class="contact-button">
+                        <div class="mail">
+                        </div>
+                    </label> <input type="checkbox" id="first-contact">
+
+                    <form action="/thank-you.html" method="get" class="contact-form">
+                        <div class="name">
+                            <p class="input-wrapper"><input type="text" name="contact-name" value="" id="contact-name"
+                                    required>
+                                <label for="contact-name">NAME</label>
+                            </p>
+                        </div>
+                        <div class="email">
+                            <p class="input-wrapper"><input type="text" name="contact-email" value="" id="contact-email"
+                                    required>
+                                <label for="contact-email">EMAIL</label>
+                            </p>
+                        </div>
+
+                        <div class="text">
+
+                            <p class="textarea-wrapper"><textarea name="contact-message"
+                                    id="contact-message"></textarea>
+                            </p>
+                        </div>
+
+                        <div class="book-button">
+                            <a href="thank-you.html">
+                                <img src="./assets/images/side-ad-mo.png" alt="button moustache">
+                            </a>
+
+                            <!-- add logo image -->
+
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
 
 
-        <!-- scripts -->
-        <script src="https://kit.fontawesome.com/ed160d90da.js" crossorigin="anonymous"></script>
-        <script src="script.js" defer></script>
+    <!-- scripts -->
+    <script src="https://kit.fontawesome.com/ed160d90da.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
 
 
-        <!-- wrapper ends -->
+    <!-- wrapper ends -->
 
 
 </body>
