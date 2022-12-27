@@ -703,50 +703,11 @@ body {
     margin-bottom: 0;
 }
 
-
 .mail i {
     margin-top: .6rem;
     font-size: 4rem;
     color: var(--primary);
-    
 }
-/* .mail {
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    display: inline-block;
-    border-top: 2rem solid transparent;
-    border-left: 2.6rem solid var(--primary);
-    height: 0;
-    width: 0;
-    position: relative;
-
-}
-
-
-.mail:before {
-    content: '';
-    top: -2.4rem;
-    left: -2.7rem;
-    display: block;
-    position: absolute;
-    border-top: 1.2rem solid var(--primary);
-    border-left: 1.6rem solid transparent;
-    border-right: 1.6rem solid transparent;
-    border-bottom: 1rem solid transparent;
-    font-size: .8rem;
-}
-
-.mail::after {
-    display: block;
-    content: '';
-    position: absolute;
-    border-top: 2rem solid transparent;
-    border-right: 2.6rem solid var(--primary);
-    height: 0;
-    width: 0;
-    left: -2.18rem;
-    bottom: 0;
-} */
 
 #first-contact {
     position: absolute;
@@ -784,7 +745,8 @@ body {
 }
 
 .input-wrapper input[type="text"]:focus {
-    background: #f2385a0d;
+    background: rgb(211, 211, 211, 0.51);
+    /* background: rgba(242, 56, 90, 0.051); */
     box-shadow: inset 2px 2px 5px 0 #DADADA;
     outline: none;
     text-indent: 0;
