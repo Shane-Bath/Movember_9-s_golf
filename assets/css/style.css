@@ -838,14 +838,6 @@ body {
 }
 
 #booking {
-    grid-area: booking;
-}
-
-.navbar ul li {
-    grid-area: navbar;
-}
-
-#booking {
     max-width: 50rem;
     margin: 3rem auto;
     background-color: var(--light);
