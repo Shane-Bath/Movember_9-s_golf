@@ -7,9 +7,13 @@
     --primary: #000;
     --dark: #6a6a6a;
     --light: #fff;
-    --h: #474E68;
     --shadow: 0 1px 1rem rgb(104, 104, 104, 0.9);
-    --head: font-size
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Overpass', sans-serif;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -17,12 +21,11 @@
     margin: 0;
 }
 
-html {
+body {
     box-sizing: border-box;
-    font-family: 'Overpass', sans-serif;
     color: var(--dark);
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+    background: var(--light);
+    line-height: 1.6rem;
 }
 
 p {
@@ -33,13 +36,10 @@ p {
 
 h2 {
     text-transform: uppercase;
+    font-size: 3rem;
 }
 
-body {
-    background: var(--light);
-    line-height: 1.4;
 
-}
 
 img {
     max-width: 100%;
@@ -47,7 +47,7 @@ img {
 
 /* End of Main Attributes */
 
-/* 3 - Booking Button - Two different booking buttons*/
+/* 3 - Buttons */
 
 /* Main page button */
 
@@ -67,7 +67,7 @@ img {
     border: 2px solid var(--primary);
     font-size: 2rem;
     display: inline-block;
-    border-radius: 0.3rem;
+    border-radius: 1rem;
     transition: all 0.2s ease-in-out;
     position: relative;
     overflow: hidden;
@@ -110,13 +110,9 @@ img {
     display: inline-block;
     width: 10rem;
     height: 5rem;
-    margin-top: 0rem;
     margin-bottom: .6rem;
     cursor: pointer;
     background: var(--primary);
-    color: var(--light);
-    font-family: inherit;
-    font-size: inherit;
     border-radius: 1rem;
     padding: 1rem;
     box-shadow: 2px 2px 0 0 #7e7e7e, 3px 3px 0 0 #7e7e7e, 4px 4px 0 0 #7e7e7e;
@@ -133,6 +129,7 @@ img {
     margin-bottom: 0;
     animation: shake .5s;
 }
+ /* I have restyled the 'submit' button with the above image and hover, below styles the background, padding and border */
 
 .submit-btn {
     padding: 1rem;
@@ -156,7 +153,7 @@ img {
 
 .main-grid {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(2, 50%);
     grid-template-areas:
         "logo navbar"
         "event second-paragraph"
@@ -173,7 +170,6 @@ img {
     position: sticky;
     top: 0;
     z-index: 9999;
-
 }
 
 .logo {
@@ -290,7 +286,7 @@ img {
 }
 
 .event h2 {
-    font-size: 3rem;
+    /* font-size: 3rem; */
     font-weight: 800;
     grid-column: span(logo navbar);
 }
@@ -377,8 +373,8 @@ img {
     max-width: 180rem;
     padding: 1rem;
     box-shadow: var(--shadow);
+    margin-top: 2rem;
     margin-bottom: 10rem;
-
 }
 
 /* End of landing page */
@@ -388,29 +384,25 @@ img {
 #location {
     scroll-margin-top: 10rem;
     grid-area: sutton;
-
 }
 
 .sutton {
-
     display: flex;
     align-items: center;
     flex-direction: column;
     color: var(--primary);
-
 }
 
 .sutton h2 {
-    font-size: 3rem;
+    /* font-size: 3rem; */
     font-weight: 800;
     color: var(--primary);
     margin: 1rem 1rem;
 }
 
-
 .sutton-img {
     width: 95%;
-
+    margin-top: 2rem;
     padding: 1rem;
     box-shadow: var(--shadow);
 }
@@ -418,7 +410,6 @@ img {
 .sutton p {
     color: var(--primary);
     margin: 2rem 1rem 2rem 0rem;
-
 }
 
 .galway-2 {
@@ -431,13 +422,13 @@ img {
 
 .galway-2 h2 {
     margin: 1rem 1rem;
-    font-size: 3rem;
+    /* font-size: 3rem; */
     font-weight: 800;
 }
 
 .galway-img {
     width: 95%;
-
+    margin-top: 2rem;
     padding: 1rem;
     box-shadow: var(--shadow);
 }
@@ -452,7 +443,6 @@ img {
 /* 9- About us and Sponsors */
 #about {
     scroll-margin-top: 13rem;
-
 }
 
 #about p {
@@ -466,7 +456,7 @@ img {
 }
 
 #about h2 {
-    font-size: 3rem;
+    /* font-size: 3rem; */
     font-weight: 800;
     padding: 2rem 0 3rem 0;
     text-align: center;
@@ -1445,7 +1435,6 @@ a {
     .about-us h2,
     .sponsors h2 {
         font-size: 2rem;
-
     }
 
     /* logo mobile */
@@ -1659,11 +1648,6 @@ a {
         line-height: 3.5em;
         font-size: 0.8em;
     }
-
-    .gallery-head h2 {
-        font-size: 3rem;
-    }
-
 }
 
 /* Width Min 573px */
