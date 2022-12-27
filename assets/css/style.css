@@ -745,8 +745,7 @@ body {
 }
 
 .input-wrapper input[type="text"]:focus {
-    background: rgb(211, 211, 211, 0.51);
-    /* background: rgba(242, 56, 90, 0.051); */
+    background: rgb(240, 128, 128, 0.061);
     box-shadow: inset 2px 2px 5px 0 #DADADA;
     outline: none;
     text-indent: 0;
@@ -815,7 +814,7 @@ body {
 }
 
 .textarea-wrapper textarea:focus {
-    background: #f2385a0d;
+    background: rgb(240, 128, 128, 0.061);
     box-shadow: inset 2px 2px 5px 0 #DADADA;
     outline: none;
 }
@@ -917,26 +916,25 @@ body {
 }
 
 .input-wrapper-booking input[type="text"]:focus {
-    background: rgba(232, 181, 190, 0.05);
+    background: rgb(240, 128, 128, 0.061);
     box-shadow: inset 2px 2px 5px 0 #DADADA;
     outline: none;
     text-indent: 20%;
 }
 
 .input-wrapper-booking input[type="email"]:focus {
-    background: rgba(232, 181, 190, 0.05);
+    background:rgb(240, 128, 128, 0.061);
     box-shadow: inset 2px 2px 5px 0 #DADADA;
     outline: none;
     text-indent: 20%;
 }
 
 .input-wrapper-booking input[type="number"]:focus {
-    background: rgba(232, 181, 190, 0.05);
+    background: rgb(240, 128, 128, 0.061);
     box-shadow: inset 2px 2px 5px 0 #DADADA;
     outline: none;
     text-indent: 50%;
 }
-
 
 .input-wrapper-booking label {
     position: absolute;
@@ -986,7 +984,6 @@ body {
     padding: 1.6rem;
     color: var(--primary);
 }
-
 
 #booking-footer {
     grid-area: footer;
