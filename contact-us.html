@@ -27,44 +27,38 @@
 
 
 <body>
-    <section id="contact">
+    <section id="booking">
         <div class="header">
             <h1>CONTACT US</h1>
         </div>
         <div class="wrap">
             <p>
-                You have a question, looking for more information, you would like to sponsors our little event, drop us
-                a
-                quick email below.
+                You have a question, looking for more information, you would like to sponsors our little event,
+                drop usa quick email below.
             </p>
 
-            <label for="first-contact" class="contact-button">
-                <div class="mail">
-                    <i class="fa-solid fa-envelope"></i>
-                </div>
-            </label> <input type="checkbox" id="first-contact">
-
-            <form action="/thank-you.html" method="get" class="contact-form">
+            
+            <form action="thank-you.html" method="get" class="booking-form">
+                
                 <div class="name">
-                    <p class="input-wrapper"><input type="text" name="contact-name" value="" id="contact-name"
-                            required>
+                    <p class="input-wrapper-booking">
+                        <input type="text" name="booking-name" id="booking-name" required>
                         <label for="contact-name">NAME</label>
                     </p>
                 </div>
+
                 <div class="email">
-                    <p class="input-wrapper"><input type="text" name="contact-email" value="" id="contact-email"
-                            required>
+                    <p class="input-wrapper-booking">
+                        <input type="email" name="contact-email" id="contact-email" required>
                         <label for="contact-email">EMAIL</label>
-                    </p>
                 </div>
 
                 <div class="text">
 
-                    <p class="textarea-wrapper"><textarea name="contact-message"
-                            id="contact-message"></textarea>
+                    <p class="textarea-wrapper"><textarea name="contact-message" id="contact-message"></textarea>
                     </p>
-                </div>
-
+                    </div>
+                    
                 <div class="book-button">
                     <button type="submit" class="submit-btn">
                         <img src="./assets/images/side-ad-mo.png" alt="button moustache">
@@ -72,6 +66,40 @@
                     </button>
                 </div>
             </form>
+
+            <!-- <label for="first-contact" class="contact-button">
+                <div class="envelope">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+            </label>
+            <input type="checkbox" id="first-contact">
+
+            <form action="thank-you.html" method="get" class="contact-form">
+                <div class="name">
+                    <p class="input-wrapper"><input type="text" name="contact-name" id="contact-name" required="true">
+                        <label for="contact-name">NAME</label>
+                    </p>
+                </div>
+                <div class="email">
+                    <p class="input-wrapper"><input type="text" name="contact-email" value="" id="contact-email"
+                            required="true">
+                        <label for="contact-email">EMAIL</label>
+                    </p>
+                </div>
+
+                <div class="text">
+
+                    <p class="textarea-wrapper"><textarea name="contact-message" id="contact-message"></textarea>
+                    </p>
+
+
+                    <div class="book-button">
+                        <button type="submit" class="submit-btn">
+                            <img src="./assets/images/side-ad-mo.png" alt="button moustache">
+                            <p>Contact Us</p>
+                        </button>
+                    </div>
+            </form> -->
         </div>
     </section>
 
