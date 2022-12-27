@@ -1344,22 +1344,11 @@ a {
 
         flex-direction: column;
         align-items: center;
-
     }
-
-    .sutton-img .galway-img {
-        width: fit-content;
-    }
-
     .galway-2 {
         margin-bottom: 2rem;
     }
 
-    .book-button img {
-
-        width: 6rem;
-        height: 3rem;
-    }
 
     /* End of location */
 
@@ -1434,8 +1423,6 @@ a {
     .modal-window-contact>div {
         width: 40rem;
     }
-
-
 
 }
 
@@ -1516,27 +1503,6 @@ a {
     animation-name: shake;
     animation-duration: .7s;
 }
-
-/* New button effect */
-/* @keyframes sheen {
-    0% {
-        transform: skewY(-45deg) translateX(0);
-    }
-
-    100% {
-        transform: skewY(-45deg) translateX(12.5em);
-    }
-}
-
-@keyframes sheen {
-    0% {
-        transform: skewY(-45deg) translateX(0);
-    }
-
-    100% {
-        transform: skewY(-45deg) translateX(12.5em);
-    }
-} */
 
 /* end of animation  */
 
