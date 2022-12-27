@@ -411,6 +411,7 @@ img {
 /* end of locations */
 
 /* 9- About us and Sponsors */
+
 #about {
     scroll-margin-top: 13rem;
 }
@@ -1257,8 +1258,11 @@ a {
         flex-direction: column;
         align-items: center;
     }
+    .event img {
+        width: 96%;
+    }
 
-    /* side-banner*/
+    /* side-banner*/s
     #page-2 {
         margin-top: 1rem;
         margin-left: 0;
