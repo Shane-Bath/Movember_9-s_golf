@@ -14,6 +14,7 @@ html {
     font-size: 62.5%;
     font-family: 'Overpass', sans-serif;
     scroll-behavior: smooth;
+    
 }
 
 * {
@@ -23,9 +24,8 @@ html {
 
 body {
     box-sizing: border-box;
-    color: var(--dark);
     background: var(--light);
-    line-height: 1.6rem;
+    line-height: inherit;
 }
 
 p {
@@ -37,7 +37,7 @@ p {
 h2 {
     text-transform: uppercase;
     font-size: 3rem;
-}
+}.button
 
 img {
     max-width: 100%;
@@ -48,14 +48,6 @@ img {
 /* 3 - Buttons */
 
 /* Main page button */
-
-.new-btn {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .button {
     padding: .8rem 2rem;
@@ -103,7 +95,7 @@ img {
     text-align: center;
 }
 
-.book-button img {
+/* .book-button img {
     text-align: center;
     display: inline-block;
     width: 10rem;
@@ -116,23 +108,29 @@ img {
     box-shadow: 2px 2px 0 0 #7e7e7e, 3px 3px 0 0 #7e7e7e, 4px 4px 0 0 #7e7e7e;
     transition: all 250ms ease;
     filter: (0);
-}
+} */
 
 
-.book-button img:hover {
+/* .book-button img:hover {
     opacity: 80%;
     box-shadow: 1px 1px 0 0 #DFDFDF, 2px 2px 0 0 #DFDFDF, 3px 3px 0 0 #DFDFDF;
     margin-top: 2.2rem;
     margin-left: 2px;
     margin-bottom: 0;
     animation: shake .5s;
-}
+} */
  /* I have restyled the 'submit' button with the above image and hover, below styles the background, padding and border */
 
 .submit-btn {
-    padding: 1rem;
-    background-color: var(--light);
+    background: none;
     border: none;
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--primary);
+}
+
+.submit-btn p:hover {
+    color: var(--light);
 }
 
 .submit-btn p {
@@ -639,12 +637,6 @@ footer .twit {
 
 /* 13 - Booking Page and contact page */
 
-/* body {
-    background: var(--light);
-    font-family: inherit;
-    line-height: inherit
-} */
-
 #booking {
     max-width: 50rem;
     margin: 3rem auto;
@@ -788,6 +780,7 @@ footer .twit {
     grid-area: footer;
     margin-top: 13rem;
 }
+
 .textarea-wrapper textarea {
     margin-top: 2rem;
     display: block;
@@ -812,10 +805,6 @@ footer .twit {
 
 .text {
     margin-bottom: 3rem;
-}
-
-.contact-button {
-    text-align: center;
 }
 
 /* end of Booking page */
@@ -1548,7 +1537,7 @@ a {
 }
 
 /* New button effect */
-@-webkit-keyframes sheen {
+/* @keyframes sheen {
     0% {
         transform: skewY(-45deg) translateX(0);
     }
@@ -1566,7 +1555,7 @@ a {
     100% {
         transform: skewY(-45deg) translateX(12.5em);
     }
-}
+} */
 
 /* end of animation  */
 
