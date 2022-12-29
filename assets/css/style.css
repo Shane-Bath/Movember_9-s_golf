@@ -99,22 +99,17 @@ img {
     background: none;
     border: none;
     text-align: center;
-    margin-top: 2rem;
+    padding: 1rem;
     color: var(--primary);
 }
 
-.submit-btn p:hover {
+.submit-btn:hover {
     color: var(--light);
 }
 
-.submit-btn p {
+.submit-btn {
     font-size: 2rem;
     text-align: center;
-}
-
-.book-button a {
-    text-decoration: none;
-    color: var(--primary);
 }
 
 /*  End of Booking Button */
