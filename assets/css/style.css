@@ -584,27 +584,23 @@ footer .twit {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 16rem;
     grid-auto-flow: dense;
-
 }
 
-.v-grid {
+
+
+.four-grid {
     grid-column: span 2;
     grid-row: span 2;
 }
 
-.h-grid {
-    grid-column: span 2;
-    grid-row: span 2;
+.small-grid {
+    grid-column: span 1;
+    grid-row: span 1;
 }
 
 .big-grid {
     grid-column: span 2;
-    grid-row: span 3;
-}
-
-.bigger-grid {
-    grid-column: span 2;
-    grid-row: span 2;
+    grid-row: span 4;
 }
 
 .gallery div img {
