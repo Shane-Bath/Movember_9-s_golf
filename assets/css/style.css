@@ -240,6 +240,10 @@ img {
     scroll-margin-top: 9rem;
 }
 
+#page-1 a{
+    font-weight: 800;
+}
+
 /*  Event */
 .event {
     grid-area: event;
@@ -271,6 +275,10 @@ img {
 #page-2 {
     margin-top: 7rem;
     margin-left: 2rem;
+}
+
+#page-2 a {
+    font-weight: 800;
 }
 
 .second-paragraph {
