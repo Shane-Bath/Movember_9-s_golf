@@ -150,7 +150,7 @@ img {
     max-height: 3.3rem;
 }
 
-.logo h1 {
+.logo h2 {
     font-family: 'Anton';
     text-transform: uppercase;
     color: var(--primary);
