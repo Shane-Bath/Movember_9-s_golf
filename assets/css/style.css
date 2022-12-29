@@ -764,6 +764,10 @@ footer .twit {
     outline: none;
 }
 
+.text {
+    margin-right: 2rem;
+}
+
 /* end of Booking page */
 
 /* Modal Booking */
@@ -835,62 +839,6 @@ a {
 }
 
 /* end of modal booking*/
-
-/* Modal contact us */
-
-.modal-window-contact {
-    position: fixed;
-    background-color: rgb(119, 136, 153, 0.5);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s;
-}
-
-.modal-window-contact:target {
-    visibility: visible;
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.modal-window-contact>div {
-    width: 50rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 2em;
-    background: var(--light);
-}
-
-.modal-close-contact {
-    color: var(--primary);
-    line-height: 5rem;
-    font-size: 95%;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    top: 0;
-    width: 3rem;
-    text-decoration: none;
-}
-
-.modal-close-contact:hover {
-    color: var(--h);
-}
-
-.modal-window-contact>div {
-    border-radius: 1rem;
-}
-
-.modal-window-contact div:not(:last-of-type) {
-    margin-bottom: 1.5rem;
-}
 
 
 /* Acknowledgement and Redirect page */
