@@ -618,7 +618,8 @@ footer .twit {
 
 /* 13 - Booking Page and contact page */
 
-#booking {
+#booking,
+#contact {
     max-width: 50rem;
     margin: 3rem auto;
     background-color: var(--light);
@@ -626,11 +627,8 @@ footer .twit {
     padding: 1rem;
 }
 
-#booking {
-    padding: 1rem;
-}
-
-#booking h1 {
+#booking h1,
+#contact h1 {
     background: var(--primary);
     font-family: 'anton';
     font-size: 3rem;
@@ -639,6 +637,9 @@ footer .twit {
     letter-spacing: 2.3px;
     position: relative;
     margin-bottom: 1rem;
+}
+#booking p {
+    margin-bottom: 2rem;
 }
 
 .input-wrapper-booking {
@@ -721,16 +722,6 @@ footer .twit {
     line-height: 4.4rem;
 }
 
-#booking p {
-    margin-bottom: 2rem;
-
-}
-
-.name,
-.email {
-    margin-bottom: 3rem;
-}
-
 .number-players {
     margin-top: 3rem;
     line-height: 4.4rem
@@ -753,11 +744,6 @@ footer .twit {
     color: var(--primary);
 }
 
-#booking-footer {
-    grid-area: footer;
-    margin-top: 13rem;
-}
-
 .textarea-wrapper textarea {
     margin-top: 2rem;
     display: block;
@@ -776,10 +762,6 @@ footer .twit {
     background: rgb(240, 128, 128, 0.061);
     box-shadow: inset 2px 2px 2px 1px #DADADA;
     outline: none;
-}
-
-.text {
-    margin-bottom: 3rem;
 }
 
 /* end of Booking page */
