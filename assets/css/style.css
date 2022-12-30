@@ -256,7 +256,7 @@ img {
 
 .event h2 {
     font-weight: 800;
-    grid-column: span(logo navbar);
+    /* grid-column: span(logo navbar); */
 }
 
 .event p {
