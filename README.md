@@ -150,14 +150,41 @@ I used Balsamiq to build the wireframes of the site. I found the wireframing pro
  My button when through a number version over the project. On the main page they are divs and in the booking and contact forms I integrated submit buttons. I experimented with images, transitions, colors etc. Iam using three effects on the buttons, drop shadow to give a sense depth , a change and invert of colors, finally a sheen effect. I used a number of sources, including. 
 
  [w3school](https://www.w3schools.com/css/css3_buttons.asp)
+
  [codepen](https://codepen.io/dmensinger/pen/PPRzpK)
+
  [MDN Webdocs](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow)
 
+### Modal (pop-up windows)
+
+To maintain the scrollable single page, I have used a modal's for the booking and contact us form. The modal I am using does not require Javascript. 
+
+![modal](/assets/readme-images/modal.jpg)
+
+I used a number of sources to for the modal's. 
+
+[w3school](https://www.w3schools.com/howto/howto_css_modals.asp)
+
+[getbootstrap](https://getbootstrap.com/docs/4.0/components/modal/)
+
+[codepen](https://codepen.io/timothylong/pen/AJxrPR)
+
+[Kevin Powell](https://www.youtube.com/watch?v=TAB_v6yBXIE)
+
+[codepen](https://codepen.io/peiche/pen/kQwYVJ)
 
 
+### Effects and Transition
+
+I used and discarded a number of effect during this project, my sources and inspiration come from w3school, MSN Webdocs, CSS-tricks, and movember website itself. 
 
 
 ## Testing 
+
+A lot of my development took place within Chrome Devtools. Devtools allowed me to deconstruct issues and experiment with fixes. The overlay for grid and flexbox gave visual prospective that I found very helpful. I also used background colour as another what of visualizing the layout of the page. 
+
+
+
 
 ## Unfixed bugs
 
