@@ -168,9 +168,12 @@ I used and discarded a number of effect during this project, my sources and insp
 I used media quires for small and medium size screens. The site was completely reconfigured to accommodate small screens. Moved from two column grid to a single column grid.
 ![iphone](/assets/readme-images/iphone-screen.jpg)
 
+The modal's and forms had to be reduced in sized. 
 
-
-
+- Responsive Web Design with HTML 5 and CSS - Ben Frain
+- [Kevin Powell](https://www.youtube.com/kevinpowell)
+- [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)
+- [CSS-tricks](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
 
 ## Tools
 - GitHub
