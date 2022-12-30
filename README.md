@@ -1,7 +1,11 @@
-<!-- ROUGH DRAFT -->
+
 
 # MO 9's - 9 HOLE GOLF CHARITY EVENT
+
+[View the live site here](https://shane-bath.github.io/movember-golf-project/)
+
 ![Cover image for readme](/assets/readme-images/display.jpg)
+
 # Table of Contents
 - UX
   - Site owner objectives
@@ -23,9 +27,7 @@
 - Credit 
 
 ## Goals for this project
-The site is to promote an annual local charity nine-hole golf event to raise money for the Movember men’s health charity. The Website main purpose is to provide information on the event and to allow individuals to book a place.
-
-A promotional website to sell to tickets to a 9 hole golf event to  raise money for Movember.
+The site is to promote an annual local charity nine-hole golf event to raise money for the Movember men’s health charity. The Website main purpose is to provide information on the event and to allow individuals to book a place. A promotional website to sell to tickets to a 9 hole golf event to  raise money for Movember.
 
 
 
@@ -58,6 +60,7 @@ I have taken inspiration from the Movember charity website and decided to adopt 
 
 ## Structure
 - Navigation 
+[navigation bar](/assets/readme-images/navigation.jpg)
   - The Movember moustache is incorporated  in the navigation bar, clicking the moustache will bring the user back to the home page. Logo has been created using the a moustache image and the font Anton.
   - Navigation bar will be responsive to various screen sizes
   - Each section will have a hover effect, slight change in the background and an under line appears
