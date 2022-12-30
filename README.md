@@ -34,10 +34,10 @@ The site is to promote an annual local charity nine-hole golf event to raise mon
 - User friendly and enjoyable
 
 ## Design
-I have taken inspiration from the Movember charity website and decided to adopt a similar style and tone, because to of the association between the two.  There is a strong black and white theme throughout the site, along with an irreverent style of communication.
+I have taken inspiration from the Movember charity website and decided to adopt a similar style and tone, because to of the association between the two.  There is a strong black and white theme throughout the site.
 
 ## Structure
-The site use CSS grid and flexbox. Grid provide the main the structure of the site, making use of gird areas to lay out the page. I used flex to control the content within each grid. This was not a straight forward process, and it took a number versions of the site before I started to feel comfortable with the process. The key for me was when I began to understand how to use flex to control the content within the grid areas.  There are number of example of this within the site
+The site uses CSS grid and flexbox. Grid provide the main the structure of the site, making use of gird areas to lay out the page. I used flex to control the content within each grid. This was not a straight forward process, and it took a number versions of the site before I started to feel comfortable with the process. The key for me was when I began to understand how to use flex to control the content within the grid areas.  There are number of example of this within the site
 ### Navigation
 
 ![navigation bar](/assets/readme-images/navigation.jpg)
@@ -235,6 +235,8 @@ The following is the list of resources I used in this project.
   - [balsamiq](https://balsamiq.com/)
   - [balsamiq course](https://www.youtube.com/watch?v=9Pv002d0Kls&list=PLVlyYfbClWxQDCGC-A1FkbGyIxtuIN5IM&index=1)
   - [movember.com](https://ie.movember.com/)
+  - [CSS-tricks](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
+  - [CSS tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 
 
