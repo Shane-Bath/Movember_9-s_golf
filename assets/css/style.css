@@ -462,7 +462,7 @@ img {
 .guinness-png,
 .titleist-png {
     filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    
 
 }
 
@@ -471,7 +471,7 @@ img {
 .guinness-png:hover,
 .titleist-png:hover {
     filter: none;
-    -webkit-filter: grayscale(0);
+    
 }
 
 .pringles-png,
@@ -575,7 +575,7 @@ footer .twit {
 }
 
 .gallery {
-    background: rgb(249, 249, 249, 07);
+    background: rgb(159, 157, 157,.09);
     padding: .8rem;
     max-width: 113rem;
     margin: 0 auto;
