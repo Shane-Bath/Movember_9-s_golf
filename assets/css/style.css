@@ -184,7 +184,6 @@ img {
 .navbar {
     display: flex;
     justify-content: space-between;
-    justify-content: flex-end;
     align-items: center;
     background-color: var(--light);
     color: var(--primary);
@@ -289,10 +288,13 @@ img {
     text-align: center;
     font-family: 'Anton';
     filter: invert(0);
+    transition: (0);
+
 }
 
 .side-banner:hover {
     filter: invert(100%);
+    transition: all 0.8s ease-in-out;
 }
 
 .side-banner h2 {
