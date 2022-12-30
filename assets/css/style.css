@@ -256,7 +256,7 @@ img {
 
 .event h2 {
     font-weight: 800;
-    /* grid-column: span(logo navbar); */
+
 }
 
 .event p {
@@ -900,7 +900,7 @@ a {
     .navbar-links ul {
         flex-direction: row;
         justify-content: space-evenly;
-        gap: 1;
+        gap: 1rem;
         padding: 1rem;
         display: flex;
         width: auto;
@@ -1068,7 +1068,7 @@ a {
 
 /* Max 780px */
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 811px) {
 
     /* New layout */
 
@@ -1185,7 +1185,7 @@ a {
         width: 96%;
     }
 
-    /* side-banner*/s
+    /* side-banner*/
     #page-2 {
         margin-top: 1rem;
         margin-left: 0;
@@ -1205,9 +1205,7 @@ a {
 
     .side-banner mo {
         display: flex;
-        justify-items: auto;
-
-    }
+}
 
     .side-banner h2 {
         color: var(--light);
