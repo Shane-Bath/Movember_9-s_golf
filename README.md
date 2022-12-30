@@ -6,30 +6,8 @@
 
 ![Cover image for readme](/assets/readme-images/display.jpg)
 
-# Table of Contents
-- UX
-  - Site owner objectives
-  - User Experience
-  - Goals of the site
-- Design and Features
-  - Structure
-  - Colours
-  - Fonts
-  - Images 
-  - Layout
-  - Transitions
-- Wireframes
-- Technical
-  - Tools and Libraries
-- Testing 
-  - Unfixed Bugs 
-- Deployment
-- Credit 
-
 ## Goals for this project
 The site is to promote an annual local charity nine-hole golf event to raise money for the Movember men’s health charity. The Website main purpose is to provide information on the event and to allow individuals to book a place. A promotional website to sell to tickets to a 9 hole golf event to  raise money for Movember.
-
-
 
 #  UX
 
@@ -74,7 +52,7 @@ The site use CSS grid and flexbox. Grid provide the main the structure of the si
 
   ![Mobile navigation bar](/assets/readme-images/mobile-nav.jpg)
 
-  The navigation bar and logo went through a few iteration and was source of a  number of issues for me attempting a responsive design. I attempted a number of   styles, including hamburger, with and without java script, drop down menu and a button style. In the end i settled on this simple button style.  I will discuss the issues of fixing the navigation bar to the top of the page in the bugs and fixes section. 
+  The navigation bar and logo went through a few iteration and was source of a  number of issues for me attempting a responsive design. I attempted a number of   styles, including hamburger, with and without java script, drop down menu and a button style. In the end i settled on this simple button style. 
   
 ### Colours 
   The main colors will be black and white The Navigation bar transitions from white to a grey (#f7f7f7) and border-bottom of dark grey (#808080).
@@ -86,6 +64,7 @@ The site use CSS grid and flexbox. Grid provide the main the structure of the si
 ### Images
   I have used a few photographs from my personal photographs and a free resource
   [unsplash](https://unsplash.com/s/photos/golf)
+  I also used the [Movember moustache](https://ie.movember.com/get-involved/host)  from movember.com resources. 
 
 ### Icons
   I have used the font awesome collection for the social media logos and arrows in the side banner. 
@@ -237,8 +216,9 @@ The following is the list of resources I used in this project.
   - [unsplash](https://unsplash.com/)
   - [balsamiq](https://balsamiq.com/)
   - [balsamiq course](https://www.youtube.com/watch?v=9Pv002d0Kls&list=PLVlyYfbClWxQDCGC-A1FkbGyIxtuIN5IM&index=1)
+  - [movember.com](https://ie.movember.com/)
 
-  
+
 
   
 
