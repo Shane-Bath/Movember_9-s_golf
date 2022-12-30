@@ -59,7 +59,7 @@ The site is to promote an annual local charity nine-hole golf event to raise mon
 I have taken inspiration from the Movember charity website and decided to adopt a similar style and tone, because to of the association between the two.  There is a strong black and white theme throughout the site, along with an irreverent style of communication.
 
 ## Structure
-The site use CSS grid and flexbox. Grid provide the main the structure of the site, making use of gird areas to lay out the page. I used flex to control the content within each grid. This was not a straight forward process, and it took a number versions of the site to start to feel comfortable with the process. The key for me was whn I began to understand how to use flex to control the content within the grid areas.  There are number of example of this within the site
+The site use CSS grid and flexbox. Grid provide the main the structure of the site, making use of gird areas to lay out the page. I used flex to control the content within each grid. This was not a straight forward process, and it took a number versions of the site before I started to feel comfortable with the process. The key for me was when I began to understand how to use flex to control the content within the grid areas.  There are number of example of this within the site
 ### Navigation
 
 ![navigation bar](/assets/readme-images/navigation.jpg)
@@ -178,16 +178,69 @@ I used a number of sources to for the modal's.
 
 I used and discarded a number of effect during this project, my sources and inspiration come from w3school, MSN Webdocs, CSS-tricks, and movember website itself. 
 
+## Tools
+- GitHub
+- Gitpod
+- Devtools
+- Photoshop
+- W3C Mark-up validator
+- W3C Jigsaw validator
+
 
 ## Testing 
 
-A lot of my development took place within Chrome Devtools. Devtools allowed me to deconstruct issues and experiment with fixes. The overlay for grid and flexbox gave visual prospective that I found very helpful. I also used background colour as another what of visualizing the layout of the page. 
+A lot of my development took place within Chrome Devtools. Devtools allowed me to deconstruct issues and experiment with fixes. The Devtools overlay for grid and flexbox gave a visual prospective that I found very helpful. I also used background colour and colour outlines as another why of visualizing the layout of the page. 
 
+I also tested the html and css in the W3C validator. My html code has no error or warnings. 
 
+CSS code has no errors but a number of warning I will discuss below. 
 
+Finally I continued to use the site, to find bugs, change of screen sizes, broken links and image sizing issues. I would make changes in devtool before I would change my CSS or HTML.
 
 ## Unfixed bugs
+In the CSS code I received a number of the same warning "Due to their dynamic nature, CSS variables are currently not statically checked". After researching the issue it appears that it not a really a problem and should have no impacted on the site. 
+
+A warning for using auto in pointer-events, I referred to w3school and MDN webdocs- auto appears to be valid according to documentation. 
 
 ## Deployment 
 
+The site was deployed to Github. 
+  - Github repository [github](https://github.com/Shane-Bath?tab=repositories)
+  - Select movember-golf-project [movember golf](https://github.com/Shane-Bath/movember-golf-project)
+  - Settings - pages - source- deploy from branch- main - root - save 
+  - Once the main branch has been selected, the page will deploy. 
+
+The live site can be found here: [movember-golf-project](https://shane-bath.github.io/movember-golf-project/)
+
 ## Credit
+
+A big thank you to Simen Dehlin for his support and guidance. 
+
+The following is the list of resources I used in this project.
+  - HTML & CSS - Jon Duckett
+  - Responsive Web Design with HTML 5 and CSS - Ben Frain
+  - [Kevin Powell](https://www.youtube.com/kevinpowell)
+  - [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)
+  - [w3school](https://www.w3schools.com/)
+  - [MDN Web Doc](https://developer.mozilla.org/en-US/)
+  - [Stack overflow](https://stackoverflow.com/)
+  - [Google fonts](https://fonts.google.com/about)
+  - [Font awesome](https://fontawesome.com/)
+  - [w3school](https://www.w3schools.com/howto/howto_css_modals.asp)
+  - [getbootstrap](https://getbootstrap.com/docs/4.0/components/modal/)
+  - [codepen](https://codepen.io/timothylong/pen/AJxrPR)
+  - [Kevin Powell](https://www.youtube.com/watch?v=TAB_v6yBXIE)
+  - [codepen](https://codepen.io/peiche/pen/kQwYVJ)
+  - [w3school](https://www.w3schools.com/css/css3_buttons.asp)
+  - [codepen](https://codepen.io/dmensinger/pen/PPRzpK)
+  - [MDN Webdocs](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow)
+  - [unsplash](https://unsplash.com/)
+  - [balsamiq](https://balsamiq.com/)
+  - [balsamiq course](https://www.youtube.com/watch?v=9Pv002d0Kls&list=PLVlyYfbClWxQDCGC-A1FkbGyIxtuIN5IM&index=1)
+
+  
+
+  
+
+
+
