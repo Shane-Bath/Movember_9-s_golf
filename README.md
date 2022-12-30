@@ -104,11 +104,11 @@ This page consists of image and text with a button. In larger screen to the two 
   Information about the organisation and sponsors of the event
 - Gallery 
 
-    A mix of different sizes of images in a grid structure. I  assigned grid position and span instruction to each image, in order to fit the grid. This would probably not be the most effective to display images but i found that it was a good exercise to learn how to use grid. I decided to retain the page. 
+    A mix of different sizes of images in a grid structure. I  assigned grid position and span instruction to each image, in order to fit the grid. This would probably not be the most effective way to display images but I found that it was a good exercise to learn how to use grid. I decided to retain the page. 
 
 - Contact us
 
-  I used a pop up or modal for the contact page. If the user user click contact in the navigation bar, it will bring you to a separate contact-us page. I keep this page to demonstrate both techniques.
+  I used a pop up window or modal for the contact page. If the user user click contact in the navigation bar, it will bring you to a separate contact-us page. I keep this page to demonstrate both techniques.
 
 - Sponsor and footer
 
@@ -123,7 +123,12 @@ I used Balsamiq to build the wireframes of the site. I found the wireframing pro
 
  ## Technical 
  ### Grid and Flexbox
- I used to grid to provide structure to the site and flexbox to control the content of each grid. 
+ I grid to provide structure to the site and flexbox to control the content of each grid. Used to following resources
+
+  - Responsive Web Design with HTML 5 and CSS - Ben Frain
+  - [Kevin Powell](https://www.youtube.com/kevinpowell)
+  - [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)
+  - [css tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
  ### Buttons
  My button when through a number version over the project. On the main page they are divs and in the booking and contact forms I integrated submit buttons. I experimented with images, transitions, colors etc. Iam using three effects on the buttons, drop shadow to give a sense depth , a change and invert of colors, finally a sheen effect. I used a number of sources, including. 
@@ -156,6 +161,16 @@ I used a number of sources to for the modal's.
 ### Effects and Transition
 
 I used and discarded a number of effect during this project, my sources and inspiration come from w3school, MSN Webdocs, CSS-tricks, and movember website itself. 
+
+
+### Media query 
+
+I used media quires for small and medium size screens. The site was completely reconfigured to accommodate small screens. Moved from two column grid to a single column grid.
+![iphone](/assets/readme-images/iphone-screen.jpg)
+
+
+
+
 
 ## Tools
 - GitHub
