@@ -116,30 +116,45 @@ There are a number of hover effects, when you hover over the banner, the colors 
 
 
 ### Locations
+
 ![locations page](/assets/readme-images/locations.jpg)
 
-The
+This page consists of image and text with a button. In larger screen to the two locations are side by side. They stack on top each other in smaller screens. The button brings the user to a pop-up page booking page (modal). 
 
-- About us and sponsors 
-    - information about the organisation and sponsors of the event
+### About us, Gallery, Contact and Sponsors 
+  Information about the organisation and sponsors of the event
 - Gallery 
-  - A mix of different sizes of images in a grid structure. I  assigned grid position and span instruction to each image, in order to fit each image.
-- Booking page
-  - Simple booking page that only require the name, email, drop down list to select the course and the number of guest. 
-  - Above the form will be two images of each golf course, again these images are link to the gallery. Within the gallery there is a link back to the booking form.
-- Footer
-  - Social media icons with hover effect which transition from a light grey to a dark grey.
-- Contact us.
-  - The contact section allows the user to contact the site owners
-  - This page will be a separate page
+
+    A mix of different sizes of images in a grid structure. I  assigned grid position and span instruction to each image, in order to fit the grid. This would probably not be the most effective to display images but i found that it was a good exercise to learn how to use grid. I decided to retain the page. 
+
+- Contact us
+
+  I used a pop up or modal for the contact page. If the user user click contact in the navigation bar, it will bring you to a separate contact-us page. I keep this page to demonstrate both techniques.
+
+- Sponsor and footer
+
+  Sponsor image are greyed out until the user hover over the page, transition to the original colour of the image. If you click on the page it will bring you to the sponsors website in separate tab. The Footer
+  page consists of Social media icons with hover effect which transition from a light grey to a dark grey. I used font awesome. 
+
 ## Wireframes
 
 I used Balsamiq to build the wireframes of the site. I found the wireframing process useful as it provided me with a visual reference point.
- 
- Links below to the wire frames. 
+
+ ![wireframe](/assets/readme-images/wireframe.jpg)
 
  ## Technical 
- - Tools and Library 
+ ### Grid and Flexbox
+ I used to grid to provide structure to the site and flexbox to control the content of each grid. 
+
+ ### Buttons
+ My button when through a number version over the project. On the main page they are divs and in the booking and contact forms I integrated submit buttons. I experimented with images, transitions, colors etc. Iam using three effects on the buttons, drop shadow to give a sense depth , a change and invert of colors, finally a sheen effect. I used a number of sources, including. 
+
+ [w3school](https://www.w3schools.com/css/css3_buttons.asp)
+ [codepen](https://codepen.io/dmensinger/pen/PPRzpK)
+ [MDN Webdocs](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow)
+
+
+
 
 
 ## Testing 
