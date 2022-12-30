@@ -1120,6 +1120,7 @@ a {
         grid-area: logo;
         display: flex;
         flex-direction: column;
+        padding-bottom: 0;
         
     }
 
@@ -1138,9 +1139,8 @@ a {
         justify-content: center;
         background-color: var(--light);
         color: var(--primary);
-        position: static;
-        /* top: 0; */
         font-size: 1.5rem;
+        padding-bottom: 0;
     }
 
     .navbar-links ul {
