@@ -93,7 +93,7 @@ img {
     text-align: center;
 }
 
- /* I have restyled the 'submit' button with the above image and hover, below styles the background, padding and border */
+ /* I have restyled the 'submit' button styles, background, padding and border */
 
 .submit-btn {
     background: none;
@@ -1336,10 +1336,17 @@ a {
         margin-bottom: 2rem;
     }
 
+    
+
     .button {
         border: 1.4px solid var(--primary);
         font-size: 1.4rem;
         border-radius: 1rem;
+    }
+    
+    .submit-btn {
+        font-size: 1.4rem;
+        padding: 0;
     }
 
     .modal-window>div {
