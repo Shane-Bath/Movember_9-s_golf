@@ -1326,7 +1326,7 @@ a {
     }
 }
 
-/* Width Min 573px */
+/* Width Max 573px */
 @media screen and (max-width: 573px) {
     .side-ad {
         max-width: 40rem;
@@ -1336,7 +1336,11 @@ a {
         margin-bottom: 2rem;
     }
 
-    
+    footer {
+        margin-top: 0;
+    }
+
+
 
     .button {
         border: 1.4px solid var(--primary);
