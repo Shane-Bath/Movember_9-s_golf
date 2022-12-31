@@ -811,7 +811,7 @@ a {
     text-decoration: none;
 }
 
-.container {
+.frame {
     display: grid;
     justify-content: center;
     align-items: center;
