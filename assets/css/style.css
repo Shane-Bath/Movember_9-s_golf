@@ -1,4 +1,5 @@
 /* 1 - Fonts imports */
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Overpass:wght@400;800&display=swap');
 
 /* 2 - Main Attributes */
@@ -154,7 +155,7 @@ img {
 }
 
 .logo h2 {
-    font-family: 'Anton';
+    font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     color: var(--primary);
     letter-spacing: 4px;
