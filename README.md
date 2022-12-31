@@ -34,15 +34,15 @@ The site is to promote an annual local charity nine-hole golf event to raise mon
 - User friendly and enjoyable
 
 ## Design
-I have taken inspiration from the Movember charity website and decided to adopt a similar style and tone, because to of the association between the two.  There is a strong black and white theme throughout the site.
+I have taken inspiration from the Movember charity website and decided to adopt a similar style and tone, because of the association between the two.  There is a strong black and white theme throughout the site. It is a single page scrollable website, with three sections. I have used pop windows (modals) for booking and contact pages. The site is navigable via buttons and links. 
 
 ## Structure
-The site uses CSS grid and flexbox. Grid provide the main the structure of the site, making use of gird areas to lay out the page. I used flex to control the content within each grid. This was not a straight forward process, and it took a number versions of the site before I started to feel comfortable with the process. The key for me was when I began to understand how to use flex to control the content within the grid areas.  There are number of example of this within the site
+The site uses CSS grid and flexbox. Grid provides the main the structure of the site, making use of gird areas to lay out the page. I used flex to control the content within each grid. This was not a straightforward process, and it took a number of versions of the site before I started to feel comfortable with the process. The key for me was when I began to understand how to use flex to control the content within the grid areas.  There are number of examples of this within the site.
 ### Navigation
 
 ![navigation bar](/assets/readme-images/navigation.jpg)
 
-   The Movember moustache image is incorporated  in the navigation bar, clicking the   moustache will bring the user back to the home page. Logo has been created using the a moustache image and the font Anton. Navigation bar will be responsive to various screen sizes
+   The Movember moustache image is incorporated in the navigation bar, clicking the moustache will bring the user back to the home page. Logo has been created using the a moustache image and the font Anton. Navigation bar will be responsive to various screen sizes.
 
   Each section will have a hover effect.
 
@@ -52,14 +52,14 @@ The site uses CSS grid and flexbox. Grid provide the main the structure of the s
 
   ![Mobile navigation bar](/assets/readme-images/mobile-nav.jpg)
 
-  The navigation bar and logo went through a few iteration and was source of a  number of issues for me attempting a responsive design. I attempted a number of   styles, including hamburger, with and without java script, drop down menu and a button style. In the end i settled on this simple button style. 
+  The navigation bar and logo went through a few iteration and was source of a number of issues for me attempting a responsive design. I attempted several styles, including hamburger, with and without java script, drop down menu and a button style. In the end i settled on this simple button style. 
   
 ### Colours 
   The main colors will be black and white The Navigation bar transitions from white to a grey (#f7f7f7) and border-bottom of dark grey (#808080).
-  Sponsors logo will be in grey scale with a hover effect to revert to original colour scheme 
+  Sponsors logo will be in grey scale with a hover effect to revert to original colour scheme. 
 
 ### Fonts
-  Main text will be a google font 'overpass', inspired by the original movember       website. Headings, logo text and promotion will be a google font 'Anton' inspired by the original movember website
+  Main text will be a google font 'overpass', inspired by the original movember website. Headings, logo text and promotion will be a google font 'Anton' inspired by the original movember website.
 
 ### Images
   I have used a few photographs from my personal photographs and a free resource
@@ -70,7 +70,7 @@ The site uses CSS grid and flexbox. Grid provide the main the structure of the s
   I have used the font awesome collection for the social media logos and arrows in the side banner. 
 
 ### Layout 
-  The site wil be scrollable from header to footer, they only pages that will be separate will the contact us page and the gallery page. They will be accessible via buttons and navigation within the main body of the site. The user will be able to navigate to each section with the page. 
+  The site will be scrollable from header to footer, the only pages that will be separate will the contact us page and the gallery page. They will be accessible via buttons and navigation within the main body of the site. The user will be able to navigate to each section with the page. 
 
 
 ### Effects
@@ -85,7 +85,7 @@ This page consist of text and images, and a side section encouraging user to don
 
 ### Banner
 
-The banner was created using text, font awesome icon and image. Creating the banner help me understand flexbox, as I use flex to change the banner in smaller screens, for vertical to horizontal. 
+The banner was created using text, font awesome icon and image. Creating the banner helped me understand flexbox, as I use flex to change the banner in smaller screens, from vertical to horizontal. 
 
 ![banner vertical](/assets/readme-images/banner-v.jpg), ![banner horizontal](/assets/readme-images/banner-h.jpg)
 
@@ -112,7 +112,7 @@ This page consists of image and text with a button. In larger screen to the two 
 
 - Sponsor and footer
 
-  Sponsor image are greyed out until the user hover over the page, transition to the original colour of the image. If you click on the page it will bring you to the sponsors website in separate tab. The Footer
+  Sponsor's images are greyed out until the user hover over the page, transition to the original colour of the image. If you click on the page it will bring you to the sponsors's websites in a separate tab. The Footer
   page consists of Social media icons with hover effect which transition from a light grey to a dark grey. I used font awesome. 
 
 ## Wireframes
@@ -123,7 +123,7 @@ I used Balsamiq to build the wireframes of the site. I found the wireframing pro
 
  ## Technical 
  ### Grid and Flexbox
- I grid to provide structure to the site and flexbox to control the content of each grid. Used to following resources
+ I grid to provide structure to the site and flexbox to control the content of each grid.  Used the following resources to learn about grid and flexbox.
 
   - Responsive Web Design with HTML 5 and CSS - Ben Frain
   - [Kevin Powell](https://www.youtube.com/kevinpowell)
@@ -131,7 +131,7 @@ I used Balsamiq to build the wireframes of the site. I found the wireframing pro
   - [css tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
  ### Buttons
- My button when through a number version over the project. On the main page they are divs and in the booking and contact forms I integrated submit buttons. I experimented with images, transitions, colors etc. Iam using three effects on the buttons, drop shadow to give a sense depth , a change and invert of colors, finally a sheen effect. I used a number of sources, including. 
+ My button when through a number of versions over the project. On the main page they are divs and in the booking and contact forms I integrated submit buttons. I experimented with images, transitions, colors etc. Currently there are three effects on the buttons, drop shadow to give a sense depth , a change and invert of colors, finally a sheen effect. I used a number of sources, including. 
 
  [w3school](https://www.w3schools.com/css/css3_buttons.asp)
 
@@ -141,7 +141,7 @@ I used Balsamiq to build the wireframes of the site. I found the wireframing pro
 
 ### Modal (pop-up windows)
 
-To maintain the scrollable single page, I have used a modal's for the booking and contact us form. The modal I am using does not require Javascript. 
+To maintain the scrollable single page, I have used a modal's for the booking and contact us form. The modal in the page does not require Javascript. 
 
 ![modal](/assets/readme-images/modal.jpg)
 
@@ -166,6 +166,7 @@ I used and discarded a number of effect during this project, my sources and insp
 ### Media query 
 
 I used media quires for small and medium size screens. The site was completely reconfigured to accommodate small screens. Moved from two column grid to a single column grid.
+
 ![iphone](/assets/readme-images/iphone-screen.jpg)
 
 The modal's and forms had to be reduced in sized. 
@@ -183,16 +184,26 @@ The modal's and forms had to be reduced in sized.
 - W3C Mark-up validator
 - W3C Jigsaw validator
 
+### Future
+
+I would like to a payment function to the page. 
 
 ## Testing 
 
-A lot of my development took place within Chrome Devtools. Devtools allowed me to deconstruct issues and experiment with fixes. The Devtools overlay for grid and flexbox gave a visual prospective that I found very helpful. I also used background colour and colour outlines as another why of visualizing the layout of the page. 
+A lot of my development took place within Chrome Devtools. Devtools allowed me to deconstruct the issues and experiment with fixes. The Devtools overlay for grid and flexbox gave a visual prospective that I found very helpful. I also used background colour and colour outlines as another way of visualizing the layout of the page. 
 
 I also tested the html and css in the W3C validator. My html code has no error or warnings. 
 
 CSS code has no errors but a number of warning I will discuss below. 
 
 Finally I continued to use the site, to find bugs, change of screen sizes, broken links and image sizing issues. I would make changes in devtool before I would change my CSS or HTML.
+
+### Html and CSS Validation
+[W3C Validator](https://validator.w3.org/nu/)
+All html pages passed with out errors 
+
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+Passed with no errors.
 
 ## Unfixed bugs
 In the CSS code I received a number of the same warning "Due to their dynamic nature, CSS variables are currently not statically checked". After researching the issue it appears that it not a really a problem and should have no impacted on the site. 
