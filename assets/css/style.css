@@ -287,10 +287,9 @@ img {
     padding-top: 1rem;
     background: var(--primary);
     text-align: center;
-    font-family: 'Anton';
+    font-family: 'Anton', sans-serif;
     filter: invert(0);
     transition: (0);
-
 }
 
 .side-banner:hover {
@@ -455,8 +454,6 @@ img {
 .guinness-png,
 .titleist-png {
     filter: grayscale(100%);
-    
-
 }
 
 .pringles-png:hover,
@@ -464,14 +461,7 @@ img {
 .guinness-png:hover,
 .titleist-png:hover {
     filter: none;
-    
 }
-
-.pringles-png,
-.gillette-png,
-.guinness-png,
-.titleist-png {}
-
 
 .gillette {
     margin-top: 2rem;
@@ -504,9 +494,9 @@ footer .face .fa {
     color: #7F8487;
     font-weight: 800;
     font-size: x-large;
-
-    /* Greyscale hover */
 }
+
+ /* Greyscale hover */
 
 footer .face .fa:hover {
     color: #413F42;
@@ -549,7 +539,6 @@ footer .twit {
     opacity: 0.7;
 }
 
-
 .last-mo:hover {
     opacity: 1;
 }
@@ -579,8 +568,6 @@ footer .twit {
     grid-auto-flow: dense;
 }
 
-
-
 .four-grid {
     grid-column: span 2;
     grid-row: span 2;
@@ -600,7 +587,6 @@ footer .twit {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 
 /*  End of Gallery */
@@ -627,6 +613,7 @@ footer .twit {
     position: relative;
     margin-bottom: 1rem;
 }
+
 #booking p {
     margin-bottom: 2rem;
 }
@@ -741,7 +728,7 @@ footer .twit {
     background: var(--light);
     border: 1px solid #DADADA;
     padding: 1rem;
-    transition: all 250ms ease;
+    transition: all 200ms ease;
     color: var(--primary);
     font-size: 1.6rem;
     font-weight: 800;
@@ -1213,7 +1200,7 @@ a {
 
     .side-banner mo {
         display: flex;
-}
+    }
 
     .side-banner h2 {
         color: var(--light);
@@ -1266,18 +1253,16 @@ a {
     #location {
         scroll-margin-top: 9rem;
         height: auto;
-
     }
 
     .sutton {
-
         flex-direction: column;
         align-items: center;
     }
+
     .galway-2 {
         margin-bottom: 2rem;
     }
-
 
     /* End of location */
 
@@ -1294,7 +1279,6 @@ a {
     h2 {
         text-align: center;
         padding: 1rem;
-
     }
 
     .sponsors-logo {
@@ -1343,8 +1327,6 @@ a {
         margin-top: 0;
     }
 
-
-
     .button {
         border: 1.4px solid var(--primary);
         font-size: 1.4rem;
@@ -1359,7 +1341,6 @@ a {
     .modal-window>div {
         margin-top: 10rem;
         width: 30rem;
-        
     }
 
     .modal-window-contact>div {
