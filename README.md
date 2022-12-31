@@ -13,7 +13,7 @@ The site is to promote an annual local charity nine-hole golf event to raise mon
 
 ## Site owner objectives
 
-- Promotion of Event. 
+- Promotion of the event. 
 - Provide up to date information. 
 - Point of sale for tickets. 
 - Celebrate the event and the cause.
@@ -42,7 +42,7 @@ The site uses CSS grid and flexbox. Grid provides the main the structure of the 
 
 ![navigation bar](/assets/readme-images/navigation.jpg)
 
-   The Movember moustache image is incorporated in the navigation bar, clicking the moustache will bring the user back to the home page. Logo has been created using the a moustache image and the font Anton. Navigation bar will be responsive to various screen sizes.
+   The Movember moustache image has been incorporated into the navigation bar, clicking the moustache will bring the user back to the home page. TheLogo has been created using the a moustache image and the google font Anton. The navigation bar will be responsive to various screen sizes.
 
   Each section will have a hover effect.
 
@@ -52,7 +52,7 @@ The site uses CSS grid and flexbox. Grid provides the main the structure of the 
 
   ![Mobile navigation bar](/assets/readme-images/mobile-nav.jpg)
 
-  The navigation bar and logo went through a few iteration and was source of a number of issues for me attempting a responsive design. I attempted several styles, including hamburger, with and without java script, drop down menu and a button style. In the end i settled on this simple button style. 
+  The navigation bar and logo went through a few iteration and was a source of a number of issues for me attempting a responsive design. I attempted several styles, including hamburger, with and without java script, drop down menu and a button style. In the end I settled on this simple button style. 
   
 ### Colours 
   The main colors will be black and white The Navigation bar transitions from white to a grey (#f7f7f7) and border-bottom of dark grey (#808080).
